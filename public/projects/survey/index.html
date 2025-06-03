@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Form</title>
+    <base href="./">
+    <style>
+        html {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+        label {
+            text-align: left;
+            display: block;
+        }
+
+        p, label {
+            font-size: 1.2em;
+            margin: 0.5em 0;
+        }
+
+        h1, p {
+            text-align: center;
+        }
+
+        #survey-form {
+            color: white;
+            background-color: rgba(27, 27, 50, 0.8);
+            width: 25em;
+            margin: 0 auto;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Virakboth's Code Survey Form</h1>
+    <p id="description">Thank you for your time filling this form</p>
+    <form id="survey-form">
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br>
+        <label id="email-label" for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br>
+        <label id="number-label" for="number">Number:</label>
+        <input type="number" id="number" name="number" placeholder="Enter a number" min="1" max="100" required>
+        <br>
+        <label for="dropdown">Choose an option:</label>
+        <select id="dropdown" name="dropdown">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        </select>
+        <br>
+        <label>Choose one:</label>
+        <input type="radio" id="radio1" name="radioGroup" value="radio1">
+        <label for="radio1">Radio 1</label>
+        <input type="radio" id="radio2" name="radioGroup" value="radio2">
+        <label for="radio2">Radio 2</label>
+        <br>
+        <label>Select your preferences:</label>
+        <input type="checkbox" id="checkbox1" name="checkboxGroup" value="checkbox1">
+        <label for="checkbox1">Checkbox 1</label>
+        <input type="checkbox" id="checkbox2" name="checkboxGroup" value="checkbox2">
+        <label for="checkbox2">Checkbox 2</label>
+        <br>
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Enter your comments here"></textarea>
+        <br>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -50,7 +50,7 @@ const Schools = () => {
             <p className="text-xl">A School Project I developed with my classmates</p>
             <div className='flex gap-4'>
               <a
-              href="/cybersecurity"
+              href="/projects/cybersecurity"
               className="font-bold text-b"
               >
               Website
@@ -82,7 +82,7 @@ const Schools = () => {
             <p className="text-xl">A simple password generator website, nothing else</p>
             <div className='flex gap-4'>
               <a
-              href="/passgen"
+              href="/projects/passgen"
               className="font-bold text-b"
               >
               Website
@@ -158,31 +158,31 @@ const Schools = () => {
             <p className="text-xl">This includes various projects built for freecodecamp.</p>
             <div className='flex gap-4'>
               <a
-              href="/recipe"
+              href="/projects/recipe"
               className="font-bold text-b"
               >
               Recipe
               </a>
               <a
-              href="/tribute"
+              href="/projects/tribute"
               className="font-bold text-b"
               >
               Tribute Page
               </a>
               <a
-              href="/techdoc"
+              href="/projects/techdoc"
               className="font-bold text-b"
               >
               Tech Docs
               </a>
               <a
-              href="/survey"
+              href="/projects/survey"
               className="font-bold text-b"
               >
               Survey
               </a>
               <a
-              href="/mockportfolio"
+              href="/projects/mockportfolio"
               className="font-bold text-b"
               >
               Mock Portfolio
@@ -208,7 +208,7 @@ const Schools = () => {
             <p className="text-xl">This includes various projects built for the odin project.</p>
             <div className='flex gap-4'>
               <a
-              href="/signup"
+              href="/projects/signup"
               className="font-bold text-b"
               >
               Sign-Up Form
