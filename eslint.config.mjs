@@ -9,16 +9,13 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-const eslintConfig = [
+export default [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
 
-  // Add this object to override or add rules
   {
     rules: {
-      "react/no-unescaped-entities": "off",
-      "@next/next/no-img-element": "off", // Optional: turn off <img> warning
+      "react/no-unescaped-entities": "off",     // turns off the apostrophe warning
+      "@next/next/no-img-element": "off",       // allows <img> instead of <Image>
     },
   },
 ];
-
-export default eslintConfig;
