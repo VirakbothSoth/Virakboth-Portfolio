@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section className="py-80">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        <h2 className="section-title flex items-center gap-2 text-lg sm:text-xl md:text-2xl">
+        <h2 className="section-title">
           <FaMap />
           journey<kbd>_</kbd>to<kbd>_</kbd>coding<kbd>.htm</kbd>
         </h2>

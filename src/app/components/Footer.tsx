@@ -2,7 +2,7 @@ import { SiFacebook, SiLinkedin, SiGithub, SiLeetcode, SiHackerrank, SiCredly, S
 
 const Footer = () => {
 	return (
-		<section className="bg-[#01111d] border-[0.5px] border-[#272b3b]">
+		<footer className="bg-[#01111d] border-[0.5px] border-[#272b3b]">
 			<div className="container">
 				<h2 className="font-bold mb-6">Find Me!</h2>
 				<div className="flex justify-center items-center space-x-4">
@@ -86,7 +86,7 @@ const Footer = () => {
 					</a>
 				</p>
 			</div>
-		</section>
+		</footer>
 	);
 };
 

@@ -83,29 +83,21 @@ const Skills = () => {
             <div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
               <div className="flex items-center justify-center mb-2 text-3xl gap-2">
                 <div><SiHtml5 className="skill-icon" /></div>
-                <span className="font-semibold text-2xl">HTML</span>
+                <span className="font-semibold text-2xl">HTML & CSS</span>
+                <div><SiCss3 className="skill-icon" /></div>
               </div>
               <div className="text-xs text-gray-400 mb-1">{helloWorldSnippets.HTML}</div>
               <div className="relative pt-1">
                 <div className="flex mb-2 items-center justify-between">
-                  <div className="text-l font-medium">HTML</div>
+                  <div className="text-l font-medium">HTML & CSS</div>
                   <div className="text-l font-medium">Mastered!</div>
                 </div>
               </div>
-            </div>
-            {/* CSS */}
-            <div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
-              <div className="flex items-center justify-center mb-2 text-3xl gap-2">
-                <div><SiCss3 className="skill-icon" /></div>
-                <span className="font-semibold text-2xl">CSS</span>
-              </div>
-              <div className="text-xs text-gray-400 mb-1">{helloWorldSnippets.NoHi}</div>
-              <div className="relative pt-1">
-                <div className="flex mb-2 items-center justify-between">
-                  <div className="text-l font-medium">CSS</div>
-                  <div className="text-l font-medium">Mastered!</div>
+              <div className="flex mb-2 items-center justify-between">
+                  <div className="bg-blue-400 rounded-full h-2.5 w-full">
+                    <div className="bg-red-400 h-2.5 rounded-full" style={{ width: '50%' }}></div>
+                  </div>
                 </div>
-              </div>
             </div>
             {/* CSS Frameworks */}
             <div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
@@ -160,6 +152,21 @@ const Skills = () => {
                   <div className="bg-blue-400 h-2.5 rounded-full" style={{ width: '30%' }}></div>
                 </div>
               </div>
+              <div className="flex items-center justify-center mb-2 text-3xl gap-2">
+                <div><SiNodedotjs className="skill-icon animate-spin" /></div>
+                <span className="font-semibold text-2xl">Node.js</span>
+              </div>
+              <div className="relative pt-1">
+                <div className="flex mb-2 items-center justify-between">
+                  <div className="text-l font-medium">Node</div>
+                  <div className="text-l font-medium">30%</div>
+                </div>
+                <div className="flex mb-2 items-center justify-between">
+                  <div className="bg-bg rounded-full h-2.5 w-full">
+                    <div className="bg-green-400 h-2.5 rounded-full" style={{ width: '30%' }}></div>
+                  </div>
+                </div>
+              </div>
             </div>
             {/* React */}
             <div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
@@ -202,25 +209,6 @@ const Skills = () => {
                 <div className="flex mb-2 items-center justify-between">
                   <div className="bg-bg rounded-full h-2.5 w-full">
                     <div className="bg-orange-400 h-2.5 rounded-full" style={{ width: '50%' }}></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* Node.js */}
-            <div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
-              <div className="flex items-center justify-center mb-2 text-3xl gap-2">
-                <div><SiNodedotjs className="skill-icon animate-spin" /></div>
-                <span className="font-semibold text-2xl">Node.js</span>
-              </div>
-              <div className="text-xs text-gray-400 mb-1">{helloWorldSnippets.Node}</div>
-              <div className="relative pt-1">
-                <div className="flex mb-2 items-center justify-between">
-                  <div className="text-l font-medium">Node</div>
-                  <div className="text-l font-medium">30%</div>
-                </div>
-                <div className="flex mb-2 items-center justify-between">
-                  <div className="bg-bg rounded-full h-2.5 w-full">
-                    <div className="bg-green-400 h-2.5 rounded-full" style={{ width: '30%' }}></div>
                   </div>
                 </div>
               </div>

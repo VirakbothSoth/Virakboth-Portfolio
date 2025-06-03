@@ -42,6 +42,8 @@
 		@apply justify-center;
 		@apply gap-2;
 		@apply m-5;
+		@apply sm:text-2xl;
+		@apply md:text-5xl;
 	}
 
 	a {
@@ -100,13 +102,13 @@
 
 	.card {
 		@apply p-5;
-		@apply hover:p-5;
 		@apply bg-[#01111d];
-		@apply hover:bg-[#02222d];
+		@apply hover:p-6;
 		@apply duration-500;
+		@apply hover:bg-[#02222d];
 		@apply border-[0.5px];
 		@apply border-[#272b3b];
-		@apply rounded-2xl
+		@apply rounded-2xl;
 	}
 
 	.web-preview {
@@ -114,6 +116,8 @@
 		@apply rounded-lg;
 		@apply shadow-md;
 		@apply my-4;
+		@apply hover:h-50;
+		@apply duration-500;
 	}
 
 	.certificate-item {
