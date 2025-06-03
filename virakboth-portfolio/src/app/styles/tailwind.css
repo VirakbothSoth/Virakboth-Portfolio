@@ -1,0 +1,202 @@
+@import "tailwindcss";
+
+@layer base {
+	html, body {
+		@apply w-full min-w-0;
+		@apply box-border;
+		@apply overflow-x-hidden;
+	}
+
+	html {
+		@apply bg-[#081424];
+		@apply text-[#eeeeff];
+	}
+
+	body {
+		@apply text-center;
+		@apply mx-auto;
+	}
+
+	p, a, span, li {
+		@apply text-2xl;
+	}
+
+	h1 {
+		@apply text-7xl;
+	}
+
+	h2 {
+		@apply text-5xl;
+	}
+
+	h3 {
+		@apply text-4xl;
+	}
+
+	.section-title {
+		@apply text-5xl;
+		@apply text-center;
+		@apply font-bold;
+		@apply flex;
+		@apply items-center;
+		@apply justify-center;
+		@apply gap-2;
+		@apply m-5;
+	}
+
+	a {
+		@apply text-blue-500;
+		@apply hover:underline;
+		@apply hover:text-blue-400;
+		@apply block;
+	}
+
+	svg {
+		@apply mr-1;
+	}
+
+	code, kbd {
+		@apply text-gray-500;
+	}
+
+	button {
+		@apply p-2;
+		@apply m-2;
+		@apply bg-[#01111d];
+		@apply hover:bg-[#02222d];
+		@apply duration-500;
+		@apply border-[0.5px];
+		@apply border-[#272b3b];
+	}
+
+	.journey-container {
+		@apply p-5;
+		@apply text-left;
+	}
+
+	.journey-container b, .journey-container a, .journey-container-alt a{
+		@apply inline;
+	}
+
+	.cert-category {
+		@apply px-4;
+		@apply py-2;
+		@apply rounded;
+		@apply bg-[#01111d];
+		@apply hover:bg-[#011177];
+		@apply hover:cursor-pointer;
+		@apply text-[#eeeeff];
+		@apply border-[0.5px];
+		@apply border-[#272b3b];
+	}
+
+	.cert-category-active {
+		@apply px-4;
+		@apply py-2;
+		@apply rounded;
+		@apply bg-[#011177];
+		@apply text-[#ffffff];
+	}
+
+	.card {
+		@apply p-5;
+		@apply hover:p-5;
+		@apply bg-[#01111d];
+		@apply hover:bg-[#02222d];
+		@apply duration-500;
+		@apply border-[0.5px];
+		@apply border-[#272b3b];
+		@apply rounded-2xl
+	}
+
+	.web-preview {
+		@apply h-48;
+		@apply rounded-lg;
+		@apply shadow-md;
+		@apply my-4;
+	}
+
+	.certificate-item {
+		@apply p-5;
+		@apply w-auto;
+		@apply h-64;
+		@apply max-w-sm;
+		@apply shadow-lg;
+		@apply hover:scale-105;
+		@apply duration-300;
+		@apply rounded-lg;
+	}
+
+	@media (max-width: 1700px) {
+		h1 {
+			@apply text-5xl;
+		}
+
+		h2, .section-title {
+			@apply text-4xl;
+		}
+
+		h3 {
+			@apply text-3xl;
+		}
+
+		p,
+		a,
+		span {
+			@apply text-xl;
+		}
+
+		#ScrollDown {
+			@apply text-sm;
+		}
+
+		.certificate-item {
+			@apply w-auto;
+			@apply h-[11vw];
+		}
+
+		@media (max-width: 680px) {
+			h1 {
+				@apply text-4xl;
+			}
+
+			h2, .section-title {
+				@apply text-3xl;
+			}
+
+			h3 {
+				@apply text-2xl;
+			}
+
+			.cert-section {
+				@apply flex;
+				@apply flex-col;
+				@apply items-center;
+			}
+
+			.cert-category, .cert-category-active {
+				@apply flex flex-col items-center;
+				@apply flex-col-reverse;
+			}
+
+			.certificate-i {
+				@apply m-0;
+				@apply text-base;
+			}
+
+			p,
+			a,
+			span {
+				@apply text-lg;
+			}
+
+			.web-preview {
+				@apply hidden;
+			}
+
+			#ScrollDown {
+				@apply text-xs;
+			}
+		}
+	}
+}
