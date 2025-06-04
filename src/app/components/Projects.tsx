@@ -1,13 +1,13 @@
-import { SiScratch, SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiReact, SiDjango } from "react-icons/si"
+import { SiScratch, SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiReact, SiDjango, SiTypescript, SiNextdotjs } from "react-icons/si"
 import prev from '../props/preview'
 import { FaCode } from "react-icons/fa"
 import { IoMdClose } from "react-icons/io"
 
 const Schools = () => {
   return (
-    <section className="p-40">
+    <section className="p-40" id="projects">
       <div className="container mx-auto">
-        <h2 className="section-title"><FaCode /><kbd>/</kbd>Projects</h2>
+        <h2 className="section-title"><FaCode /> Projects</h2>
         <div className="text-left grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="card">
             <div className="flex items-start justify-between">
@@ -109,7 +109,7 @@ const Schools = () => {
             </div>
             <img src={prev.pf} alt="Portfolio" className="web-preview" />
             <p className="text-xl flex items-center">
-              <SiHtml5 /><SiCss3 /><SiJavascript /><SiReact /><SiTailwindcss />
+              <SiHtml5 /><SiCss3 /><SiJavascript /><SiTypescript /><SiReact /><SiNextdotjs /><SiTailwindcss />
             </p>
             <p className="text-xl">This very website is one of my projects, too!</p>
           </div>

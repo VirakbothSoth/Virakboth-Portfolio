@@ -6,11 +6,10 @@ import { useState } from "react"
 const About = () => {
   const [showAlt, setShowAlt] = useState(false)
   return (
-    <section className="py-80">
+    <section className="py-80" id="journey">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <h2 className="section-title">
-          <FaMap />
-          journey<kbd>_</kbd>to<kbd>_</kbd>coding<kbd>.htm</kbd>
+          <FaMap /> Journey to Coding
         </h2>
         <div className="bg-gray-800 rounded-lg w-full">
           <div className="journey-container w-full">

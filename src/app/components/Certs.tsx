@@ -1,9 +1,15 @@
 'use client'
-
 import { useState } from 'react'
 import certs from '../props/certs'
-import { PiCertificate } from "react-icons/pi"
-import Certificate from './Certificate'
+
+import { PiCertificate } from 'react-icons/pi'
+import { FaRobot, FaComputer } from 'react-icons/fa6'
+import { SiCisco } from 'react-icons/si'
+import { HiOutlineDotsHorizontal } from 'react-icons/hi'
+import { TbCode } from 'react-icons/tb'
+
+import Certificate from '../props/Certificate'
+
 
 type CertificateItem = {
   image: string
@@ -130,49 +136,45 @@ const Certs: React.FC = () => {
     <section className="p-80">
       <div className="container mx-auto cert-section">
         <h2 className="section-title">
-          <PiCertificate />
-          <kbd>/</kbd>
-          Certificates (
-          {specCerts.length + cs50Certs.length + webCerts.length + aiCerts.length + ciscoCerts.length + otherCerts.length}
-          )
+          <PiCertificate /> Certificates ({specCerts.length + cs50Certs.length + webCerts.length + aiCerts.length + ciscoCerts.length + otherCerts.length})
         </h2>
-        <div className="border-[0.5px] border-[#272b3b]">
+        <div>
           <div className="flex space-x-4 mb-6 justify-center">
             <button
               className={`${activeCategory === 'special' ? 'cert-category-active' : 'cert-category'}`}
               onClick={() => setActiveCategory('special')}
             >
-              Specializations
+              <PiCertificate /> Specializations <span className="cert-category-button-text">({specCerts.length})</span>
             </button>
             <button
               className={`${activeCategory === 'cs50' ? 'cert-category-active' : 'cert-category'}`}
               onClick={() => setActiveCategory('cs50')}
             >
-              Harvard's CS50
+              <FaComputer /> Harvard's CS50 <span className="cert-category-button-text">({cs50Certs.length})</span>
             </button>
             <button
               className={`${activeCategory === 'web' ? 'cert-category-active' : 'cert-category'}`}
               onClick={() => setActiveCategory('web')}
             >
-              Web Dev
+              <TbCode  /> Web Dev <span className="cert-category-button-text">({webCerts.length})</span>
             </button>
             <button
               className={`${activeCategory === 'ai' ? 'cert-category-active' : 'cert-category'}`}
               onClick={() => setActiveCategory('ai')}
             >
-              AI
+              <FaRobot /> AI <span className="cert-category-button-text">({aiCerts.length})</span>
             </button>
             <button
               className={`${activeCategory === 'cisco' ? 'cert-category-active' : 'cert-category'}`}
               onClick={() => setActiveCategory('cisco')}
             >
-              Cisco
+              <SiCisco /> Cisco <span className="cert-category-button-text">({ciscoCerts.length})</span>
             </button>
             <button
               className={`${activeCategory === 'other' ? 'cert-category-active' : 'cert-category'}`}
               onClick={() => setActiveCategory('other')}
             >
-              Etc.
+              <HiOutlineDotsHorizontal /> Etc. <span className="cert-category-button-text">({otherCerts.length})</span>
             </button>
           </div>
           <div className="py-10 grid grid-cols-1 md:grid-cols-3 gap-10 rounded-lg">

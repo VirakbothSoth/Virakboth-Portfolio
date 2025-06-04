@@ -4,9 +4,9 @@ const Notes = () => {
   return (
     <section className="p-40">
       <div className="container mx-auto">
-        <h2 className="section-title"><PiNotepadFill/><kbd>/</kbd>Personal<kbd>_</kbd>Notes</h2>
+        <h2 className="section-title"><PiNotepadFill/> Personal Notes</h2>
         <div className="text-left grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="card">
+          <div className="note-card">
             <h3 className="text-3xl font-bold mb-[50px]">thoughts.txt</h3>
             <div className="bg-gray-800 rounded-lg">
               <div className="journey-container">

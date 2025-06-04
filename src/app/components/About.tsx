@@ -6,9 +6,9 @@ import { useState } from "react"
 const About = () => {
   const [showAlt, setShowAlt] = useState(false)
   return (
-    <section className="py-80">
+    <section className="py-80" id="about">
       <div className="container mx-auto w-full max-w-4xl px-4">
-        <h2 className="section-title"><FaBook />about<kbd>_</kbd>me<kbd>.htm</kbd></h2>
+        <h2 className="section-title"><FaBook /> About Me</h2>
         <div className="bg-gray-800 rounded-lg w-full">
           <div className="journey-container">
         <button onClick={() => setShowAlt(!showAlt)}>

@@ -24,7 +24,7 @@ const Skills = () => {
   return (
     <section id="skills" className="py-20">
       <div className="container mx-auto">
-        <h2 className="section-title flex items-center gap-2"><FaStar className="skill-icon" /><kbd>/</kbd>Skills</h2>
+        <h2 className="section-title flex items-center gap-2"><FaStar className="skill-icon" /> Skills</h2>
         <div className="flex justify-center">
           <div className="flex flex-wrap justify-center gap-8">
             {/* Scratch */}

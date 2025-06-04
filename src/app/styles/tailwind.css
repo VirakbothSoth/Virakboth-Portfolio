@@ -85,19 +85,38 @@
 		@apply py-2;
 		@apply rounded;
 		@apply bg-[#01111d];
-		@apply hover:bg-[#011177];
+		@apply hover:bg-[#02222d];
 		@apply hover:cursor-pointer;
 		@apply text-[#eeeeff];
 		@apply border-[0.5px];
 		@apply border-[#272b3b];
 	}
 
+	.cert-category-button-text {
+		@apply hidden;
+	}
+
+	.cert-category svg {
+		@apply hidden;
+	}
+
 	.cert-category-active {
 		@apply px-4;
 		@apply py-2;
 		@apply rounded;
-		@apply bg-[#011177];
+		@apply bg-[#02222d];
 		@apply text-[#ffffff];
+	}
+
+	.cert-category-active svg {
+		@apply inline;
+		@apply size-5;
+	}
+
+	.cert-category-active .cert-category-button-text {
+		@apply inline;
+		@apply font-normal;
+		@apply text-sm;
 	}
 
 	.card {
@@ -109,6 +128,36 @@
 		@apply border-[0.5px];
 		@apply border-[#272b3b];
 		@apply rounded-2xl;
+	}
+
+	.card .school-logo {
+		@apply inline;
+		@apply m-0;
+		@apply w-0;
+		@apply h-0;
+		@apply invisible;
+		@apply transition-transform duration-1000;
+	}
+
+	.card:hover .school-logo {
+		@apply inline;
+		@apply m-4;
+		@apply w-8;
+		@apply h-8;
+		@apply visible;
+		@apply scale-125;
+	}
+
+	.note-card {
+		@apply p-5;
+		@apply bg-[#01111d];
+		@apply hover:p-6;
+		@apply duration-500;
+		@apply hover:bg-[#02222d];
+		@apply border-[0.5px];
+		@apply border-[#272b3b];
+		@apply rounded-2xl;
+		@apply w-150
 	}
 
 	.web-preview {

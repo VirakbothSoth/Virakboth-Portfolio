@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono');
-@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono');
 
 @import "tailwindcss";
 
 h1, h2, h3 {
-    font-family: 'Overpass Mono', monospace;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Oxygen Mono', monospace;
 }

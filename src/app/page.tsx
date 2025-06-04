@@ -1,3 +1,4 @@
+import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Journey from './components/Journey'
@@ -14,6 +15,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen flex items-center justify-center">
       <div className="w-full flex flex-col items-center justify-center">
+        <Navbar />
         <Hero />
         <About />
         <Journey />
