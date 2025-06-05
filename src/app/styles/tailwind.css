@@ -178,6 +178,8 @@
 		@apply hover:scale-105;
 		@apply duration-300;
 		@apply rounded-lg;
+		@apply hover:rotate-x-20;
+		@apply hover:-rotate-y-20;
 	}
 
 	@media (max-width: 1700px) {
