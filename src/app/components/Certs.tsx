@@ -56,6 +56,7 @@ const Certs: React.FC = () => {
     { image: certs.iv, url: 'https://coursera.org/verify/74FG463109SB', altText: 'Meta Coding Interview Certificate' },
     { image: certs.ve, url: 'https://coursera.org/verify/4NSF48QD3FIS', altText: 'Meta Version Control Certificate' },
 
+    { image: certs.shtmcs, url: 'https://coursera.org/verify/3DJL39C3QXDE', altText: 'Scrimba HTML CSS Certificate' },
     { image: certs.sljs, url: 'https://coursera.org/verify/HDMWKEOA2EVA', altText: 'Scrimba Learn JS Certificate' },
     { image: certs.snjs, url: 'https://coursera.org/verify/VOPI247HKGCZ', altText: 'Scrimba Learn NextJS Certificate' },
 
