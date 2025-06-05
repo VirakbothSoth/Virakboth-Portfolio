@@ -108,7 +108,7 @@ const Projects = () => {
               Current Term: Term 2 - Databases with C#
             </p>
             <p className="text-xl flex items-center">
-              Learned: IT essentials | Future: <SiHtml5 /><SiCss3 /><SiJavascript /><SiDjango /><TbBrandCSharp /><SiPython />
+              Learned: IT essentials | Future: <SiHtml5 /><SiCss3 /><SiJavascript /><SiDjango /><TbBrandCSharp /><SiPython /><FaJava /><SiKotlin />
             </p>
             <p className="text-xl">Recent school I started taking, its estimated to end around 2027!</p>
             <a href="https://cambodia.itstep.org" target="_blank" className="font-bold text-b">
