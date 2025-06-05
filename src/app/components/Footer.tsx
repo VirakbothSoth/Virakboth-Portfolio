@@ -85,6 +85,9 @@ const Footer = () => {
 						virakbothsoth@gmail.com
 					</a>
 				</p>
+				<p className="text-sm text-center text-gray-500">
+					© 2025 - Virakboth Soth. All rights reserved.
+				</p>
 			</div>
 		</footer>
 	);
