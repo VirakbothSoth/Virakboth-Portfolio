@@ -1,4 +1,3 @@
-import { ImageError } from 'next/dist/server/image-optimizer'
 import Image from 'next/image'
 
 interface CertificateProps {
