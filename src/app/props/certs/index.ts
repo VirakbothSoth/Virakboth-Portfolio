@@ -76,6 +76,7 @@ const cert = {
     scc: '/assets/images/certs/scrim_cleancode.jpg',
     smd: '/assets/images/certs/scrim_md.jpg',
     shtmcs: '/assets/images/certs/scrim_htmcss.jpg',
+    sawd: '/assets/images/certs/scrim_awd.jpg',
     sljs: '/assets/images/certs/scrim_learnjs.jpg',
     sr: '/assets/images/certs/scrim_react.jpg',
     st: '/assets/images/certs/scrim_tailwind.jpg',
