@@ -36,6 +36,7 @@ const cert = {
     // IBM Certificates
     ib_be: '/assets/images/certs/ibm_bckend.jpg',
     ib_js: '/assets/images/certs/ibm_js.jpg',
+    ib_gai: '/assets/images/certs/ibm_genai.jpg',
 
     // Cisco Certificates
     dc: '/assets/images/certs/cisco_digitalcont.jpg',
