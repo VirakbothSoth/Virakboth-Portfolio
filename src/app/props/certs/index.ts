@@ -68,12 +68,13 @@ const cert = {
     chsp: '/assets/images/certs/coursera_htmcsssinglepage.jpg',
     cfra: '/assets/images/certs/coursera_build1streactweb.jpg',
 
-    // AI Certificates
+    // AI and Scrimba Certificates
     s1: '/assets/images/certs/scrim_learncodeai.jpg',
     s2: '/assets/images/certs/scrim_promengi.jpg',
     s3: '/assets/images/certs/scrim_introai.jpg',
     s4: '/assets/images/certs/scrim_cloudflare.jpg',
     ss: '/assets/images/certs/scrim_aiweb_special.jpg',
+    sgpt: '/assets/images/certs/scrim_aiappschatgpt.jpg',
     scc: '/assets/images/certs/scrim_cleancode.jpg',
     smd: '/assets/images/certs/scrim_md.jpg',
     shtmcs: '/assets/images/certs/scrim_htmcss.jpg',

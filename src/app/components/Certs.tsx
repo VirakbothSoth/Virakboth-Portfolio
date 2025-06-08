@@ -101,6 +101,7 @@ const Certs: React.FC = () => {
     { image: certs.s2, url: 'https://coursera.org/verify/F304YJ6YFM2X', altText: 'Scrimba Web Dev with AI Certificate' },
     { image: certs.s3, url: 'https://coursera.org/verify/ZDSBCX0EHPNG', altText: 'Scrimba AI Engineering Intro Certificate' },
     { image: certs.s4, url: 'https://coursera.org/verify/6YOVVKETFY5F', altText: 'Scrimba Deploy AI Apps with Cloudflare Certificate' },
+    { image: certs.sgpt, url: 'https://coursera.org/verify/ROGNHTBQ1R3O', altText: 'Scrimba Build AI Apps with ChatGPT and Dall-E Certificate' },
     { image: certs.vpe, url: 'https://coursera.org/verify/5UQ6HQRO04K2', altText: 'Vanderbilt Prompt Engineering Certificate' },
     { image: certs.ib_gai, url: 'https://coursera.org/verify/ATE4NKGUNBT0', altText: 'IBM Generative AI : Prompt Engineering Certificate' },
   ]
