@@ -12,20 +12,25 @@ import './styles/index.css'
 import './styles/tailwind.css'
 
 export default function HomePage() {
+
   return (
-    <div className="min-h-screen flex items-center justify-center">
-      <div className="w-full flex flex-col items-center justify-center">
-        <Navbar />
-        <Hero />
-        <About />
-        <Journey />
-        <Skills />
-        <Certs />
-        <Schools />
-        <Projects />
-        <Notes />
-        <Footer />
+    <>
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="w-full flex flex-col items-center justify-center">
+          <Navbar />
+          <main>
+            <Hero />
+            <About />
+            <Journey />
+            <Skills />
+            <Certs />
+            <Schools />
+            <Projects />
+            <Notes />
+          </main>
+          <Footer />
+        </div>
       </div>
-    </div>
+    </>
   )
 }

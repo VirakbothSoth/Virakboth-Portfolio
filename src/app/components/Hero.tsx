@@ -2,7 +2,7 @@ const face = '/assets/images/virakboth.jpg'
 
 const Hero = () => {
   return (
-    <section>
+    <header>
       <div className="p-40">
         <div>
           <div className="flex items-center justify-center mb-10">
@@ -40,7 +40,7 @@ const Hero = () => {
               }
             `}
           </style>
-    </section>
+    </header>
   )
 }
 
