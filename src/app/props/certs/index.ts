@@ -10,6 +10,8 @@ const cert = {
     bes: '/assets/images/certs/be_special.jpg',
     rs: '/assets/images/certs/react_special.jpg',
     wds: '/assets/images/certs/wdf_special.jpg',
+    sts: '/assets/images/certs/scrim_tailwind_special.jpg',
+    ss: '/assets/images/certs/scrim_aiweb_special.jpg',
 
     // Meta Front-End
     f1: '/assets/images/certs/f1.jpg',
@@ -73,7 +75,6 @@ const cert = {
     s2: '/assets/images/certs/scrim_promengi.jpg',
     s3: '/assets/images/certs/scrim_introai.jpg',
     s4: '/assets/images/certs/scrim_cloudflare.jpg',
-    ss: '/assets/images/certs/scrim_aiweb_special.jpg',
     sgpt: '/assets/images/certs/scrim_aiappschatgpt.jpg',
     scc: '/assets/images/certs/scrim_cleancode.jpg',
     smd: '/assets/images/certs/scrim_md.jpg',
@@ -83,6 +84,8 @@ const cert = {
     sr: '/assets/images/certs/scrim_react.jpg',
     sr19: '/assets/images/certs/scrim_react19.jpg',
     st: '/assets/images/certs/scrim_tailwind.jpg',
+    stp: '/assets/images/certs/scrim_tailwindprojects.jpg',
+    stc: '/assets/images/certs/scrim_tailwindcapstone.jpg',
     snjs: '/assets/images/certs/scrim_nextjs.jpg',
     vpe: '/assets/images/certs/vb_prompt.jpg',
 };
