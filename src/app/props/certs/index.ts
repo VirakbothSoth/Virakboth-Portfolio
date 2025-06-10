@@ -82,6 +82,7 @@ const cert = {
     sawd: '/assets/images/certs/scrim_awd.jpg',
     sljs: '/assets/images/certs/scrim_learnjs.jpg',
     sajs: '/assets/images/certs/scrim_asyncjs.jpg',
+    suid: '/assets/images/certs/scrim_uidesign.jpg',
     sr: '/assets/images/certs/scrim_react.jpg',
     sr19: '/assets/images/certs/scrim_react19.jpg',
     st: '/assets/images/certs/scrim_tailwind.jpg',

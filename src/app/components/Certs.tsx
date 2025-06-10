@@ -61,6 +61,7 @@ const Certs: React.FC = () => {
     { image: certs.sawd, url: 'https://coursera.org/verify/Z0ZHPDWW9PWE', altText: 'Scrimba Accessible Web Certificate' },
     { image: certs.sljs, url: 'https://coursera.org/verify/HDMWKEOA2EVA', altText: 'Scrimba Learn JS Certificate' },
     { image: certs.sajs, url: 'https://coursera.org/verify/5ILWINY82IWQ', altText: 'Scrimba Async JS Certificate' },
+    { image: certs.suid, url: 'https://coursera.org/verify/7RP4NPN6X4LE', altText: 'Scrimba UI Design Fundamentals Certificate' },
     { image: certs.st, url: 'https://coursera.org/verify/0L9ABHJZES2C', altText: 'Scrimba Learn Tailwind CSS Certificate' },
     { image: certs.stp, url: 'https://coursera.org/verify/JJR1KREXJ7PN', altText: 'Scrimba Tailwind CSS Pratice Projects Certificate' },
     { image: certs.stc, url: 'https://coursera.org/verify/UPJFISQZPG3Z', altText: 'Scrimba Tailwind CSS Project : Product Page Certificate' },
