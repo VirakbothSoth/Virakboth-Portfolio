@@ -1,12 +1,12 @@
 import Image from 'next/image'
 
-interface CertificateProps {
+interface CertProp {
   image: string
   url: string
   altText: string
 }
 
-const Certificate: React.FC<CertificateProps> = ({ image, url, altText }) => {
+const Certificate: React.FC<CertProp> = ({ image, url, altText }) => {
   return (
     <figure>
       <a
@@ -27,4 +27,4 @@ const Certificate: React.FC<CertificateProps> = ({ image, url, altText }) => {
   )
 }
 
-export default Certificate;
+export default Certificate

@@ -8,7 +8,7 @@ import { SiCisco } from 'react-icons/si'
 import { HiOutlineDotsHorizontal } from 'react-icons/hi'
 import { TbCode } from 'react-icons/tb'
 
-import Certificate from '../props/Certificate'
+import Certificate from '../props/CertProp'
 
 
 type CertificateItem = {

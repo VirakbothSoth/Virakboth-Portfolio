@@ -22,15 +22,19 @@
 	}
 
 	h1 {
-		@apply text-7xl;
+		@apply text-7xl font-bold;
 	}
 
 	h2 {
-		@apply text-5xl;
+		@apply text-5xl font-bold;
 	}
 
 	h3 {
-		@apply text-4xl;
+		@apply text-4xl font-medium;
+	}
+	
+	h4 {
+		@apply text-3xl font-medium;
 	}
 
 	.section-title {
