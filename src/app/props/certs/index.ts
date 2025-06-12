@@ -69,6 +69,7 @@ const cert = {
     chp: '/assets/images/certs/coursera_htmcssportfolio.jpg',
     chsp: '/assets/images/certs/coursera_htmcsssinglepage.jpg',
     cfra: '/assets/images/certs/coursera_build1streactweb.jpg',
+    cpyi: '/assets/images/certs/coursera_pyintro.jpg',
 
     // AI and Scrimba Certificates
     s1: '/assets/images/certs/scrim_learncodeai.jpg',

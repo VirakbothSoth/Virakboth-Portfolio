@@ -47,15 +47,11 @@ const Certs: React.FC = () => {
     { image: certs.f7, url: 'https://coursera.org/verify/MGPD0EVNC2FY', altText: 'Meta Front-End Capstone Certificate' },
 
     { image: certs.b1, url: 'https://coursera.org/verify/ACCBKW4XQTWK', altText: 'Meta Back-End Intro Certificate' },
-    { image: certs.b2, url: 'https://coursera.org/verify/76NFVZC1XF3E', altText: 'Meta Python Certificate' },
     { image: certs.b3, url: 'https://coursera.org/verify/QVJ03ZPZPJWJ', altText: 'Meta Intro to Databases Certificate' },
     { image: certs.b4, url: 'https://coursera.org/verify/K638QW9RHVZT', altText: 'Meta Django Certificate' },
     { image: certs.b5, url: 'https://coursera.org/verify/KEFAZVT628EP', altText: 'Meta API Certificate' },
     { image: certs.b6, url: 'https://coursera.org/verify/T5QTGTRCRD35', altText: 'Meta Full Stack Certificate' },
     { image: certs.b7, url: 'https://coursera.org/verify/QDB61GFOAD5W', altText: 'Meta Back-End Capstone Certificate' },
-
-    { image: certs.iv, url: 'https://coursera.org/verify/74FG463109SB', altText: 'Meta Coding Interview Certificate' },
-    { image: certs.ve, url: 'https://coursera.org/verify/4NSF48QD3FIS', altText: 'Meta Version Control Certificate' },
 
     { image: certs.shtmcs, url: 'https://coursera.org/verify/3DJL39C3QXDE', altText: 'Scrimba HTML CSS Certificate' },
     { image: certs.sawd, url: 'https://coursera.org/verify/Z0ZHPDWW9PWE', altText: 'Scrimba Accessible Web Certificate' },
@@ -91,6 +87,10 @@ const Certs: React.FC = () => {
   ]
 
   const otherCerts: CertificateItem[] = [
+    { image: certs.b2, url: 'https://coursera.org/verify/76NFVZC1XF3E', altText: 'Meta Python Certificate' },
+    { image: certs.cpyi, url: 'https://coursera.org/verify/QJU4XE2SQ5AE', altText: 'Coursera Intro to Python Certificate' },
+    { image: certs.iv, url: 'https://coursera.org/verify/74FG463109SB', altText: 'Meta Coding Interview Certificate' },
+    { image: certs.ve, url: 'https://coursera.org/verify/4NSF48QD3FIS', altText: 'Meta Version Control Certificate' },
     { image: certs.cc, url: 'https://codecombat.com/certificates/6533825122ab2d0031d4ba79', altText: 'CodeCombat Certificate' },
     { image: certs.p1, url: 'https://coursera.org/verify/NTMXA8WACBNQ', altText: 'UOM Python Intro Certificate' },
     { image: certs.p2, url: 'https://coursera.org/verify/Z47RD2HY9PYR', altText: 'UOM Python Data Certificate' },
