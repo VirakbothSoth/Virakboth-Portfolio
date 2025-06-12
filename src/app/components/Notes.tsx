@@ -11,9 +11,9 @@ const Notes = () => {
             <div className="bg-gray-800 rounded-lg">
               <div className="journey-container">
                 <div className="pl-3">
-                <p>
-                  I want to get a .dev domain for my portfolio, but I don't think it's worth it right now.
-                </p>
+                  <p>
+                    I want to get a .dev domain for my portfolio, but I don't think it's worth it right now.
+                  </p>
                 </div>
               </div>
             </div>
