@@ -13,6 +13,7 @@ const cert = {
     stws: '/assets/images/certs/scrim_tailwind_special.jpg',
     ss: '/assets/images/certs/scrim_aiweb_special.jpg',
     sjss: '/assets/images/certs/scrim_js_special.jpg',
+    scss: '/assets/images/certs/scrim_css_special.jpg',
 
     // Meta Front-End
     f1: '/assets/images/certs/f1.jpg',
@@ -81,6 +82,11 @@ const cert = {
     scc: '/assets/images/certs/scrim_cleancode.jpg',
     smd: '/assets/images/certs/scrim_md.jpg',
     shtmcs: '/assets/images/certs/scrim_htmcss.jpg',
+    scsf: '/assets/images/certs/scrim_cssflex.jpg',
+    scsg: '/assets/images/certs/scrim_cssgrid.jpg',
+    scsv: '/assets/images/certs/scrim_cssvar.jpg',
+    srwd: '/assets/images/certs/scrim_reswebdes.jpg',
+    scsa: '/assets/images/certs/scrim_cssanim.jpg',
     sawd: '/assets/images/certs/scrim_awd.jpg',
     sljs: '/assets/images/certs/scrim_learnjs.jpg',
     sajs: '/assets/images/certs/scrim_asyncjs.jpg',

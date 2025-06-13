@@ -27,6 +27,7 @@ const Certs: React.FC = () => {
     { image: certs.rs, url: 'https://coursera.org/verify/specialization/6UACQ0DBG02V', altText: 'Meta React Specialization' },
     { image: certs.wds, url: 'https://coursera.org/verify/specialization/WQ4IAJ7I2PVJ', altText: 'Meta Web Dev Fundamentals Specialization' },
     { image: certs.ss, url: 'https://coursera.org/verify/specialization/78PBQYZS06B9', altText: 'Scrimba AI for Web Development Specialization' },
+    { image: certs.scss, url: 'https://coursera.org/verify/specialization/8933NEMMUJKF', altText: 'Scrimba CSS Specialization' },
     { image: certs.stws, url: 'https://coursera.org/verify/specialization/1H7XSF4EN98G', altText: 'Scrimba Tailwind CSS Specialization' },
     { image: certs.sjss, url: 'https://coursera.org/verify/specialization/AA8PRY1HQOZB', altText: 'Scrimba Javascript Specialization' },
   ]
@@ -56,6 +57,11 @@ const Certs: React.FC = () => {
 
     { image: certs.shtmcs, url: 'https://coursera.org/verify/3DJL39C3QXDE', altText: 'Scrimba HTML CSS Certificate' },
     { image: certs.sawd, url: 'https://coursera.org/verify/Z0ZHPDWW9PWE', altText: 'Scrimba Accessible Web Certificate' },
+    { image: certs.scsf, url: 'https://coursera.org/verify/09L0ZP24T9E2', altText: 'Scrimba CSS Flexbox Certificate' },
+    { image: certs.scsg, url: 'https://coursera.org/verify/IARX6KKUFUKE', altText: 'Scrimba CSS Grid Certificate' },
+    { image: certs.scsv, url: 'https://coursera.org/verify/IUBYJ8Y1BVUB', altText: 'Scrimba CSS Variables Certificate' },
+    { image: certs.srwd, url: 'https://coursera.org/verify/QU5IZHMJFPA8', altText: 'Scrimba Responsive Web Design Certificate' },
+    { image: certs.scsa, url: 'https://coursera.org/verify/CTL04L198IUY', altText: 'Scrimba CSS Animations Certificate' },
     { image: certs.sljs, url: 'https://coursera.org/verify/HDMWKEOA2EVA', altText: 'Scrimba Learn Javascript Certificate' },
     { image: certs.sajs, url: 'https://coursera.org/verify/5ILWINY82IWQ', altText: 'Scrimba Async Javascript Certificate' },
     { image: certs.sjsi, url: 'https://coursera.org/verify/UMBN6WGO5OJA', altText: 'Scrimba Javascript Deep Dive Certificate' },
