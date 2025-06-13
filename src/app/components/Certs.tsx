@@ -64,6 +64,7 @@ const Certs: React.FC = () => {
     { image: certs.scsa, url: 'https://coursera.org/verify/CTL04L198IUY', altText: 'Scrimba CSS Animations Certificate' },
     { image: certs.sljs, url: 'https://coursera.org/verify/HDMWKEOA2EVA', altText: 'Scrimba Learn Javascript Certificate' },
     { image: certs.sajs, url: 'https://coursera.org/verify/5ILWINY82IWQ', altText: 'Scrimba Async Javascript Certificate' },
+    { image: certs.ses6, url: 'https://coursera.org/verify/WIQ6U1Q7SOUP', altText: 'Scrimba Javascript ES6 Certificate' },
     { image: certs.sjsi, url: 'https://coursera.org/verify/UMBN6WGO5OJA', altText: 'Scrimba Javascript Deep Dive Certificate' },
     { image: certs.sjsp, url: 'https://coursera.org/verify/RE1ULPPGQ9GM', altText: 'Scrimba Javascript Interview Certificate' },
     { image: certs.sjsdd, url: 'https://coursera.org/verify/1D489M0B7QCN', altText: 'Scrimba Javascript Mini Projects Certificate' },
@@ -93,7 +94,8 @@ const Certs: React.FC = () => {
     { image: certs.chp, url: 'https://coursera.org/verify/DP8420970HPZ', altText: 'Coursera Portfolio with HTML & CSS Certificate' },
     { image: certs.chsp, url: 'https://coursera.org/verify/75IZTY8TB8BF', altText: 'Coursera Single-Page with HTML & CSS Certificate' },
     { image: certs.cfra, url: 'https://coursera.org/verify/7X67H90I2VZX', altText: 'Coursera Build your 1st React Website Certificate' },
-    { image: certs.cts, url: 'https://coursera.org/verify/ULT0DUPUZ11D', altText: 'Coursera Typescript Variables & Data Types Certificate' },
+    { image: certs.ctsv, url: 'https://coursera.org/verify/ULT0DUPUZ11D', altText: 'Coursera Typescript Variables & Data Types Certificate' },
+    { image: certs.ctso, url: 'https://coursera.org/verify/FXCOJVWUGUO0', altText: 'Coursera Typescript Operators Certificate' },
     { image: certs.ctsx, url: 'https://coursera.org/verify/T3QY64RK16U1', altText: 'Coursera Typescript with React Certificate' },
   ]
 
