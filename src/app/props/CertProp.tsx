@@ -18,8 +18,8 @@ const Certificate: React.FC<CertProp> = ({ image, url, altText }) => {
         <Image
           src={image}
           alt={altText}
-          width={300}
-          height={256}
+          width={200}
+          height={156}
           className="w-auto h-64 object-contain"
         />
       </a>
