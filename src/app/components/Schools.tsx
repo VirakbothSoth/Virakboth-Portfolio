@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="text-left grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="card">
             <h3 className="text-3xl font-bold mb-[50px]">
-              <img src="/assets/images/algor-icon.png" className="school-logo" />
+              <img src="/assets/images/algor-icon.png" className="school-logo" alt="logo" />
               Algorithmics
             </h3>
             <p className="text-xl text-gray-400">

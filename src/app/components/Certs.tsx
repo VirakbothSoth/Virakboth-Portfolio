@@ -27,7 +27,8 @@ const Certs: React.FC = () => {
     { image: certs.rs, url: 'https://coursera.org/verify/specialization/6UACQ0DBG02V', altText: 'Meta React Specialization' },
     { image: certs.wds, url: 'https://coursera.org/verify/specialization/WQ4IAJ7I2PVJ', altText: 'Meta Web Dev Fundamentals Specialization' },
     { image: certs.ss, url: 'https://coursera.org/verify/specialization/78PBQYZS06B9', altText: 'Scrimba AI for Web Development Specialization' },
-    { image: certs.sts, url: 'https://coursera.org/verify/specialization/1H7XSF4EN98G', altText: 'Scrimba Tailwind CSS Specialization' },
+    { image: certs.stws, url: 'https://coursera.org/verify/specialization/1H7XSF4EN98G', altText: 'Scrimba Tailwind CSS Specialization' },
+    { image: certs.sjss, url: 'https://coursera.org/verify/specialization/AA8PRY1HQOZB', altText: 'Scrimba Javascript Specialization' },
   ]
 
   const cs50Certs: CertificateItem[] = [
@@ -55,14 +56,18 @@ const Certs: React.FC = () => {
 
     { image: certs.shtmcs, url: 'https://coursera.org/verify/3DJL39C3QXDE', altText: 'Scrimba HTML CSS Certificate' },
     { image: certs.sawd, url: 'https://coursera.org/verify/Z0ZHPDWW9PWE', altText: 'Scrimba Accessible Web Certificate' },
-    { image: certs.sljs, url: 'https://coursera.org/verify/HDMWKEOA2EVA', altText: 'Scrimba Learn JS Certificate' },
-    { image: certs.sajs, url: 'https://coursera.org/verify/5ILWINY82IWQ', altText: 'Scrimba Async JS Certificate' },
-    { image: certs.suid, url: 'https://coursera.org/verify/7RP4NPN6X4LE', altText: 'Scrimba UI Design Fundamentals Certificate' },
-    { image: certs.st, url: 'https://coursera.org/verify/0L9ABHJZES2C', altText: 'Scrimba Learn Tailwind CSS Certificate' },
-    { image: certs.stp, url: 'https://coursera.org/verify/JJR1KREXJ7PN', altText: 'Scrimba Tailwind CSS Pratice Projects Certificate' },
-    { image: certs.stc, url: 'https://coursera.org/verify/UPJFISQZPG3Z', altText: 'Scrimba Tailwind CSS Project : Product Page Certificate' },
+    { image: certs.sljs, url: 'https://coursera.org/verify/HDMWKEOA2EVA', altText: 'Scrimba Learn Javascript Certificate' },
+    { image: certs.sajs, url: 'https://coursera.org/verify/5ILWINY82IWQ', altText: 'Scrimba Async Javascript Certificate' },
+    { image: certs.sjsi, url: 'https://coursera.org/verify/UMBN6WGO5OJA', altText: 'Scrimba Javascript Deep Dive Certificate' },
+    { image: certs.sjsp, url: 'https://coursera.org/verify/RE1ULPPGQ9GM', altText: 'Scrimba Javascript Interview Certificate' },
+    { image: certs.sjsdd, url: 'https://coursera.org/verify/1D489M0B7QCN', altText: 'Scrimba Javascript Mini Projects Certificate' },
+    { image: certs.sts, url: 'https://coursera.org/verify/66APU5WZ7IP4', altText: 'Scrimba Typescript Certificate' },
+    { image: certs.stw, url: 'https://coursera.org/verify/0L9ABHJZES2C', altText: 'Scrimba Learn Tailwind CSS Certificate' },
+    { image: certs.stwp, url: 'https://coursera.org/verify/JJR1KREXJ7PN', altText: 'Scrimba Tailwind CSS Pratice Projects Certificate' },
+    { image: certs.stwc, url: 'https://coursera.org/verify/UPJFISQZPG3Z', altText: 'Scrimba Tailwind CSS Project : Product Page Certificate' },
     { image: certs.sr, url: 'https://coursera.org/verify/LAB9K0IZJ0FV', altText: 'Scrimba Learn React Certificate' },
     { image: certs.sr19, url: 'https://coursera.org/verify/OF96ODMFFB6T', altText: 'Scrimba React 19 Certificate' },
+    { image: certs.sv, url: 'https://coursera.org/verify/9O7BBKQOHJZW', altText: 'Scrimba Learn Vite Certificate' },
     { image: certs.snjs, url: 'https://coursera.org/verify/VOPI247HKGCZ', altText: 'Scrimba Learn NextJS Certificate' },
 
     { image: certs.ib_js, url: 'https://coursera.org/verify/YFSJZECZWFAG', altText: 'IBM Javascript Essentials Certificate' },
@@ -99,6 +104,7 @@ const Certs: React.FC = () => {
     { image: certs.hkse, url: 'https://coursera.org/verify/GTPPJ35GF7JI', altText: 'HKU Software Engineer Certificate' },
     { image: certs.scc, url: 'https://coursera.org/verify/CQ0R220S7GL5', altText: 'Scrimba Clean Code Certificate' },
     { image: certs.smd, url: 'https://coursera.org/verify/0HCHBZ39JZZC', altText: 'Scrimba Markdown Certificate' },
+    { image: certs.suid, url: 'https://coursera.org/verify/7RP4NPN6X4LE', altText: 'Scrimba UI Design Fundamentals Certificate' },
     { image: certs.scp, url: 'https://freecodecamp.org/certification/virakboth_soth/scientific-computing-with-python-v7', altText: 'FreeCodeCamp Scientific Python Certificate' },
   ]
 

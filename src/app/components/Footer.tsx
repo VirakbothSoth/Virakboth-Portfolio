@@ -7,7 +7,7 @@ const Footer = () => {
 				<h2 className="font-bold mb-6">Find Me!</h2>
 				<div className="flex justify-center items-center space-x-4">
 					<a
-						href="https://github.com/VirakbothSoth"
+						href="/gthb"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-600 hover:text-black transition-colors"
@@ -15,7 +15,7 @@ const Footer = () => {
 						<SiGithub className="w-10 h-10" />
 					</a>
 					<a
-						href="https://facebook.com/VirakbothSothSam"
+						href="/fb"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-600 hover:text-blue-600 transition-colors"
@@ -23,7 +23,7 @@ const Footer = () => {
 						<SiFacebook className="w-10 h-10" />
 					</a>
 					<a
-						href="https://t.me/VirakbothSoth"
+						href="/t"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-600 hover:text-blue-400 transition-colors"
@@ -31,7 +31,7 @@ const Footer = () => {
 						<SiTelegram className="w-10 h-10" />
 					</a>
 					<a
-						href="https://linkedin.com/in/virakboth-soth-b1b2b8306/"
+						href="/lnkdin"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-600 hover:text-cyan-700 transition-colors"
@@ -39,7 +39,7 @@ const Footer = () => {
 						<SiLinkedin className="w-10 h-10" />
 					</a>
 					<a
-						href="https://www.credly.com/users/virakboth-soth"
+						href="/cdly"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-600 hover:text-[#FF6B00] transition-colors"
@@ -47,7 +47,7 @@ const Footer = () => {
 						<SiCredly className="w-10 h-10" />
 					</a>
 					<a
-						href="https://leetcode.com/u/VirakbothSoth/"
+						href="/ltcd"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-600 hover:text-yellow-500 transition-colors"
@@ -55,7 +55,7 @@ const Footer = () => {
 						<SiLeetcode className="w-10 h-10" />
 					</a>
 					<a
-						href="https://hackerrank.com/profile/virakbothsoth"
+						href="/hrnk"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-600 hover:text-black transition-colors"
@@ -63,7 +63,7 @@ const Footer = () => {
 						<SiHackerrank className="w-10 h-10" />
 					</a>
 					<a
-						href="https://codewars.com/users/VirakbothSoth"
+						href="/cdwr"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-600 hover:text-red-400 transition-colors"
@@ -71,7 +71,7 @@ const Footer = () => {
 						<SiCodewars className="w-10 h-10" />
 					</a>
 					<a
-						href="https://freecodecamp.org/virakboth_soth"
+						href="///fcc"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-600 hover:text-black transition-colors"

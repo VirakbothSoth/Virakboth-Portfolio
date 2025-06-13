@@ -10,8 +10,9 @@ const cert = {
     bes: '/assets/images/certs/be_special.jpg',
     rs: '/assets/images/certs/react_special.jpg',
     wds: '/assets/images/certs/wdf_special.jpg',
-    sts: '/assets/images/certs/scrim_tailwind_special.jpg',
+    stws: '/assets/images/certs/scrim_tailwind_special.jpg',
     ss: '/assets/images/certs/scrim_aiweb_special.jpg',
+    sjss: '/assets/images/certs/scrim_js_special.jpg',
 
     // Meta Front-End
     f1: '/assets/images/certs/f1.jpg',
@@ -83,13 +84,18 @@ const cert = {
     sawd: '/assets/images/certs/scrim_awd.jpg',
     sljs: '/assets/images/certs/scrim_learnjs.jpg',
     sajs: '/assets/images/certs/scrim_asyncjs.jpg',
+    sjsdd: '/assets/images/certs/scrim_jsdd.jpg',
+    sjsi: '/assets/images/certs/scrim_jsinterview.jpg',
+    sjsp: '/assets/images/certs/scrim_jsproject.jpg',
+    sts: '/assets/images/certs/scrim_ts.jpg',
     suid: '/assets/images/certs/scrim_uidesign.jpg',
     sr: '/assets/images/certs/scrim_react.jpg',
     sr19: '/assets/images/certs/scrim_react19.jpg',
-    st: '/assets/images/certs/scrim_tailwind.jpg',
-    stp: '/assets/images/certs/scrim_tailwindprojects.jpg',
-    stc: '/assets/images/certs/scrim_tailwindcapstone.jpg',
+    sv: '/assets/images/certs/scrim_vite.jpg',
     snjs: '/assets/images/certs/scrim_nextjs.jpg',
+    stw: '/assets/images/certs/scrim_tailwind.jpg',
+    stwp: '/assets/images/certs/scrim_tailwindprojects.jpg',
+    stwc: '/assets/images/certs/scrim_tailwindcapstone.jpg',
     vpe: '/assets/images/certs/vb_prompt.jpg',
 };
 
