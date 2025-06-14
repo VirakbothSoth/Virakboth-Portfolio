@@ -97,6 +97,7 @@ const Certs: React.FC = () => {
     { image: certs.ctsv, url: 'https://coursera.org/verify/ULT0DUPUZ11D', altText: 'Coursera Typescript Variables & Data Types Certificate' },
     { image: certs.ctso, url: 'https://coursera.org/verify/FXCOJVWUGUO0', altText: 'Coursera Typescript Operators Certificate' },
     { image: certs.ctsx, url: 'https://coursera.org/verify/T3QY64RK16U1', altText: 'Coursera Typescript with React Certificate' },
+    { image: certs.cnj, url: 'https://coursera.org/verify/20OU4WALLVR6', altText: 'Coursera Next JS Certificate' },
   ]
 
   const otherCerts: CertificateItem[] = [
