@@ -104,6 +104,7 @@ const cert = {
     sr19: '/assets/images/certs/scrim_react19.jpg',
     sv: '/assets/images/certs/scrim_vite.jpg',
     snjs: '/assets/images/certs/scrim_nextjs.jpg',
+    sb: '/assets/images/certs/scrim_bootstrap.jpg',
     stw: '/assets/images/certs/scrim_tailwind.jpg',
     stwp: '/assets/images/certs/scrim_tailwindprojects.jpg',
     stwc: '/assets/images/certs/scrim_tailwindcapstone.jpg',

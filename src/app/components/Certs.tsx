@@ -70,6 +70,7 @@ const Certs: React.FC = () => {
     { image: certs.sjsdd, url: 'https://coursera.org/verify/1D489M0B7QCN', altText: 'Scrimba Javascript Mini Projects Certificate' },
     { image: certs.sbp, url: 'https://coursera.org/verify/PV62JC94HYR4', altText: 'Scrimba Build a Portfolio Certificate' },
     { image: certs.sts, url: 'https://coursera.org/verify/66APU5WZ7IP4', altText: 'Scrimba Typescript Certificate' },
+    { image: certs.sb, url: 'https://coursera.org/verify/249D64NDNUL1', altText: 'Scrimba Bootstrap Certificate' },
     { image: certs.stw, url: 'https://coursera.org/verify/0L9ABHJZES2C', altText: 'Scrimba Learn Tailwind CSS Certificate' },
     { image: certs.stwp, url: 'https://coursera.org/verify/JJR1KREXJ7PN', altText: 'Scrimba Tailwind CSS Pratice Projects Certificate' },
     { image: certs.stwc, url: 'https://coursera.org/verify/UPJFISQZPG3Z', altText: 'Scrimba Tailwind CSS Project : Product Page Certificate' },
