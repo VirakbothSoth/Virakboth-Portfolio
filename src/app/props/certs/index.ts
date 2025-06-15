@@ -80,6 +80,7 @@ const cert = {
     s2: '/assets/images/certs/scrim_promengi.jpg',
     s3: '/assets/images/certs/scrim_introai.jpg',
     s4: '/assets/images/certs/scrim_cloudflare.jpg',
+    sosai: '/assets/images/certs/scrim_opensource.jpg',
     sgpt: '/assets/images/certs/scrim_aiappschatgpt.jpg',
     scc: '/assets/images/certs/scrim_cleancode.jpg',
     smd: '/assets/images/certs/scrim_md.jpg',
