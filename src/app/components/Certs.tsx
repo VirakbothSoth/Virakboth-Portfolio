@@ -68,6 +68,7 @@ const Certs: React.FC = () => {
     { image: certs.sjsi, url: 'https://coursera.org/verify/UMBN6WGO5OJA', altText: 'Scrimba Javascript Deep Dive Certificate' },
     { image: certs.sjsp, url: 'https://coursera.org/verify/RE1ULPPGQ9GM', altText: 'Scrimba Javascript Interview Certificate' },
     { image: certs.sjsdd, url: 'https://coursera.org/verify/1D489M0B7QCN', altText: 'Scrimba Javascript Mini Projects Certificate' },
+    { image: certs.sbp, url: 'https://coursera.org/verify/PV62JC94HYR4', altText: 'Scrimba Build a Portfolio Certificate' },
     { image: certs.sts, url: 'https://coursera.org/verify/66APU5WZ7IP4', altText: 'Scrimba Typescript Certificate' },
     { image: certs.stw, url: 'https://coursera.org/verify/0L9ABHJZES2C', altText: 'Scrimba Learn Tailwind CSS Certificate' },
     { image: certs.stwp, url: 'https://coursera.org/verify/JJR1KREXJ7PN', altText: 'Scrimba Tailwind CSS Pratice Projects Certificate' },
@@ -101,11 +102,11 @@ const Certs: React.FC = () => {
   ]
 
   const otherCerts: CertificateItem[] = [
+    { image: certs.kkdo, url: 'https://coursera.org/verify/R9HSOD5OBJOA', altText: 'KodeKloud DevOps Prerequisite Certificate' },
     { image: certs.b2, url: 'https://coursera.org/verify/76NFVZC1XF3E', altText: 'Meta Python Certificate' },
     { image: certs.cpyi, url: 'https://coursera.org/verify/QJU4XE2SQ5AE', altText: 'Coursera Intro to Python Certificate' },
     { image: certs.iv, url: 'https://coursera.org/verify/74FG463109SB', altText: 'Meta Coding Interview Certificate' },
     { image: certs.ve, url: 'https://coursera.org/verify/4NSF48QD3FIS', altText: 'Meta Version Control Certificate' },
-    { image: certs.cc, url: 'https://codecombat.com/certificates/6533825122ab2d0031d4ba79', altText: 'CodeCombat Certificate' },
     { image: certs.p1, url: 'https://coursera.org/verify/NTMXA8WACBNQ', altText: 'UOM Python Intro Certificate' },
     { image: certs.p2, url: 'https://coursera.org/verify/Z47RD2HY9PYR', altText: 'UOM Python Data Certificate' },
     { image: certs.p3, url: 'https://coursera.org/verify/MTNK7QQL6XA3', altText: 'UOM Python Web Data Certificate' },

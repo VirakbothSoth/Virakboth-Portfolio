@@ -52,7 +52,7 @@ const cert = {
     rwd: '/assets/images/certs/fcc_rwd.jpg',
 
     // Miscellaneous
-    cc: '/assets/images/certs/cc.jpg',
+    kkdo: '/assets/images/certs/kk_devop.jpg',
     p1: '/assets/images/certs/p1.jpg',
     p2: '/assets/images/certs/p2.jpg',
     p3: '/assets/images/certs/p3.jpg',
@@ -60,7 +60,7 @@ const cert = {
     hkse: '/assets/images/certs/hkse.jpg',
     jhu: '/assets/images/certs/jhu.jpg',
     ctsv: '/assets/images/certs/coursera_tsvar.jpg',
-    ctso: '/assets/images/certs/scrim_tsoper.jpg',
+    ctso: '/assets/images/certs/coursera_tsoper.jpg',
     ctsx: '/assets/images/certs/coursera_tsx.jpg',
     cih: '/assets/images/certs/coursera_htmintro.jpg',
     chtmb: '/assets/images/certs/coursera_htmbegin.jpg',
@@ -97,6 +97,7 @@ const cert = {
     sjsi: '/assets/images/certs/scrim_jsinterview.jpg',
     sjsp: '/assets/images/certs/scrim_jsproject.jpg',
     ses6: '/assets/images/certs/scrim_es6.jpg',
+    sbp: '/assets/images/certs/scrim_buildportfolio.jpg',
     sts: '/assets/images/certs/scrim_ts.jpg',
     suid: '/assets/images/certs/scrim_uidesign.jpg',
     sr: '/assets/images/certs/scrim_react.jpg',
