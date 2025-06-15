@@ -74,6 +74,7 @@ const cert = {
     cfra: '/assets/images/certs/coursera_build1streactweb.jpg',
     cnj: '/assets/images/certs/coursera_nextjs.jpg',
     cpyi: '/assets/images/certs/coursera_pyintro.jpg',
+    msw: '/assets/images/certs/ms_web.jpg',
 
     // AI and Scrimba Certificates
     s1: '/assets/images/certs/scrim_learncodeai.jpg',

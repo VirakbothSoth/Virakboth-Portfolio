@@ -55,6 +55,8 @@ const Certs: React.FC = () => {
     { image: certs.b6, url: 'https://coursera.org/verify/T5QTGTRCRD35', altText: 'Meta Full Stack Certificate' },
     { image: certs.b7, url: 'https://coursera.org/verify/QDB61GFOAD5W', altText: 'Meta Back-End Capstone Certificate' },
 
+    { image: certs.msw, url: 'https://coursera.org/verify/BXTYMK5N240G', altText: 'Microsoft Intro to Web Development Certificate' },
+
     { image: certs.shtmcs, url: 'https://coursera.org/verify/3DJL39C3QXDE', altText: 'Scrimba HTML CSS Certificate' },
     { image: certs.sawd, url: 'https://coursera.org/verify/Z0ZHPDWW9PWE', altText: 'Scrimba Accessible Web Certificate' },
     { image: certs.scsf, url: 'https://coursera.org/verify/09L0ZP24T9E2', altText: 'Scrimba CSS Flexbox Certificate' },
