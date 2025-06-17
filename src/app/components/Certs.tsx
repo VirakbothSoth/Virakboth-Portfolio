@@ -113,6 +113,7 @@ const Certs: React.FC = () => {
     { image: certs.p1, url: 'https://coursera.org/verify/NTMXA8WACBNQ', altText: 'UOM Python Intro Certificate' },
     { image: certs.p2, url: 'https://coursera.org/verify/Z47RD2HY9PYR', altText: 'UOM Python Data Certificate' },
     { image: certs.p3, url: 'https://coursera.org/verify/MTNK7QQL6XA3', altText: 'UOM Python Web Data Certificate' },
+    { image: certs.ibmpyda, url: 'https://credly.com/badges/9a1d8626-ab48-4b1b-bd47-4f8a649c9adf', altText: 'IBM Python for Data Science and AI Badge' },
     { image: certs.hks, url: 'https://coursera.org/verify/YHEPBKM5P9UU', altText: 'HKU Scratch Certificate' },
     { image: certs.hkse, url: 'https://coursera.org/verify/GTPPJ35GF7JI', altText: 'HKU Software Engineer Certificate' },
     { image: certs.scc, url: 'https://coursera.org/verify/CQ0R220S7GL5', altText: 'Scrimba Clean Code Certificate' },
