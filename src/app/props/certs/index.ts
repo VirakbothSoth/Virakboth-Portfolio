@@ -53,6 +53,7 @@ const cert = {
 
     // Miscellaneous
     kkdo: '/assets/images/certs/kk_devop.jpg',
+    kkg: '/assets/images/certs/kk_git.jpg',
     p1: '/assets/images/certs/p1.jpg',
     p2: '/assets/images/certs/p2.jpg',
     p3: '/assets/images/certs/p3.jpg',
