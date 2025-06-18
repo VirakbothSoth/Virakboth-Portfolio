@@ -14,6 +14,7 @@ import {
 	SiLinux,
 	SiTypescript,
 } from "react-icons/si";
+import { TbBrandCSharp } from "react-icons/tb";
 
 const txt = "Hello World!";
 const htm = `<h1>${txt}</h1>`;
@@ -24,6 +25,7 @@ const helloWorldSnippets = {
 	Scratch: `say "${txt}"`,
 	Python: `print("${txt}")`,
 	Java: `System.out.println("${txt}");`,
+	CS: `Console.WriteLine("${txt}");`,
 	HTML: htm,
 	JS: `console.log("${txt}");`,
 	React: `const App = () => return ${htm}`,
@@ -90,12 +92,12 @@ const Skills = () => {
 										Python
 									</div>
 									<div className="text-l font-medium">
-										90%
+										96%
 									</div>
 								</div>
 								<div className="flex mb-2 items-center justify-between">
 									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-blue-400 w-[90%] h-2.5 rounded-full"></div>
+										<div className="bg-blue-400 w-[96%] h-2.5 rounded-full"></div>
 									</div>
 								</div>
 							</div>
@@ -119,12 +121,38 @@ const Skills = () => {
 										Java
 									</div>
 									<div className="text-l font-medium">
-										40%
+										52%
 									</div>
 								</div>
 								<div className="flex mb-2 items-center justify-between">
 									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-yellow-400 w-[40%] h-2.5 rounded-full"></div>
+										<div className="bg-yellow-400 w-[52%] h-2.5 rounded-full"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						{/* C# */}
+						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
+								<div className="">
+									<TbBrandCSharp className="skill-icon" />
+								</div>
+							</div>
+							<div className="text-xs text-gray-400 mb-1">
+								{helloWorldSnippets.CS}
+							</div>
+							<div className="relative pt-1">
+								<div className="flex mb-2 items-center justify-between">
+									<div className="text-l font-medium">
+										C#
+									</div>
+									<div className="text-l font-medium">
+										60%
+									</div>
+								</div>
+								<div className="flex mb-2 items-center justify-between">
+									<div className="bg-bg rounded-full h-2.5 w-full">
+										<div className="bg-blue-500 w-[60%] h-2.5 rounded-full"></div>
 									</div>
 								</div>
 							</div>
@@ -245,12 +273,12 @@ const Skills = () => {
 										TypeScript (Basics)
 									</div>
 									<div className="text-l font-medium">
-										30%
+										42%
 									</div>
 								</div>
 								<div className="flex mb-2 items-center justify-between">
 									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-blue-400 w-[30%] h-2.5 rounded-full"></div>
+										<div className="bg-blue-400 w-[42%] h-2.5 rounded-full"></div>
 									</div>
 								</div>
 							</div>
