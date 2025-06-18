@@ -57,6 +57,7 @@ const cert = {
     p1: '/assets/images/certs/p1.jpg',
     p2: '/assets/images/certs/p2.jpg',
     p3: '/assets/images/certs/p3.jpg',
+    glepy: '/assets/images/certs/gle_py.jpg',
     ibmpyda : '/assets/images/certs/ibm_pythondataai.jpg',
     hks: '/assets/images/certs/hks.jpg',
     hkse: '/assets/images/certs/hkse.jpg',

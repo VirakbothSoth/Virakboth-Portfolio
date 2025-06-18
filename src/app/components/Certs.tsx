@@ -108,6 +108,7 @@ const Certs: React.FC = () => {
     { image: certs.kkdo, url: 'https://coursera.org/verify/R9HSOD5OBJOA', altText: 'KodeKloud DevOps Prerequisite Certificate' },
     { image: certs.kkg, url: 'https://coursera.org/verify/D0BKDQNSC6L0', altText: 'KodeKloud Git Basics Certificate' },
     { image: certs.b2, url: 'https://coursera.org/verify/76NFVZC1XF3E', altText: 'Meta Python Certificate' },
+    { image: certs.glepy, url: 'https://coursera.org/verify/6QAFCSYOL2LM', altText: 'Google Python Certificate' },
     { image: certs.cpyi, url: 'https://coursera.org/verify/QJU4XE2SQ5AE', altText: 'Coursera Intro to Python Certificate' },
     { image: certs.iv, url: 'https://coursera.org/verify/74FG463109SB', altText: 'Meta Coding Interview Certificate' },
     { image: certs.ve, url: 'https://coursera.org/verify/4NSF48QD3FIS', altText: 'Meta Version Control Certificate' },
