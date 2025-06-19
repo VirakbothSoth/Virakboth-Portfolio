@@ -137,6 +137,7 @@ const Certs: React.FC = () => {
     { image: certs.kkdo, url: 'https://coursera.org/verify/R9HSOD5OBJOA', altText: 'KodeKloud DevOps Prerequisite Certificate' },
     { image: certs.kkg, url: 'https://coursera.org/verify/D0BKDQNSC6L0', altText: 'KodeKloud Git Basics Certificate' },
     { image: certs.mscs, url: 'https://coursera.org/verify/KHX06Q6QZ10K', altText: 'Microsoft Intro to C# Certificate' },
+    { image: certs.ib_jv, url: 'https://coursera.org/verify/LYR0T1VUSYH8', altText: 'IBM Java Certificate' },
     { image: certs.iv, url: 'https://coursera.org/verify/74FG463109SB', altText: 'Meta Coding Interview Certificate' },
     { image: certs.ve, url: 'https://coursera.org/verify/4NSF48QD3FIS', altText: 'Meta Version Control Certificate' },
     { image: certs.hks, url: 'https://coursera.org/verify/YHEPBKM5P9UU', altText: 'HKU Scratch Certificate' },
