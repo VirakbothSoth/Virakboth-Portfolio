@@ -111,6 +111,7 @@ const Certs: React.FC = () => {
     { image: certs.glepy, url: 'https://coursera.org/verify/6QAFCSYOL2LM', altText: 'Google Python Certificate' },
     { image: certs.cpyi, url: 'https://coursera.org/verify/QJU4XE2SQ5AE', altText: 'Coursera Intro to Python Certificate' },
     { image: certs.spy1, url: 'https://coursera.org/verify/E5ASTFAHPMSF', altText: 'Scrimba Python (1/3) Certificate' },
+    { image: certs.mscs, url: 'https://coursera.org/verify/KHX06Q6QZ10K', altText: 'Microsoft Intro to C# Certificate' },
     { image: certs.iv, url: 'https://coursera.org/verify/74FG463109SB', altText: 'Meta Coding Interview Certificate' },
     { image: certs.ve, url: 'https://coursera.org/verify/4NSF48QD3FIS', altText: 'Meta Version Control Certificate' },
     { image: certs.p1, url: 'https://coursera.org/verify/NTMXA8WACBNQ', altText: 'UOM Python Intro Certificate' },
