@@ -4,7 +4,7 @@ import certs from '../props/certs'
 
 import { PiCertificate } from 'react-icons/pi'
 import { FaRobot, FaComputer } from 'react-icons/fa6'
-import { SiCisco } from 'react-icons/si'
+import { SiCisco, SiPython } from 'react-icons/si'
 import { HiOutlineDotsHorizontal } from 'react-icons/hi'
 import { TbCode } from 'react-icons/tb'
 
@@ -104,26 +104,16 @@ const Certs: React.FC = () => {
     { image: certs.cnj, url: 'https://coursera.org/verify/20OU4WALLVR6', altText: 'Coursera Next JS Certificate' },
   ]
 
-  const otherCerts: CertificateItem[] = [
-    { image: certs.kkdo, url: 'https://coursera.org/verify/R9HSOD5OBJOA', altText: 'KodeKloud DevOps Prerequisite Certificate' },
-    { image: certs.kkg, url: 'https://coursera.org/verify/D0BKDQNSC6L0', altText: 'KodeKloud Git Basics Certificate' },
+  const pyCerts: CertificateItem[] = [
+    { image: certs.p1, url: 'https://coursera.org/verify/NTMXA8WACBNQ', altText: 'UOM Python Intro Certificate' },
+    { image: certs.p2, url: 'https://coursera.org/verify/Z47RD2HY9PYR', altText: 'UOM Python Data Certificate' },
+    { image: certs.p3, url: 'https://coursera.org/verify/MTNK7QQL6XA3', altText: 'UOM Python Web Data Certificate' },
     { image: certs.b2, url: 'https://coursera.org/verify/76NFVZC1XF3E', altText: 'Meta Python Certificate' },
     { image: certs.glepy, url: 'https://coursera.org/verify/6QAFCSYOL2LM', altText: 'Google Python Certificate' },
     { image: certs.cpyi, url: 'https://coursera.org/verify/QJU4XE2SQ5AE', altText: 'Coursera Intro to Python Certificate' },
     { image: certs.spy1, url: 'https://coursera.org/verify/E5ASTFAHPMSF', altText: 'Scrimba Python (1/3) Certificate' },
-    { image: certs.mscs, url: 'https://coursera.org/verify/KHX06Q6QZ10K', altText: 'Microsoft Intro to C# Certificate' },
-    { image: certs.iv, url: 'https://coursera.org/verify/74FG463109SB', altText: 'Meta Coding Interview Certificate' },
-    { image: certs.ve, url: 'https://coursera.org/verify/4NSF48QD3FIS', altText: 'Meta Version Control Certificate' },
-    { image: certs.p1, url: 'https://coursera.org/verify/NTMXA8WACBNQ', altText: 'UOM Python Intro Certificate' },
-    { image: certs.p2, url: 'https://coursera.org/verify/Z47RD2HY9PYR', altText: 'UOM Python Data Certificate' },
-    { image: certs.p3, url: 'https://coursera.org/verify/MTNK7QQL6XA3', altText: 'UOM Python Web Data Certificate' },
-    { image: certs.ibmpyda, url: 'https://credly.com/badges/9a1d8626-ab48-4b1b-bd47-4f8a649c9adf', altText: 'IBM Python for Data Science and AI Badge' },
-    { image: certs.hks, url: 'https://coursera.org/verify/YHEPBKM5P9UU', altText: 'HKU Scratch Certificate' },
-    { image: certs.hkse, url: 'https://coursera.org/verify/GTPPJ35GF7JI', altText: 'HKU Software Engineer Certificate' },
-    { image: certs.scc, url: 'https://coursera.org/verify/CQ0R220S7GL5', altText: 'Scrimba Clean Code Certificate' },
-    { image: certs.smd, url: 'https://coursera.org/verify/0HCHBZ39JZZC', altText: 'Scrimba Markdown Certificate' },
-    { image: certs.suid, url: 'https://coursera.org/verify/7RP4NPN6X4LE', altText: 'Scrimba UI Design Fundamentals Certificate' },
     { image: certs.scp, url: 'https://freecodecamp.org/certification/virakboth_soth/scientific-computing-with-python-v7', altText: 'FreeCodeCamp Scientific Python Certificate' },
+    { image: certs.ibmpyda, url: 'https://credly.com/badges/9a1d8626-ab48-4b1b-bd47-4f8a649c9adf', altText: 'IBM Python for Data Science and AI Badge' },
   ]
 
   const aiCerts: CertificateItem[] = [
@@ -143,6 +133,19 @@ const Certs: React.FC = () => {
     { image: certs.lu, url: 'https://netacad.com/certificates?issuanceId=9a324cf8-27a8-488e-8cd3-c0af2158ac38', altText: 'Cisco Linux Unhatched Certificate' },
   ]
 
+  const otherCerts: CertificateItem[] = [
+    { image: certs.kkdo, url: 'https://coursera.org/verify/R9HSOD5OBJOA', altText: 'KodeKloud DevOps Prerequisite Certificate' },
+    { image: certs.kkg, url: 'https://coursera.org/verify/D0BKDQNSC6L0', altText: 'KodeKloud Git Basics Certificate' },
+    { image: certs.mscs, url: 'https://coursera.org/verify/KHX06Q6QZ10K', altText: 'Microsoft Intro to C# Certificate' },
+    { image: certs.iv, url: 'https://coursera.org/verify/74FG463109SB', altText: 'Meta Coding Interview Certificate' },
+    { image: certs.ve, url: 'https://coursera.org/verify/4NSF48QD3FIS', altText: 'Meta Version Control Certificate' },
+    { image: certs.hks, url: 'https://coursera.org/verify/YHEPBKM5P9UU', altText: 'HKU Scratch Certificate' },
+    { image: certs.hkse, url: 'https://coursera.org/verify/GTPPJ35GF7JI', altText: 'HKU Software Engineer Certificate' },
+    { image: certs.scc, url: 'https://coursera.org/verify/CQ0R220S7GL5', altText: 'Scrimba Clean Code Certificate' },
+    { image: certs.smd, url: 'https://coursera.org/verify/0HCHBZ39JZZC', altText: 'Scrimba Markdown Certificate' },
+    { image: certs.suid, url: 'https://coursera.org/verify/7RP4NPN6X4LE', altText: 'Scrimba UI Design Fundamentals Certificate' },
+  ]
+
   const renderCertificates = (): React.ReactNode => {
     let certificates: CertificateItem[] = []
     if (activeCategory === 'special') {
@@ -151,6 +154,8 @@ const Certs: React.FC = () => {
       certificates = cs50Certs
     } else if (activeCategory === 'web') {
       certificates = webCerts
+    } else if (activeCategory === 'py') {
+      certificates = pyCerts
     } else if (activeCategory === 'ai') {
       certificates = aiCerts
     } else if (activeCategory === 'cisco') {
@@ -173,7 +178,7 @@ const Certs: React.FC = () => {
     <section className="p-80">
       <div className="container mx-auto cert-section">
         <h2 className="section-title">
-          <PiCertificate /> Certificates ({specCerts.length + cs50Certs.length + webCerts.length + aiCerts.length + ciscoCerts.length + otherCerts.length})
+          <PiCertificate /> Certificates ({specCerts.length + cs50Certs.length + webCerts.length + pyCerts.length + aiCerts.length + ciscoCerts.length + otherCerts.length})
         </h2>
         <div>
           <div className="flex space-x-4 mb-6 justify-center">
@@ -194,6 +199,12 @@ const Certs: React.FC = () => {
               onClick={() => setActiveCategory('web')}
             >
               <TbCode  /> Web Dev <span className="cert-category-button-text">({webCerts.length})</span>
+            </button>
+            <button
+              className={`${activeCategory === 'py' ? 'cert-category-active' : 'cert-category'}`}
+              onClick={() => setActiveCategory('py')}
+            >
+              <SiPython  /> Python <span className="cert-category-button-text">({pyCerts.length})</span>
             </button>
             <button
               className={`${activeCategory === 'ai' ? 'cert-category-active' : 'cert-category'}`}
