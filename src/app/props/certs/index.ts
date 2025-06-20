@@ -52,6 +52,10 @@ const cert = {
     scp: '/assets/images/certs/fcc_scp.jpg',
     rwd: '/assets/images/certs/fcc_rwd.jpg',
 
+    // FreeCodeCamp Certificates
+    hr_py: '/assets/images/certs/hr_py.jpg',
+    hr_fe: '/assets/images/certs/hr_frontend.jpg',
+
     // Miscellaneous
     kkdo: '/assets/images/certs/kk_devop.jpg',
     kkg: '/assets/images/certs/kk_git.jpg',

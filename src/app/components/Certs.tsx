@@ -40,6 +40,8 @@ const Certs: React.FC = () => {
   ]
 
   const webCerts: CertificateItem[] = [
+    { image: certs.hr_fe, url: 'https://hackerrank.com/certificates/4ff791d3b93c', altText: 'HackerRank Front-End Certificate' },
+
     { image: certs.f1, url: 'https://coursera.org/verify/MMU2WMZEKWOA', altText: 'Meta Front-End Intro Certificate' },
     { image: certs.f2, url: 'https://coursera.org/verify/LO2FMY48V1BX', altText: 'Meta JavaScript Certificate' },
     { image: certs.f3, url: 'https://coursera.org/verify/0RAM91AXMKNF', altText: 'Meta HTML CSS Depth Certificate' },
@@ -105,6 +107,8 @@ const Certs: React.FC = () => {
   ]
 
   const pyCerts: CertificateItem[] = [
+    { image: certs.hr_py, url: 'https://hackerrank.com/certificates/752e3a34dbe8', altText: 'HackerRank Python Basic Certificate' },
+
     { image: certs.p1, url: 'https://coursera.org/verify/NTMXA8WACBNQ', altText: 'UOM Python Intro Certificate' },
     { image: certs.p2, url: 'https://coursera.org/verify/Z47RD2HY9PYR', altText: 'UOM Python Data Certificate' },
     { image: certs.p3, url: 'https://coursera.org/verify/MTNK7QQL6XA3', altText: 'UOM Python Web Data Certificate' },
