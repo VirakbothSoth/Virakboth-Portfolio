@@ -178,7 +178,6 @@
 		@apply w-auto;
 		@apply h-64;
 		@apply max-w-sm;
-		@apply shadow-lg;
 		@apply hover:scale-105;
 		@apply duration-300;
 		@apply rounded-lg;
