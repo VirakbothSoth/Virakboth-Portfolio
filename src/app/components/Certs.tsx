@@ -88,7 +88,8 @@ const Certs: React.FC = () => {
 
     { image: certs.jhu, url: 'https://coursera.org/verify/8DILH4N0ABM6', altText: 'JHU Web Dev Certificate' },
 
-    { image: certs.rwd, url: 'https://freecodecamp.org/certification/virakboth_soth/responsive-web-design', altText: 'FreeCodeCamp Web Design Certificate' },
+    { image: certs.fcc_rwd, url: 'https://freecodecamp.org/certification/virakboth_soth/responsive-web-design', altText: 'FreeCodeCamp Responsive Web Certificate' },
+    { image: certs.fcc_fdl, url: 'https://freecodecamp.org/certification/virakboth_soth/front-end-development-libraries', altText: 'FreeCodeCamp Front-End Development Libraries Certificate' },
 
     { image: certs.cih, url: 'https://coursera.org/verify/1456WZEIY4BC', altText: 'Coursera HTML Intro Certificate' },
     { image: certs.chtmb, url: 'https://coursera.org/verify/WXPG0F9RCHPM', altText: 'Coursera HTML Beginner Certificate' },
@@ -116,8 +117,8 @@ const Certs: React.FC = () => {
     { image: certs.glepy, url: 'https://coursera.org/verify/6QAFCSYOL2LM', altText: 'Google Python Certificate' },
     { image: certs.cpyi, url: 'https://coursera.org/verify/QJU4XE2SQ5AE', altText: 'Coursera Intro to Python Certificate' },
     { image: certs.spy1, url: 'https://coursera.org/verify/E5ASTFAHPMSF', altText: 'Scrimba Python (1/3) Certificate' },
-    { image: certs.scp, url: 'https://freecodecamp.org/certification/virakboth_soth/scientific-computing-with-python-v7', altText: 'FreeCodeCamp Scientific Python Certificate' },
-    { image: certs.ibmpyda, url: 'https://credly.com/badges/9a1d8626-ab48-4b1b-bd47-4f8a649c9adf', altText: 'IBM Python for Data Science and AI Badge' },
+    { image: certs.fcc_scp, url: 'https://freecodecamp.org/certification/virakboth_soth/scientific-computing-with-python-v7', altText: 'FreeCodeCamp Scientific Python Certificate' },
+    { image: certs.ibm_pyda, url: 'https://credly.com/badges/9a1d8626-ab48-4b1b-bd47-4f8a649c9adf', altText: 'IBM Python for Data Science and AI Badge' },
   ]
 
   const aiCerts: CertificateItem[] = [

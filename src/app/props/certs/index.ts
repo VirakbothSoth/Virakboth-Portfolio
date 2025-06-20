@@ -49,8 +49,9 @@ const cert = {
     lu: '/assets/images/certs/cisco_linuxunhatch.jpg',
 
     // FreeCodeCamp Certificates
-    scp: '/assets/images/certs/fcc_scp.jpg',
-    rwd: '/assets/images/certs/fcc_rwd.jpg',
+    fcc_scp: '/assets/images/certs/fcc_scp.jpg',
+    fcc_rwd: '/assets/images/certs/fcc_rwd.jpg',
+    fcc_fdl: '/assets/images/certs/fcc_fdl.jpg',
 
     // FreeCodeCamp Certificates
     hr_py: '/assets/images/certs/hr_py.jpg',
@@ -63,7 +64,7 @@ const cert = {
     p2: '/assets/images/certs/p2.jpg',
     p3: '/assets/images/certs/p3.jpg',
     glepy: '/assets/images/certs/gle_py.jpg',
-    ibmpyda : '/assets/images/certs/ibm_pythondataai.jpg',
+    ibm_pyda : '/assets/images/certs/ibm_pythondataai.jpg',
     hks: '/assets/images/certs/hks.jpg',
     hkse: '/assets/images/certs/hkse.jpg',
     jhu: '/assets/images/certs/jhu.jpg',
