@@ -122,6 +122,7 @@ const cert = {
     stwp: '/assets/images/certs/scrim_tailwindprojects.jpg',
     stwc: '/assets/images/certs/scrim_tailwindcapstone.jpg',
     spy1: '/assets/images/certs/scrim_py1.jpg',
+    se: '/assets/images/certs/scrim_ex.jpg',
     vpe: '/assets/images/certs/vb_prompt.jpg',
 };
 

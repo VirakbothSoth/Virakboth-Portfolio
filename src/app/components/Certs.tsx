@@ -82,6 +82,7 @@ const Certs: React.FC = () => {
     { image: certs.sr19, url: 'https://coursera.org/verify/OF96ODMFFB6T', altText: 'Scrimba React 19 Certificate' },
     { image: certs.sv, url: 'https://coursera.org/verify/9O7BBKQOHJZW', altText: 'Scrimba Learn Vite Certificate' },
     { image: certs.snjs, url: 'https://coursera.org/verify/VOPI247HKGCZ', altText: 'Scrimba Learn NextJS Certificate' },
+    { image: certs.se, url: 'https://coursera.org/verify/FORAR6A111BE', altText: 'Scrimba Express Certificate' },
 
     { image: certs.ib_js, url: 'https://coursera.org/verify/YFSJZECZWFAG', altText: 'IBM Javascript Essentials Certificate' },
     { image: certs.ib_be, url: 'https://coursera.org/verify/S7O0PT89GJNY', altText: 'IBM Back-End Apps with Node & Express Certificate' },
