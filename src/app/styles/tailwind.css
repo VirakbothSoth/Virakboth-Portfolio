@@ -144,8 +144,8 @@
 		@apply m-0;
 		@apply w-0;
 		@apply h-0;
-		@apply invisible;
 		@apply transition-transform duration-1000;
+		@apply hidden;
 	}
 
 	.card:hover .school-logo {
@@ -155,6 +155,10 @@
 		@apply h-8;
 		@apply visible;
 		@apply scale-125;
+	}
+
+	.card p {
+		@apply pb-2;
 	}
 
 	.note-card {
