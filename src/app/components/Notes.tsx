@@ -2,7 +2,7 @@ import { PiNotepadFill } from "react-icons/pi"
 
 const Notes = () => {
   return (
-    <section className="p-40">
+    <section className="py-80">
       <div className="container mx-auto">
         <h2 className="section-title"><PiNotepadFill/> Personal Notes</h2>
         <div className="text-left grid grid-cols-1 md:grid-cols-2 gap-6">

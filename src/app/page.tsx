@@ -8,6 +8,7 @@ import Schools from './components/Schools'
 import Projects from './components/Projects'
 import Notes from './components/Notes'
 import Footer from './components/Footer'
+import Activity from './components/Activity'
 import './styles/index.css'
 import './styles/tailwind.css'
 
@@ -21,12 +22,13 @@ export default function HomePage() {
           <main>
             <Hero />
             <About />
-            <Journey />
             <Skills />
-            <Certs />
-            <Schools />
             <Projects />
+            <Journey />
+            <Certs />
+            <Activity />
             <Notes />
+            <Schools />
           </main>
           <Footer />
         </div>

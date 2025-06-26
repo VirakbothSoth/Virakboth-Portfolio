@@ -84,6 +84,11 @@
 		@apply inline;
 	}
 
+	.activity-widget-div img {
+		@apply w-300;
+		@apply p-5;
+	}
+
 	.cert-category {
 		@apply px-4;
 		@apply py-2;

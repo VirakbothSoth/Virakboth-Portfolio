@@ -1,4 +1,4 @@
-import { RiNextjsFill } from "react-icons/ri";
+import { RiNextjsFill, RiReactjsFill } from "react-icons/ri";
 import { FaStar, FaJava } from "react-icons/fa";
 import {
 	SiScratch,
@@ -13,6 +13,7 @@ import {
 	SiNodedotjs,
 	SiLinux,
 	SiTypescript,
+	SiExpress
 } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 
@@ -31,7 +32,7 @@ const helloWorldSnippets = {
 	React: `const App = () => return ${htm}`,
 	Next: `export default () => return ${htm}`,
 	Django: `return HttpResponse("${txt}")`,
-	Node: `console.log("${txt}");`,
+	Node: `res.end("${txt}");`,
 	Linux: `echo "${txt}"`,
 };
 
@@ -39,10 +40,11 @@ const Skills = () => {
 	return (
 		<section id="skills" className="py-20">
 			<div className="container mx-auto">
-				<h2 className="section-title flex items-center gap-2">
+				<h2 className="section-title">
 					<FaStar className="skill-icon" /> Skills
 				</h2>
 				<div className="flex justify-center">
+					<div className="flex flex-wrap justify-center gap-8"></div>
 					<div className="flex flex-wrap justify-center gap-8">
 						{/* Scratch */}
 						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
@@ -205,7 +207,7 @@ const Skills = () => {
 									<div className="text-l font-medium">
 										<span className="inline-block ">
 											<SiTailwindcss />
-										</span>{" "}
+										</span>
 										Tailwind
 									</div>
 									<div className="text-l font-medium">
@@ -221,7 +223,7 @@ const Skills = () => {
 									<div className="text-l font-medium">
 										<span className="inline-block ">
 											<SiBootstrap />
-										</span>{" "}
+										</span>
 										Bootstrap (no longer in use)
 									</div>
 									<div className="text-l font-medium">
@@ -269,7 +271,7 @@ const Skills = () => {
 									<div className="text-l font-medium">
 										<span className="inline-block skill-icon">
 											<SiTypescript />
-										</span>{" "}
+										</span>
 										TypeScript (Basics)
 									</div>
 									<div className="text-l font-medium">
@@ -290,18 +292,40 @@ const Skills = () => {
 									Node.js
 								</span>
 							</div>
+							<div className="text-xs text-gray-400 mb-1 pb-4">
+								{helloWorldSnippets.Node}
+							</div>
 							<div className="relative pt-1">
 								<div className="flex mb-2 items-center justify-between">
 									<div className="text-l font-medium">
+										<span className="inline-block skill-icon">
+											<SiNodedotjs />
+										</span>
 										Node
 									</div>
 									<div className="text-l font-medium">
-										30%
+										40%
 									</div>
 								</div>
 								<div className="flex mb-2 items-center justify-between">
 									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-green-400 w-[30%] h-2.5 rounded-full"></div>
+										<div className="bg-green-400 w-[40%] h-2.5 rounded-full"></div>
+									</div>
+								</div>
+								<div className="flex mb-2 items-center justify-between">
+									<div className="text-l font-medium">
+										<span className="inline-block skill-icon">
+											<SiExpress />
+										</span>
+										Express
+									</div>
+									<div className="text-l font-medium">
+										20%
+									</div>
+								</div>
+								<div className="flex mb-2 items-center justify-between">
+									<div className="bg-bg rounded-full h-2.5 w-full">
+										<div className="bg-gray-800 w-[20%] h-2.5 rounded-full"></div>
 									</div>
 								</div>
 							</div>
@@ -309,7 +333,7 @@ const Skills = () => {
 						{/* React */}
 						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
-								<div className="">
+								<div>
 									<SiReact className="skill-icon" />
 								</div>
 								<span className="font-semibold text-2xl">
@@ -322,6 +346,9 @@ const Skills = () => {
 							<div className="relative pt-1">
 								<div className="flex mb-2 items-center justify-between">
 									<div className="text-l font-medium">
+										<span className="inline-block skill-icon">
+											<RiReactjsFill />
+										</span>
 										React
 									</div>
 									<div className="text-l font-medium">
@@ -341,7 +368,7 @@ const Skills = () => {
 									<div className="text-l font-medium">
 										<span className="inline-block skill-icon">
 											<RiNextjsFill />
-										</span>{" "}
+										</span>
 										Next.js
 									</div>
 									<div className="text-l font-medium">
