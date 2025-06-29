@@ -85,7 +85,7 @@
 	}
 
 	.activity-widget-div img {
-		@apply w-300;
+		@apply h-75;
 		@apply p-5;
 	}
 

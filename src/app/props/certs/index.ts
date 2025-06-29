@@ -60,9 +60,10 @@ const cert = {
     // Miscellaneous
     kkdo: '/assets/images/certs/kk_devop.jpg',
     kkg: '/assets/images/certs/kk_git.jpg',
-    p1: '/assets/images/certs/p1.jpg',
-    p2: '/assets/images/certs/p2.jpg',
-    p3: '/assets/images/certs/p3.jpg',
+    p1: '/assets/images/certs/uom_p1.jpg',
+    p2: '/assets/images/certs/uom_p2.jpg',
+    p3: '/assets/images/certs/uom_p3.jpg',
+    wtdj: '/assets/images/certs/uom_wtdj.jpg',
     glepy: '/assets/images/certs/gle_py.jpg',
     ibm_pyda : '/assets/images/certs/ibm_pythondataai.jpg',
     hks: '/assets/images/certs/hks.jpg',

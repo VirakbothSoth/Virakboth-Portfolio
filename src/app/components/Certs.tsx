@@ -40,8 +40,6 @@ const Certs: React.FC = () => {
   ]
 
   const webCerts: CertificateItem[] = [
-    { image: certs.hr_fe, url: 'https://hackerrank.com/certificates/4ff791d3b93c', altText: 'HackerRank Front-End Certificate' },
-
     { image: certs.f1, url: 'https://coursera.org/verify/MMU2WMZEKWOA', altText: 'Meta Front-End Intro Certificate' },
     { image: certs.f2, url: 'https://coursera.org/verify/LO2FMY48V1BX', altText: 'Meta JavaScript Certificate' },
     { image: certs.f3, url: 'https://coursera.org/verify/0RAM91AXMKNF', altText: 'Meta HTML CSS Depth Certificate' },
@@ -57,7 +55,14 @@ const Certs: React.FC = () => {
     { image: certs.b6, url: 'https://coursera.org/verify/T5QTGTRCRD35', altText: 'Meta Full Stack Certificate' },
     { image: certs.b7, url: 'https://coursera.org/verify/QDB61GFOAD5W', altText: 'Meta Back-End Capstone Certificate' },
 
+    { image: certs.ib_js, url: 'https://coursera.org/verify/YFSJZECZWFAG', altText: 'IBM Javascript Essentials Certificate' },
+    { image: certs.ib_be, url: 'https://coursera.org/verify/S7O0PT89GJNY', altText: 'IBM Back-End Apps with Node & Express Certificate' },
+
     { image: certs.msw, url: 'https://coursera.org/verify/BXTYMK5N240G', altText: 'Microsoft Intro to Web Development Certificate' },
+
+    { image: certs.wtdj, url: 'https://coursera.org/verify/D8KCSUZ77JHC', altText: 'UOM Web Technologies & Django Certificate' },
+
+    { image: certs.jhu, url: 'https://coursera.org/verify/8DILH4N0ABM6', altText: 'JHU Web Dev Certificate' },
 
     { image: certs.shtmcs, url: 'https://coursera.org/verify/3DJL39C3QXDE', altText: 'Scrimba HTML CSS Certificate' },
     { image: certs.sawd, url: 'https://coursera.org/verify/Z0ZHPDWW9PWE', altText: 'Scrimba Accessible Web Certificate' },
@@ -84,11 +89,8 @@ const Certs: React.FC = () => {
     { image: certs.snjs, url: 'https://coursera.org/verify/VOPI247HKGCZ', altText: 'Scrimba Learn NextJS Certificate' },
     { image: certs.se, url: 'https://coursera.org/verify/FORAR6A111BE', altText: 'Scrimba Express Certificate' },
 
-    { image: certs.ib_js, url: 'https://coursera.org/verify/YFSJZECZWFAG', altText: 'IBM Javascript Essentials Certificate' },
-    { image: certs.ib_be, url: 'https://coursera.org/verify/S7O0PT89GJNY', altText: 'IBM Back-End Apps with Node & Express Certificate' },
-
-    { image: certs.jhu, url: 'https://coursera.org/verify/8DILH4N0ABM6', altText: 'JHU Web Dev Certificate' },
-
+    { image: certs.hr_fe, url: 'https://hackerrank.com/certificates/4ff791d3b93c', altText: 'HackerRank Front-End Certificate' },
+    
     { image: certs.fcc_rwd, url: 'https://freecodecamp.org/certification/virakboth_soth/responsive-web-design', altText: 'FreeCodeCamp Responsive Web Certificate' },
     { image: certs.fcc_fdl, url: 'https://freecodecamp.org/certification/virakboth_soth/front-end-development-libraries', altText: 'FreeCodeCamp Front-End Development Libraries Certificate' },
 
