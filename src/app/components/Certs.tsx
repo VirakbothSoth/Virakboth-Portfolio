@@ -61,6 +61,7 @@ const Certs: React.FC = () => {
     { image: certs.msw, url: 'https://coursera.org/verify/BXTYMK5N240G', altText: 'Microsoft Intro to Web Development Certificate' },
 
     { image: certs.wtdj, url: 'https://coursera.org/verify/D8KCSUZ77JHC', altText: 'UOM Web Technologies & Django Certificate' },
+    { image: certs.dj2, url: 'https://coursera.org/verify/FM487DP4QUJU', altText: 'UOM Django Certificate' },
 
     { image: certs.jhu, url: 'https://coursera.org/verify/8DILH4N0ABM6', altText: 'JHU Web Dev Certificate' },
 

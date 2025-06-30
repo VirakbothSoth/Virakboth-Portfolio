@@ -64,6 +64,7 @@ const cert = {
     p2: '/assets/images/certs/uom_p2.jpg',
     p3: '/assets/images/certs/uom_p3.jpg',
     wtdj: '/assets/images/certs/uom_wtdj.jpg',
+    dj2: '/assets/images/certs/uom_dj2.jpg',
     glepy: '/assets/images/certs/gle_py.jpg',
     ibm_pyda : '/assets/images/certs/ibm_pythondataai.jpg',
     hks: '/assets/images/certs/hks.jpg',
