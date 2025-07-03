@@ -116,32 +116,6 @@ const Schools = () => {
           <div className="card">
             <div>
               <div className="flex items-start justify-between">
-              <h3 className="text-3xl font-bold">Cambodia Trophy Shop</h3>
-              <span className="cursor-pointer text-gray-700 text-2xl">
-                <IoMdClose />
-              </span>
-            </div>
-              <p className="text-xl text-gray-400">
-                <em>at home</em>
-              </p>
-            </div>
-            <img src={prev.tr} alt="Static Projects" className="web-preview" />
-            <p className="text-xl flex items-center">
-              <SiHtml5 /><SiCss3 /><SiTailwindcss />
-            </p>
-            <p className="text-xl">This is one of the projects that may be used in real life, as I built this for my uncle's shop</p>
-            <div className='flex gap-4'>
-              <a
-              href="https://cambodiatrophyshop.vercel.app"
-              className="font-bold text-b"
-              >
-              Website
-              </a>
-            </div>
-          </div>
-          <div className="card">
-            <div>
-              <div className="flex items-start justify-between">
               <h3 className="text-3xl font-bold">FreeCodeCamp Static Pages</h3>
               <span className="cursor-pointer text-gray-700 text-2xl">
                 <IoMdClose />

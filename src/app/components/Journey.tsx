@@ -10,7 +10,6 @@ const About = () => {
           <FaMap /> Journey to Coding
         </h2>
         <div className="journey-container bg-gray-800 w-full">
-          <p>🔴🟠🟡</p><p className="text-left">X</p>
           <div className="w-full">
             <div className="pl-3 journey-container-alt w-full">
               <p>
