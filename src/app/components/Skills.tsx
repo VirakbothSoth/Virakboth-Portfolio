@@ -13,7 +13,8 @@ import {
 	SiNodedotjs,
 	SiLinux,
 	SiTypescript,
-	SiExpress
+	SiExpress,
+	SiVuedotjs
 } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 
@@ -34,6 +35,7 @@ const helloWorldSnippets = {
 	Django: `return HttpResponse("${txt}")`,
 	Node: `res.end("${txt}");`,
 	Linux: `echo "${txt}"`,
+	Vue: `message: "${txt}"`,
 };
 
 const Skills = () => {
@@ -94,12 +96,12 @@ const Skills = () => {
 										Python
 									</div>
 									<div className="text-l font-medium">
-										96%
+										Mastered!
 									</div>
 								</div>
 								<div className="flex mb-2 items-center justify-between">
 									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-blue-400 w-[96%] h-2.5 rounded-full"></div>
+										<div className="bg-blue-400 w-[100%] h-2.5 rounded-full"></div>
 									</div>
 								</div>
 							</div>
@@ -272,7 +274,7 @@ const Skills = () => {
 										<span className="inline-block skill-icon">
 											<SiTypescript />
 										</span>
-										TypeScript (Basics)
+										TypeScript
 									</div>
 									<div className="text-l font-medium">
 										42%
@@ -284,15 +286,18 @@ const Skills = () => {
 									</div>
 								</div>
 							</div>
+						</div>
+						{/* Node */}
+						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
 								<div>
-									<SiNodedotjs className="skill-icon " />
+									<SiNodedotjs className="skill-icon" />
 								</div>
 								<span className="font-semibold text-2xl">
-									Node.js
+									NodeJS
 								</span>
 							</div>
-							<div className="text-xs text-gray-400 mb-1 pb-4">
+							<div className="text-xs text-gray-400 mb-1">
 								{helloWorldSnippets.Node}
 							</div>
 							<div className="relative pt-1">
@@ -320,12 +325,12 @@ const Skills = () => {
 										Express
 									</div>
 									<div className="text-l font-medium">
-										20%
+										30%
 									</div>
 								</div>
 								<div className="flex mb-2 items-center justify-between">
 									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-gray-800 w-[20%] h-2.5 rounded-full"></div>
+										<div className="bg-gray-800 w-[30%] h-2.5 rounded-full"></div>
 									</div>
 								</div>
 							</div>
@@ -372,12 +377,41 @@ const Skills = () => {
 										Next.js
 									</div>
 									<div className="text-l font-medium">
-										80%
+										Mastered!
 									</div>
 								</div>
 								<div className="flex mb-2 items-center justify-between">
 									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-gray-700 w-[80%] h-2.5 rounded-full"></div>
+										<div className="bg-gray-700 w-[100%] h-2.5 rounded-full"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						{/* Vue */}
+						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
+								<div>
+									<SiVuedotjs className="skill-icon" />
+								</div>
+								<span className="font-semibold text-2xl">
+									Vue
+								</span>
+							</div>
+							<div className="text-xs text-gray-400 mb-1">
+								{helloWorldSnippets.Vue}
+							</div>
+							<div className="relative pt-1">
+								<div className="flex mb-2 items-center justify-between">
+									<div className="text-l font-medium">
+										Vue
+									</div>
+									<div className="text-l font-medium">
+										Started - Soon
+									</div>
+								</div>
+								<div className="flex mb-2 items-center justify-between">
+									<div className="bg-bg rounded-full h-2.5 w-full">
+										<div className="bg-yellow-200 w-[0%] h-2.5 rounded-full"></div>
 									</div>
 								</div>
 							</div>

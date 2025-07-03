@@ -7,11 +7,10 @@ const Hero = () => {
         <div>
           <div className="flex items-center justify-center mb-10">
             <span className="relative inline-block">
-              <span className="absolute inset-0 rounded-full border-4 border-[#272b3b] animate-ping"></span>
               <img
                 src={face}
                 alt="Virakboth's Face"
-                className="relative w-[200px] h-[200px] md:w-[400px] md:h-[400px] rounded-full border-4 border-[#272b3b] shadow-lg object-cover"
+                className="relative w-[200px] h-[200px] md:w-[400px] md:h-[400px] rounded-full shadow-lg object-cover"
                 style={{ zIndex: 1, aspectRatio: "1 / 1" }}
               />
             </span>

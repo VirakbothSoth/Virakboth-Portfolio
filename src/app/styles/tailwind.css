@@ -99,13 +99,10 @@
 		@apply text-[#eeeeff];
 		@apply border-[0.5px];
 		@apply border-[#272b3b];
+		@apply text-sm;
 	}
 
-	.cert-category-button-text {
-		@apply hidden;
-	}
-
-	.cert-category svg {
+	.cert-category-button-text, .cert-category svg {
 		@apply hidden;
 	}
 
@@ -115,6 +112,7 @@
 		@apply rounded;
 		@apply bg-[#02222d];
 		@apply text-[#ffffff];
+		@apply text-sm;
 	}
 
 	.cert-category-active svg {
@@ -266,4 +264,18 @@
 			}
 		}
 	}
+}
+
+@theme {
+  --animate-marquee: marquee 15s linear infinite;
+  --animate-marquee2: marquee2 15s linear infinite;
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
 }
