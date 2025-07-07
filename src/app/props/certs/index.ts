@@ -61,6 +61,7 @@ const cert = {
     kkdo: '/assets/images/certs/kk_devop.jpg',
     kkg: '/assets/images/certs/kk_git.jpg',
     cdio_v: '/assets/images/certs/cdio_vue.jpg',
+    brd_vue: '/assets/images/certs/brd_vue.jpg',
     p1: '/assets/images/certs/uom_p1.jpg',
     p2: '/assets/images/certs/uom_p2.jpg',
     p3: '/assets/images/certs/uom_p3.jpg',

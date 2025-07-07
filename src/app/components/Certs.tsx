@@ -93,6 +93,7 @@ const Certs: React.FC = () => {
     { image: certs.hr_fe, url: 'https://hackerrank.com/certificates/4ff791d3b93c', altText: 'HackerRank Front-End Certificate' },
 
     { image: certs.cdio_v, url: 'https://coursera.org/verify/URTGKGRP9MPV', altText: 'Codio VueJS Certificate' },
+    { image: certs.brd_vue, url: 'https://coursera.org/verify/7YYOOCGWRBKN', altText: 'Board Infinity VueJS Fundamentals Certificate' },
     
     { image: certs.fcc_rwd, url: 'https://freecodecamp.org/certification/virakboth_soth/responsive-web-design', altText: 'FreeCodeCamp Responsive Web Certificate' },
     { image: certs.fcc_fdl, url: 'https://freecodecamp.org/certification/virakboth_soth/front-end-development-libraries', altText: 'FreeCodeCamp Front-End Development Libraries Certificate' },
