@@ -50,6 +50,19 @@
 		@apply md:text-5xl;
 	}
 
+	.sub-section-title {
+		@apply text-4xl;
+		@apply text-center;
+		@apply font-semibold;
+		@apply flex;
+		@apply items-center;
+		@apply justify-center;
+		@apply gap-2;
+		@apply m-5;
+		@apply sm:text-2xl;
+		@apply md:text-4xl;
+	}
+
 	a {
 		@apply text-blue-500;
 		@apply hover:underline;
@@ -264,18 +277,4 @@
 			}
 		}
 	}
-}
-
-@theme {
-  --animate-marquee: marquee 15s linear infinite;
-  --animate-marquee2: marquee2 15s linear infinite;
-
-  @keyframes marquee {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
 }

@@ -1,5 +1,5 @@
 import { RiNextjsFill, RiReactjsFill } from "react-icons/ri";
-import { FaStar, FaJava } from "react-icons/fa";
+import { FaStar, FaJava, FaLaptopCode } from "react-icons/fa";
 import {
 	SiScratch,
 	SiPython,
@@ -45,11 +45,13 @@ const Skills = () => {
 				<h2 className="section-title">
 					<FaStar className="skill-icon" /> Skills
 				</h2>
+				<h3 className="sub-section-title">
+					<FaLaptopCode className="skill-icon" /> Programming
+				</h3>
 				<div className="flex justify-center">
-					<div className="flex flex-wrap justify-center gap-8"></div>
 					<div className="flex flex-wrap justify-center gap-8">
 						{/* Scratch */}
-						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+						<div className="w-full sm:w-1/3 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
 								<div className="">
 									<SiScratch className="skill-icon" />
@@ -78,7 +80,7 @@ const Skills = () => {
 							</div>
 						</div>
 						{/* Python */}
-						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+						<div className="w-full sm:w-1/3 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
 								<div className="">
 									<SiPython className="skill-icon" />
@@ -107,7 +109,7 @@ const Skills = () => {
 							</div>
 						</div>
 						{/* Java */}
-						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+						<div className="w-full sm:w-1/3 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
 								<div>
 									<FaJava className="skill-icon" />
@@ -136,7 +138,7 @@ const Skills = () => {
 							</div>
 						</div>
 						{/* C# */}
-						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+						<div className="w-full sm:w-1/3 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
 								<div className="">
 									<TbBrandCSharp className="skill-icon" />
@@ -162,7 +164,7 @@ const Skills = () => {
 							</div>
 						</div>
 						{/* HTML */}
-						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+						<div className="w-full sm:w-1/3 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
 								<div>
 									<SiHtml5 className="skill-icon" />
@@ -194,7 +196,7 @@ const Skills = () => {
 							</div>
 						</div>
 						{/* CSS Frameworks */}
-						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+						<div className="w-full sm:w-1/3 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
 								<SiCss3 className="skill-icon" />
 								<span className="font-semibold text-2xl">
@@ -240,7 +242,7 @@ const Skills = () => {
 							</div>
 						</div>
 						{/* JavaScript */}
-						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+						<div className="w-full sm:w-1/3 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
 								<div>
 									<SiJavascript className="skill-icon" />
@@ -288,7 +290,7 @@ const Skills = () => {
 							</div>
 						</div>
 						{/* Node */}
-						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+						<div className="w-full sm:w-1/3 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
 								<div>
 									<SiNodedotjs className="skill-icon" />
@@ -336,7 +338,7 @@ const Skills = () => {
 							</div>
 						</div>
 						{/* React */}
-						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+						<div className="w-full sm:w-1/3 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
 								<div>
 									<SiReact className="skill-icon" />
@@ -388,7 +390,7 @@ const Skills = () => {
 							</div>
 						</div>
 						{/* Vue */}
-						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+						<div className="w-full sm:w-1/3 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
 								<div>
 									<SiVuedotjs className="skill-icon" />
@@ -406,18 +408,18 @@ const Skills = () => {
 										Vue
 									</div>
 									<div className="text-l font-medium">
-										Started - Soon
+										40%
 									</div>
 								</div>
 								<div className="flex mb-2 items-center justify-between">
 									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-yellow-200 w-[0%] h-2.5 rounded-full"></div>
+										<div className="bg-yellow-200 w-[40%] h-2.5 rounded-full"></div>
 									</div>
 								</div>
 							</div>
 						</div>
 						{/* Django */}
-						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+						<div className="w-full sm:w-1/3 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
 								<div>
 									<SiDjango className="skill-icon" />
@@ -446,7 +448,7 @@ const Skills = () => {
 							</div>
 						</div>
 						{/* Linux */}
-						<div className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+						<div className="w-full sm:w-1/3 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
 								<div>
 									<SiLinux className="skill-icon" />
@@ -470,6 +472,63 @@ const Skills = () => {
 								<div className="flex mb-2 items-center justify-between">
 									<div className="bg-bg rounded-full h-2.5 w-full">
 										<div className="bg-green-400 w-[10%] h-2.5 rounded-full"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h3 className="sub-section-title">
+					<FaStar className="skill-icon" /> Other
+				</h3>
+				<div className="flex justify-center">
+					<div className="flex flex-wrap justify-center gap-8 w-full">
+						<div className="w-full sm:w-1/3 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
+								<span className="font-semibold text-2xl">
+									中文 - Chinese
+								</span>
+							</div>
+							<div className="text-xs text-gray-400 mb-1">
+								你好
+							</div>
+							<div className="relative pt-1">
+								<div className="flex mb-2 items-center justify-between">
+									<div className="text-l font-medium">
+										中文
+									</div>
+									<div className="text-l font-medium">
+										HSK1
+									</div>
+								</div>
+								<div className="flex mb-2 items-center justify-between">
+									<div className="bg-bg rounded-full h-2.5 w-full">
+										<div className="bg-red-400 w-[16%] h-2.5 rounded-full"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="w-full sm:w-1/3 lg:w-1/3 px-4 py-2 bg-[#01111d] text-[#eeeeff] border-[0.5px] border-[#272b3b] rounded-md text-center hover:shadow-xl hover:p-5 duration-500">
+							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
+								<span className="font-semibold text-2xl">
+									ខ្មែរ - Khmer
+								</span>
+							</div>
+							<div className="text-xs text-gray-400 mb-1">
+								???
+							</div>
+							<div className="relative pt-1">
+								<div className="flex mb-2 items-center justify-between">
+									<div className="text-l font-medium">
+										ខ្មែរ
+									</div>
+									<div className="text-l font-medium">
+										??? (Can only listen)
+									</div>
+								</div>
+								<div className="flex mb-2 items-center justify-between">
+									<div className="bg-bg rounded-full h-2.5 w-full">
+										<div className="bg-blue-400 w-[16%] h-2.5 rounded-full"></div>
 									</div>
 								</div>
 							</div>

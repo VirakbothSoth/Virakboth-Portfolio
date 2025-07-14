@@ -1,6 +1,6 @@
 const Activity = () => {
   return (
-    <section className="py-80">
+    <section className="py-40">
       <div className="pb-20">
         <h2 className="section-title">
           Activity

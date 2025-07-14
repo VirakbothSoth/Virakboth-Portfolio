@@ -4,7 +4,7 @@ import { FaMap } from "react-icons/fa"
 
 const About = () => {
   return (
-    <section className="py-80" id="journey">
+    <section className="py-40" id="journey">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <h2 className="section-title">
           <FaMap /> Journey to Coding

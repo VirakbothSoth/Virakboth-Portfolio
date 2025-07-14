@@ -3,7 +3,7 @@ const face = "/assets/images/virakboth.jpg";
 const Hero = () => {
   return (
     <header className="bg-[url(/assets/images/bg.jpg)] mask-y-from-70% mask-y-to-90% bg-cover bg-center bg-no-repeat">
-      <div className="p-80">
+      <div className="p-40">
         <div>
           <div className="flex items-center justify-center mb-10">
             <span className="relative inline-block">
