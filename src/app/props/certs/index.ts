@@ -47,6 +47,7 @@ const cert = {
     dc: '/assets/images/certs/cisco_digitalcont.jpg',
     ud: '/assets/images/certs/cisco_usingdevice.jpg',
     lu: '/assets/images/certs/cisco_linuxunhatch.jpg',
+    ie: '/assets/images/certs/cisco_itessentials.jpg',
 
     // FreeCodeCamp Certificates
     fcc_scp: '/assets/images/certs/fcc_scp.jpg',

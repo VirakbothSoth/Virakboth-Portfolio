@@ -143,6 +143,7 @@ const Certs: React.FC = () => {
     { image: certs.dc, url: 'https://netacad.com/certificates?issuanceId=f32fb5f1-cd7f-4210-9e14-1b4a841edbdd', altText: 'Cisco Digital Content Creation Certificate' },
     { image: certs.ud, url: 'https://netacad.com/certificates?issuanceId=b91dac97-f5d9-4ea6-acab-9397fb44401b', altText: 'Cisco Using Devices Certificate' },
     { image: certs.lu, url: 'https://netacad.com/certificates?issuanceId=9a324cf8-27a8-488e-8cd3-c0af2158ac38', altText: 'Cisco Linux Unhatched Certificate' },
+    { image: certs.ie, url: 'https://www.credly.com/badges/c855812c-0fb6-4078-bd74-f457dd107228/public_url', altText: 'Cisco IT Essentials Certificate' },
   ]
 
   const otherCerts: CertificateItem[] = [
