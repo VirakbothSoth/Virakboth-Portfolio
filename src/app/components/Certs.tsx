@@ -30,6 +30,7 @@ const Certs: React.FC = () => {
     { image: certs.scss, url: 'https://coursera.org/verify/specialization/8933NEMMUJKF', altText: 'Scrimba CSS Specialization' },
     { image: certs.stws, url: 'https://coursera.org/verify/specialization/1H7XSF4EN98G', altText: 'Scrimba Tailwind CSS Specialization' },
     { image: certs.sjss, url: 'https://coursera.org/verify/specialization/AA8PRY1HQOZB', altText: 'Scrimba Javascript Specialization' },
+    { image: certs.saiweb, url: 'https://coursera.org/verify/specialization/U08DUWFQ0FMW', altText: 'Scrimba Gen AI Web Dev Specialization' },
   ]
 
   const cs50Certs: CertificateItem[] = [
@@ -135,6 +136,8 @@ const Certs: React.FC = () => {
     { image: certs.s4, url: 'https://coursera.org/verify/6YOVVKETFY5F', altText: 'Scrimba Deploy AI Apps with Cloudflare Certificate' },
     { image: certs.sosai, url: 'https://coursera.org/verify/L57TLZIKGTGR', altText: 'Scrimba Open-Source AI Models Certificate' },
     { image: certs.sgpt, url: 'https://coursera.org/verify/ROGNHTBQ1R3O', altText: 'Scrimba Build AI Apps with ChatGPT and Dall-E Certificate' },
+    { image: certs.scd, url: 'https://coursera.org/verify/XKP8LCFU1IB0', altText: 'Scrimba Claude with Cloudflare Certificate' },
+    { image: certs.scs, url: 'https://coursera.org/verify/ZOSUXAAFLX71', altText: 'Scrimba Vibe Coding with Cursor Certificate' },
     { image: certs.vpe, url: 'https://coursera.org/verify/5UQ6HQRO04K2', altText: 'Vanderbilt Prompt Engineering Certificate' },
     { image: certs.ib_gai, url: 'https://coursera.org/verify/ATE4NKGUNBT0', altText: 'IBM Generative AI : Prompt Engineering Certificate' },
   ]
@@ -194,6 +197,7 @@ const Certs: React.FC = () => {
         <h2 className="section-title">
           <PiCertificate /> Certificates ({specCerts.length + cs50Certs.length + webCerts.length + pyCerts.length + aiCerts.length + ciscoCerts.length + otherCerts.length})
         </h2>
+        <p><em>I know, that's a lot</em></p>
         <div>
           <div className="flex space-x-4 mb-6 justify-center">
             <button

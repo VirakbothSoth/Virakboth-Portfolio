@@ -14,6 +14,7 @@ const cert = {
     ss: '/assets/images/certs/scrim_aiweb_special.jpg',
     sjss: '/assets/images/certs/scrim_js_special.jpg',
     scss: '/assets/images/certs/scrim_css_special.jpg',
+    saiweb: '/assets/images/certs/scrim_genaiwebdev_special.jpg',
 
     // Meta Front-End
     f1: '/assets/images/certs/f1.jpg',
@@ -128,6 +129,8 @@ const cert = {
     stwc: '/assets/images/certs/scrim_tailwindcapstone.jpg',
     spy1: '/assets/images/certs/scrim_py1.jpg',
     se: '/assets/images/certs/scrim_ex.jpg',
+    scs: '/assets/images/certs/scrim_cursor.jpg',
+    scd: '/assets/images/certs/scrim_claude.jpg',
     vpe: '/assets/images/certs/vb_prompt.jpg',
 };
 

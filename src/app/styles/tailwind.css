@@ -45,7 +45,7 @@
 		@apply items-center;
 		@apply justify-center;
 		@apply gap-2;
-		@apply m-5;
+		@apply m-10;
 		@apply sm:text-2xl;
 		@apply md:text-5xl;
 	}
@@ -58,7 +58,7 @@
 		@apply items-center;
 		@apply justify-center;
 		@apply gap-2;
-		@apply m-5;
+		@apply m-10;
 		@apply sm:text-2xl;
 		@apply md:text-4xl;
 	}
