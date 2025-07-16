@@ -2,8 +2,8 @@ const face = "/assets/images/virakboth.jpg";
 
 const Hero = () => {
   return (
-    <header className="bg-[url(/assets/images/bg.jpg)] mask-y-from-70% mask-y-to-90% bg-cover bg-center bg-no-repeat">
-      <div className="p-40">
+    <header className="bg-[url(/assets/images/bg.jpg)] mask-y-from-60% mask-y-to-100% bg-cover bg-center bg-no-repeat">
+      <div className="py-40">
         <div>
           <div className="flex items-center justify-center mb-10">
             <span className="relative inline-block">
@@ -16,8 +16,7 @@ const Hero = () => {
             </span>
           </div>
           <div>
-            <h1 className="inline-block font-bold text-shadow-lg/30 ">Hi, I'm Virakboth</h1>
-            <h1 className="inline-block font-bold animate-blink text-shadow-lg/30 ">_</h1>
+            <h1 className="inline-block font-bold text-shadow-lg/30 ">Hi, I'm Virakboth<div className="animate-blink inline-flex">_</div></h1>
           </div>
           <p>
             A Passionate Cambodian Web (Front-End) & Python Developer and
