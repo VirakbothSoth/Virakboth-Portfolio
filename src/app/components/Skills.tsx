@@ -45,10 +45,10 @@ const Skills = () => {
 				<h2 className="section-title">
 					<FaStar className="skill-icon" /> Skills
 				</h2>
-				<h3 className="sub-section-title">
+				<h3 className="sub-section-title relative z-40">
 					<FaLaptopCode className="skill-icon" /> Programming
 				</h3>
-				<div className="flex justify-center">
+				<div className="flex justify-center relative z-40">
 					<div className="flex flex-wrap justify-center gap-8">
 						{/* Scratch */}
 						<div className="skill-card">

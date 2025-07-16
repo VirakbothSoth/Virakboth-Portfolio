@@ -206,6 +206,10 @@
 		@apply hover:-rotate-y-20;
 	}
 
+	.mockcode b {
+		@apply font-normal;
+	}
+
 	@media (max-width: 1700px) {
 		h1 {
 			@apply text-5xl;
