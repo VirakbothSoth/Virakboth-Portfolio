@@ -2,7 +2,7 @@ import { SiFacebook, SiLinkedin, SiGithub, SiLeetcode, SiHackerrank, SiCredly, S
 
 const Footer = () => {
 	return (
-		<footer className="bg-[#01111d] border-t-[0.5px] border-[#272b3b] w-full p-5" id="contact">
+		<footer className="bg-secondary border-t-[0.5px] border-border w-full p-5" id="contact">
 			<div>
 				<h2 className="font-bold mb-6">Find Me!</h2>
 				<div className="flex justify-center items-center space-x-4">

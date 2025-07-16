@@ -1,6 +1,7 @@
 import { RiNextjsFill, RiReactjsFill } from "react-icons/ri";
 import { FaStar, FaJava, FaLaptopCode } from "react-icons/fa";
 import {
+	SiScratch,
 	SiPython,
 	SiHtml5,
 	SiCss3,
@@ -47,7 +48,37 @@ const Skills = () => {
 				<h3 className="sub-section-title">
 					<FaLaptopCode className="skill-icon" /> Programming
 				</h3>
-				<div className="flex flex-wrap justify-center gap-4">
+				<div className="flex justify-center">
+					<div className="flex flex-wrap justify-center gap-8">
+						{/* Scratch */}
+						<div className="skill-card">
+							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
+								<div className="">
+									<SiScratch className="skill-icon" />
+								</div>
+								<span className="font-semibold text-2xl">
+									Scratch
+								</span>
+							</div>
+							<div className="text-xs text-gray-400 mb-1">
+								{helloWorldSnippets.Scratch}
+							</div>
+							<div className="relative pt-1">
+								<div className="flex mb-2 items-center justify-between">
+									<div className="text-l font-medium">
+										Scratch
+									</div>
+									<div className="text-l font-medium">
+										Mastered!
+									</div>
+								</div>
+								<div className="flex mb-2 items-center justify-between">
+									<div className="bg-bg rounded-full h-2.5 w-full">
+										<div className="bg-orange-400 w-[100%] h-2.5 rounded-full"></div>
+									</div>
+								</div>
+							</div>
+						</div>
 						{/* Python */}
 						<div className="skill-card">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
@@ -179,7 +210,7 @@ const Skills = () => {
 								<div className="flex mb-2 items-center justify-between">
 									<div className="text-l font-medium">
 										<span className="inline-block ">
-											<SiTailwindcss className="skill-icon" />
+											<SiTailwindcss />
 										</span>
 										Tailwind
 									</div>
@@ -194,10 +225,10 @@ const Skills = () => {
 								</div>
 								<div className="flex mb-2 items-center justify-between">
 									<div className="text-l font-medium">
-										<span className="inline-block">
-											<SiBootstrap className="skill-icon" />
+										<span className="inline-block ">
+											<SiBootstrap />
 										</span>
-										Bootstrap (Rarely in use)
+										Bootstrap (no longer in use)
 									</div>
 									<div className="text-l font-medium">
 										Mastered!
@@ -445,12 +476,13 @@ const Skills = () => {
 								</div>
 							</div>
 						</div>
+					</div>
 				</div>
 				<h3 className="sub-section-title">
 					<FaStar className="skill-icon" /> Other
 				</h3>
 				<div className="flex justify-center">
-					<div className="flex flex-wrap justify-center gap-4 w-full">
+					<div className="flex flex-wrap justify-center gap-8 w-full">
 						<div className="skill-card">
 							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
 								<span className="font-semibold text-2xl">

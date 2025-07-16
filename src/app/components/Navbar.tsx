@@ -1,6 +1,6 @@
 const Navbar = () => {
 	return (
-		<nav className="bg-[#01111d] border-b-[0.5px] border-[#272b3b] p-4 rounded-full">
+		<nav className="bg-secondary border-b-[0.5px] border-border p-4 rounded-full">
 			<div className="container mx-auto flex justify-end items-center">
 				<ul className="flex space-x-8 ml-auto">
 					<li>

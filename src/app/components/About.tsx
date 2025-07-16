@@ -7,7 +7,12 @@ const About = () => {
     <section className="py-40" id="about">
       <div className="container mx-auto w-full max-w-4xl px-4">
         <h2 className="section-title"><FaBook /> About Me</h2>
-        <div className="bg-gray-800 rounded-lg w-full">
+        <div className="bg-gray-800 rounded-lg w-full" id="a">
+          <div className="flex gap-2 px-4 py-2 bg-gray-700 rounded-t-lg">
+            <span className="w-3 h-3 bg-red-400 rounded-full inline-block"></span>
+            <span className="w-3 h-3 bg-yellow-400 rounded-full inline-block"></span>
+            <span className="w-3 h-3 bg-green-500 rounded-full inline-block"></span>
+          </div>
           <div className="journey-container">
             <div className="pl-3 journey-container-alt">
               <p>I'm a 14 year old developer from <b>Cambodia</b> that can make websites & simple programs.</p>
