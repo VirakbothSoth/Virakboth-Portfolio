@@ -91,12 +91,12 @@
 
 	button {
 		@apply p-2;
-		@apply m-2;
 		@apply bg-bg;
 		@apply hover:bg-bg-hover;
 		@apply duration-500;
 		@apply border-[0.5px];
 		@apply border-border;
+		@apply rounded-lg;
 	}
 
 	.journey-container {
