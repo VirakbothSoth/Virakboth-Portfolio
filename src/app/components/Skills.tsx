@@ -1,543 +1,312 @@
-import { RiNextjsFill, RiReactjsFill } from "react-icons/ri";
 import { FaStar, FaJava, FaLaptopCode } from "react-icons/fa";
 import {
-	SiScratch,
-	SiPython,
-	SiHtml5,
-	SiCss3,
-	SiJavascript,
-	SiReact,
-	SiBootstrap,
-	SiTailwindcss,
-	SiDjango,
-	SiNodedotjs,
-	SiLinux,
-	SiTypescript,
-	SiExpress,
-	SiVuedotjs
+  SiPython,
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiReact,
+  SiBootstrap,
+  SiTailwindcss,
+  SiDjango,
+  SiNodedotjs,
+  SiTypescript,
+  SiExpress,
+  SiVuedotjs,
+  SiNextdotjs,
+  SiGnubash,
 } from "react-icons/si";
-import { TbBrandCSharp } from "react-icons/tb";
-
-const txt = "Hello World!";
-const htm = `<h1>${txt}</h1>`;
-
-const helloWorldSnippets = {
-	txt: txt,
-	NoHi: " ",
-	Scratch: `say "${txt}"`,
-	Python: `print("${txt}")`,
-	Java: `System.out.println("${txt}");`,
-	CS: `Console.WriteLine("${txt}");`,
-	HTML: htm,
-	JS: `console.log("${txt}");`,
-	React: `const App = () => return ${htm}`,
-	Next: `export default () => return ${htm}`,
-	Django: `return HttpResponse("${txt}")`,
-	Node: `res.end("${txt}");`,
-	Linux: `echo "${txt}"`,
-	Vue: `message: "${txt}"`,
-};
 
 const Skills = () => {
-	return (
-		<section id="skills" className="py-20">
-			<div className="container mx-auto">
-				<h2 className="section-title">
-					<FaStar className="skill-icon" /> Skills
-				</h2>
-				<h3 className="sub-section-title relative z-40">
-					<FaLaptopCode className="skill-icon" /> Programming
-				</h3>
-				<div className="flex justify-center relative z-40">
-					<div className="flex flex-wrap justify-center gap-8">
-						{/* Scratch */}
-						<div className="skill-card">
-							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
-								<div className="">
-									<SiScratch className="skill-icon" />
-								</div>
-								<span className="font-semibold text-2xl">
-									Scratch
-								</span>
-							</div>
-							<div className="text-xs text-gray-400 mb-1">
-								{helloWorldSnippets.Scratch}
-							</div>
-							<div className="relative pt-1">
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										Scratch
-									</div>
-									<div className="text-l font-medium">
-										Mastered!
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-orange-400 w-[100%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
+  return (
+    <section id="skills" className="py-20">
+      <div className="container mx-auto">
+        <h2 className="section-title">
+          <FaStar className="skill-icon" /> Skills
+        </h2>
+        <h3 className="sub-section-title">
+          <FaLaptopCode className="skill-icon" /> Programming
+        </h3>
+        <div className="flex justify-center">
+          <div className="flex flex-wrap justify-center gap-8">
+            <div className="skill-card">
+              <div className="control-mockup">
+                <span className="w-3 h-3 bg-red-400 rounded-full inline-block"></span>
+                <span className="w-3 h-3 bg-yellow-400 rounded-full inline-block"></span>
+                <span className="w-3 h-3 bg-green-500 rounded-full inline-block"></span>
+              </div>
+              <div className="skill-content">
+                <h3>Generic Coding Languages</h3>
+                <div className="skill-icons-container">
+					<div className="icon-div">
+						<SiPython className="skill-icon" />
+						<h6>Python</h6>
+						<p>Pro Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-blue-500 w-[80%] h-2.5 rounded-full"></div>
 							</div>
 						</div>
-						{/* Python */}
-						<div className="skill-card">
-							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
-								<div className="">
-									<SiPython className="skill-icon" />
-								</div>
-								<span className="font-semibold text-2xl">
-									Python
-								</span>
-							</div>
-							<div className="text-xs text-gray-400 mb-1">
-								{helloWorldSnippets.Python}
-							</div>
-							<div className="relative pt-1">
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										Python
-									</div>
-									<div className="text-l font-medium">
-										Mastered!
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-blue-400 w-[100%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
+					</div>
+					<div className="icon-div">
+						<FaJava className="skill-icon" />
+						<h6>Java</h6>
+						<p>Ok Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-green-500 w-[50%] h-2.5 rounded-full"></div>
 							</div>
 						</div>
-						{/* Java */}
-						<div className="skill-card">
-							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
-								<div>
-									<FaJava className="skill-icon" />
-								</div>
-								<span className="font-semibold text-2xl">
-									Java
-								</span>
-							</div>
-							<div className="text-xs text-gray-400 mb-1">
-								{helloWorldSnippets.Java}
-							</div>
-							<div className="relative pt-1">
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										Java
-									</div>
-									<div className="text-l font-medium">
-										52%
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-yellow-400 w-[52%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						{/* C# */}
-						<div className="skill-card">
-							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
-								<div className="">
-									<TbBrandCSharp className="skill-icon" />
-								</div>
-							</div>
-							<div className="text-xs text-gray-400 mb-1">
-								{helloWorldSnippets.CS}
-							</div>
-							<div className="relative pt-1">
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										C#
-									</div>
-									<div className="text-l font-medium">
-										60%
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-blue-500 w-[60%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						{/* HTML */}
-						<div className="skill-card">
-							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
-								<div>
-									<SiHtml5 className="skill-icon" />
-								</div>
-								<span className="font-semibold text-2xl">
-									HTML & CSS
-								</span>
-								<div>
-									<SiCss3 className="skill-icon" />
-								</div>
-							</div>
-							<div className="text-xs text-gray-400 mb-1">
-								{helloWorldSnippets.HTML}
-							</div>
-							<div className="relative pt-1">
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										HTML & CSS
-									</div>
-									<div className="text-l font-medium">
-										Mastered!
-									</div>
-								</div>
-							</div>
-							<div className="flex mb-2 items-center justify-between">
-								<div className="bg-bg rounded-full h-2.5 w-full">
-									<div className="bg-red-400 w-[100%] h-2.5 rounded-full"></div>
-								</div>
-							</div>
-						</div>
-						{/* CSS Frameworks */}
-						<div className="skill-card">
-							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
-								<SiCss3 className="skill-icon" />
-								<span className="font-semibold text-2xl">
-									CSS Frameworks
-								</span>
-							</div>
-							<div className="text-xs text-gray-400 mb-1 pb-4">
-								{helloWorldSnippets.NoHi}
-							</div>
-							<div className="relative pt-1">
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										<span className="inline-block ">
-											<SiTailwindcss />
-										</span>
-										Tailwind
-									</div>
-									<div className="text-l font-medium">
-										Mastered!
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-sky-500 w-[100%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										<span className="inline-block ">
-											<SiBootstrap />
-										</span>
-										Bootstrap (no longer in use)
-									</div>
-									<div className="text-l font-medium">
-										Mastered!
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-blue-600 w-[100%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						{/* JavaScript */}
-						<div className="skill-card">
-							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
-								<div>
-									<SiJavascript className="skill-icon" />
-								</div>
-								<span className="font-semibold text-2xl">
-									JavaScript
-								</span>
-							</div>
-							<div className="text-xs text-gray-400 mb-1">
-								{helloWorldSnippets.JS}
-							</div>
-							<div className="relative pt-1">
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										<span className="inline-block skill-icon">
-											<SiJavascript />
-										</span>
-										JavaScript
-									</div>
-									<div className="text-l font-medium">
-										80%
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-green-400 w-[80%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										<span className="inline-block skill-icon">
-											<SiTypescript />
-										</span>
-										TypeScript
-									</div>
-									<div className="text-l font-medium">
-										42%
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-blue-400 w-[42%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						{/* Node */}
-						<div className="skill-card">
-							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
-								<div>
-									<SiNodedotjs className="skill-icon" />
-								</div>
-								<span className="font-semibold text-2xl">
-									NodeJS
-								</span>
-							</div>
-							<div className="text-xs text-gray-400 mb-1">
-								{helloWorldSnippets.Node}
-							</div>
-							<div className="relative pt-1">
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										<span className="inline-block skill-icon">
-											<SiNodedotjs />
-										</span>
-										Node
-									</div>
-									<div className="text-l font-medium">
-										40%
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-green-400 w-[40%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										<span className="inline-block skill-icon">
-											<SiExpress />
-										</span>
-										Express
-									</div>
-									<div className="text-l font-medium">
-										30%
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-gray-800 w-[30%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						{/* React */}
-						<div className="skill-card">
-							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
-								<div>
-									<SiReact className="skill-icon" />
-								</div>
-								<span className="font-semibold text-2xl">
-									React
-								</span>
-							</div>
-							<div className="text-xs text-gray-400 mb-1">
-								{helloWorldSnippets.React}
-							</div>
-							<div className="relative pt-1">
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										<span className="inline-block skill-icon">
-											<RiReactjsFill />
-										</span>
-										React
-									</div>
-									<div className="text-l font-medium">
-										Mastered!
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="flex mb-2 items-center justify-between">
-											<div className="bg-bg rounded-full h-2.5 w-full">
-												<div className="bg-blue-400 w-[100%] h-2.5 rounded-full"></div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										<span className="inline-block skill-icon">
-											<RiNextjsFill />
-										</span>
-										Next.js
-									</div>
-									<div className="text-l font-medium">
-										Mastered!
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-gray-700 w-[100%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						{/* Vue */}
-						<div className="skill-card">
-							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
-								<div>
-									<SiVuedotjs className="skill-icon" />
-								</div>
-								<span className="font-semibold text-2xl">
-									Vue
-								</span>
-							</div>
-							<div className="text-xs text-gray-400 mb-1">
-								{helloWorldSnippets.Vue}
-							</div>
-							<div className="relative pt-1">
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										Vue
-									</div>
-									<div className="text-l font-medium">
-										40%
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-yellow-200 w-[40%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						{/* Django */}
-						<div className="skill-card">
-							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
-								<div>
-									<SiDjango className="skill-icon" />
-								</div>
-								<span className="font-semibold text-2xl">
-									Django
-								</span>
-							</div>
-							<div className="text-xs text-gray-400 mb-1">
-								{helloWorldSnippets.Django}
-							</div>
-							<div className="relative pt-1">
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										Django
-									</div>
-									<div className="text-l font-medium">
-										30%
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-orange-400 w-[30%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-						{/* Linux */}
-						<div className="skill-card">
-							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
-								<div>
-									<SiLinux className="skill-icon" />
-								</div>
-								<span className="font-semibold text-2xl">
-									Linux
-								</span>
-							</div>
-							<div className="text-xs text-gray-400 mb-1">
-								{helloWorldSnippets.Linux}
-							</div>
-							<div className="relative pt-1">
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										Linux Bash Commands
-									</div>
-									<div className="text-l font-medium">
-										10%
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-green-400 w-[10%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
+					</div>
+					<div className="icon-div">
+						<h6 className="text-5xl">C#</h6>
+						<h6 className="invisible">e</h6>
+						<p>Ok Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-slate-500 w-[50%] h-2.5 rounded-full"></div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<h3 className="sub-section-title">
-					<FaStar className="skill-icon" /> Other
-				</h3>
-				<div className="flex justify-center">
-					<div className="flex flex-wrap justify-center gap-8 w-full">
-						<div className="skill-card">
-							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
-								<span className="font-semibold text-2xl">
-									中文 - Chinese
-								</span>
-							</div>
-							<div className="text-xs text-gray-400 mb-1">
-								你好
-							</div>
-							<div className="relative pt-1">
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										中文
-									</div>
-									<div className="text-l font-medium">
-										HSK1
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-red-400 w-[16%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
+              </div>
+            </div>
+			<div className="skill-card">
+              <div className="control-mockup">
+                <span className="w-3 h-3 bg-red-400 rounded-full inline-block"></span>
+                <span className="w-3 h-3 bg-yellow-400 rounded-full inline-block"></span>
+                <span className="w-3 h-3 bg-green-500 rounded-full inline-block"></span>
+              </div>
+              <div className="skill-content">
+                <h3>Core Web Languages</h3>
+                <div className="skill-icons-container">
+					<div className="icon-div">
+						<SiHtml5 className="skill-icon" />
+						<h6>HTML</h6>
+						<p>Pro Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-red-500 w-[80%] h-2.5 rounded-full"></div>
 							</div>
 						</div>
-						<div className="skill-card">
-							<div className="flex items-center justify-center mb-2 text-3xl gap-2">
-								<span className="font-semibold text-2xl">
-									ខ្មែរ - Khmer
-								</span>
+					</div>
+					<div className="icon-div">
+						<SiCss3 className="skill-icon" />
+						<h6>CSS</h6>
+						<p>Pro Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-blue-500 w-[70%] h-2.5 rounded-full"></div>
 							</div>
-							<div className="text-xs text-gray-400 mb-1">
-								???
+						</div>
+					</div>
+					<div className="icon-div">
+						<SiJavascript className="skill-icon" />
+						<h6>Javascript</h6>
+						<p>Ok Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-yellow-500 w-[60%] h-2.5 rounded-full"></div>
 							</div>
-							<div className="relative pt-1">
-								<div className="flex mb-2 items-center justify-between">
-									<div className="text-l font-medium">
-										ខ្មែរ
-									</div>
-									<div className="text-l font-medium">
-										??? (Can only listen)
-									</div>
-								</div>
-								<div className="flex mb-2 items-center justify-between">
-									<div className="bg-bg rounded-full h-2.5 w-full">
-										<div className="bg-blue-400 w-[16%] h-2.5 rounded-full"></div>
-									</div>
-								</div>
+						</div>
+						<h6 className="inline-flex items-center gap-1 py-1"><SiTypescript />Typescript</h6>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-blue-900 w-[50%] h-2.5 rounded-full"></div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-	);
+              </div>
+            </div>
+			<div className="skill-card">
+              <div className="control-mockup">
+                <span className="w-3 h-3 bg-red-400 rounded-full inline-block"></span>
+                <span className="w-3 h-3 bg-yellow-400 rounded-full inline-block"></span>
+                <span className="w-3 h-3 bg-green-500 rounded-full inline-block"></span>
+              </div>
+              <div className="skill-content">
+                <h3>CSS Frameworks</h3>
+                <div className="skill-icons-container">
+					<div className="icon-div">
+						<SiTailwindcss className="skill-icon" />
+						<h6>Tailwind</h6>
+						<p>Pro Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-blue-300 w-[70%] h-2.5 rounded-full"></div>
+							</div>
+						</div>
+					</div>
+					<div className="icon-div">
+						<SiBootstrap className="skill-icon" />
+						<h6>Bootstrap</h6>
+						<p>Pro Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-purple-500 w-[70%] h-2.5 rounded-full"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+              </div>
+            </div>
+			<div className="skill-card">
+              <div className="control-mockup">
+                <span className="w-3 h-3 bg-red-400 rounded-full inline-block"></span>
+                <span className="w-3 h-3 bg-yellow-400 rounded-full inline-block"></span>
+                <span className="w-3 h-3 bg-green-500 rounded-full inline-block"></span>
+              </div>
+              <div className="skill-content">
+                <h3>Backend Frameworks</h3>
+                <div className="skill-icons-container">
+					<div className="icon-div">
+						<SiNodedotjs className="skill-icon" />
+						<h6>NodeJS</h6>
+						<p>Noob Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-green-400 w-[60%] h-2.5 rounded-full"></div>
+							</div>
+						</div>
+					</div>
+					<div className="icon-div">
+						<SiExpress className="skill-icon" />
+						<h6>Express</h6>
+						<p>Noob Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-gray-400 w-[50%] h-2.5 rounded-full"></div>
+							</div>
+						</div>
+					</div>
+					<div className="icon-div">
+						<SiDjango className="skill-icon" />
+						<h6>Django</h6>
+						<p>Ok Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-orange-400 w-[60%] h-2.5 rounded-full"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+              </div>
+            </div>
+			<div className="skill-card">
+              <div className="control-mockup">
+                <span className="w-3 h-3 bg-red-400 rounded-full inline-block"></span>
+                <span className="w-3 h-3 bg-yellow-400 rounded-full inline-block"></span>
+                <span className="w-3 h-3 bg-green-500 rounded-full inline-block"></span>
+              </div>
+              <div className="skill-content">
+                <h3>Frontend Frameworks</h3>
+                <div className="skill-icons-container">
+					<div className="icon-div">
+						<SiReact className="skill-icon" />
+						<h6>ReactJS</h6>
+						<p>Pro Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-blue-400 w-[80%] h-2.5 rounded-full"></div>
+							</div>
+						</div>
+					</div>
+					<div className="icon-div">
+						<SiNextdotjs className="skill-icon" />
+						<h6>NextJS</h6>
+						<p>Pro Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-gray-600 w-[70%] h-2.5 rounded-full"></div>
+							</div>
+						</div>
+					</div>
+					<div className="icon-div">
+						<SiVuedotjs className="skill-icon" />
+						<h6>VueJS</h6>
+						<p>Ok Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-green-600 w-[40%] h-2.5 rounded-full"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+              </div>
+            </div>
+            <div className="skill-card">
+              <div className="control-mockup">
+                <span className="w-3 h-3 bg-red-400 rounded-full inline-block"></span>
+                <span className="w-3 h-3 bg-yellow-400 rounded-full inline-block"></span>
+                <span className="w-3 h-3 bg-green-500 rounded-full inline-block"></span>
+              </div>
+              <div className="skill-content">
+                <h3>Frontend Frameworks</h3>
+                <div className="skill-icons-container">
+					<div className="icon-div">
+						<SiGnubash className="skill-icon" />
+						<h6>Linux/Bash Commands</h6>
+						<p>Ok Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-gray-600 w-[50%] h-2.5 rounded-full"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3 className="sub-section-title">
+          <FaStar className="skill-icon" /> Other
+        </h3>
+        <div className="flex justify-center">
+          <div className="flex flex-wrap justify-center gap-8">
+            <div className="skill-card">
+              <div className="control-mockup">
+                <span className="w-3 h-3 bg-red-400 rounded-full inline-block"></span>
+                <span className="w-3 h-3 bg-yellow-400 rounded-full inline-block"></span>
+                <span className="w-3 h-3 bg-green-500 rounded-full inline-block"></span>
+              </div>
+              <div className="skill-content">
+                <h3>Languages</h3>
+                <div className="skill-icons-container">
+					<div className="icon-div">
+						<h6>English</h6>
+						<p>Pro Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-blue-400 w-[80%] h-2.5 rounded-full"></div>
+							</div>
+						</div>
+					</div>
+					<div className="icon-div">
+						<h6>Chinese</h6>
+						<p>HSK1 Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-red-400 w-[50%] h-2.5 rounded-full"></div>
+							</div>
+						</div>
+					</div>
+					<div className="icon-div">
+						<h6>Khmer</h6>
+						<p>Can only listen</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-blue-600 w-[50%] h-2.5 rounded-full"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default Skills;
