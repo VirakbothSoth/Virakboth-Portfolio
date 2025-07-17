@@ -27,7 +27,7 @@ const Skills = () => {
           <FaLaptopCode className="skill-icon" /> Programming
         </h3>
         <div className="flex justify-center">
-          <div className="flex flex-wrap justify-center gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             <div className="skill-card">
               <div className="control-mockup">
                 <span className="w-3 h-3 bg-red-400 rounded-full inline-block"></span>
@@ -241,7 +241,7 @@ const Skills = () => {
                 <span className="w-3 h-3 bg-green-500 rounded-full inline-block"></span>
               </div>
               <div className="skill-content">
-                <h3>Frontend Frameworks</h3>
+                <h3>Other</h3>
                 <div className="skill-icons-container">
 					<div className="icon-div">
 						<SiGnubash className="skill-icon" />

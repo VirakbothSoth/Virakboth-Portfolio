@@ -88,7 +88,7 @@
 	}	
 
 	.skill-icon {
-		@apply text-5xl;
+		@apply text-3xl lg:text-5xl;
 	}
 
 	.skill-icon > svg {
@@ -161,13 +161,13 @@
 	}
 
 	.skill-card {
-		@apply bg-bg;
-		@apply duration-500;
-		@apply hover:bg-bg-hover;
-		@apply border-[0.5px];
-		@apply border-border;
-		@apply rounded-2xl;
-		@apply max-sm:hidden;
+  		@apply bg-bg duration-500 hover:bg-bg-hover border-[0.5px] border-border rounded-2xl;
+  		@apply w-full max-w-[280px] lg:max-w-[512px]; /* responsive max width */
+	}
+
+
+	.skill-content > h3 {
+		@apply text-xl lg:text-3xl font-bold mb-5;
 	}
 
 	.project-card {
@@ -184,10 +184,6 @@
 		@apply p-5 hover:p-6 duration-500;
 	}
 
-	.skill-content > h3 {
-		@apply text-3xl font-bold mb-5;
-	}
-
 	.skill-icons-container {
 		@apply flex items-center justify-center gap-8;
 	}
@@ -197,7 +193,7 @@
 	}
 
 	.icon-div > h6 {
-		@apply text-sm font-semibold;
+		@apply text-xs sm:text-sm font-semibold;
 	}
 	
 	.icon-div > p {
