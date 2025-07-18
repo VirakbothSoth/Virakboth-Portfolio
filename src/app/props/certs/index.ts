@@ -49,13 +49,14 @@ const cert = {
     ud: '/assets/images/certs/cisco_usingdevice.jpg',
     lu: '/assets/images/certs/cisco_linuxunhatch.jpg',
     ie: '/assets/images/certs/cisco_itessentials.jpg',
+    py1: '/assets/images/certs/cisco_py1.jpg',
 
     // FreeCodeCamp Certificates
     fcc_scp: '/assets/images/certs/fcc_scp.jpg',
     fcc_rwd: '/assets/images/certs/fcc_rwd.jpg',
     fcc_fdl: '/assets/images/certs/fcc_fdl.jpg',
 
-    // FreeCodeCamp Certificates
+    // HackerRank Certificates
     hr_py: '/assets/images/certs/hr_py.jpg',
     hr_fe: '/assets/images/certs/hr_frontend.jpg',
 
@@ -93,6 +94,7 @@ const cert = {
     // Microsoft
     msw: '/assets/images/certs/ms_web.jpg',
     mscs: '/assets/images/certs/ms_cs.jpg',
+    msvs: '/assets/images/certs/ms_vs.jpg',
 
     // AI and Scrimba Certificates
     s1: '/assets/images/certs/scrim_learncodeai.jpg',
@@ -132,6 +134,7 @@ const cert = {
     scs: '/assets/images/certs/scrim_cursor.jpg',
     scd: '/assets/images/certs/scrim_claude.jpg',
     vpe: '/assets/images/certs/vb_prompt.jpg',
+    hp_ai: '/assets/images/certs/hp_ai.jpg',
 };
 
 export default cert;

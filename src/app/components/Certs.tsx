@@ -123,6 +123,7 @@ const Certs: React.FC = () => {
     { image: certs.p3, url: 'https://coursera.org/verify/MTNK7QQL6XA3', altText: 'UOM Python Web Data Certificate' },
     { image: certs.b2, url: 'https://coursera.org/verify/76NFVZC1XF3E', altText: 'Meta Python Certificate' },
     { image: certs.glepy, url: 'https://coursera.org/verify/6QAFCSYOL2LM', altText: 'Google Python Certificate' },
+    { image: certs.py1, url: 'https://netacad.com/certificates?issuanceId=4f5b3c5a-86b2-42ac-98d2-a4e2f791d4d1', altText: 'Netacad Python Essentials Certificate' },
     { image: certs.cpyi, url: 'https://coursera.org/verify/QJU4XE2SQ5AE', altText: 'Coursera Intro to Python Certificate' },
     { image: certs.spy1, url: 'https://coursera.org/verify/E5ASTFAHPMSF', altText: 'Scrimba Python (1/3) Certificate' },
     { image: certs.fcc_scp, url: 'https://freecodecamp.org/certification/virakboth_soth/scientific-computing-with-python-v7', altText: 'FreeCodeCamp Scientific Python Certificate' },
@@ -140,19 +141,21 @@ const Certs: React.FC = () => {
     { image: certs.scs, url: 'https://coursera.org/verify/ZOSUXAAFLX71', altText: 'Scrimba Vibe Coding with Cursor Certificate' },
     { image: certs.vpe, url: 'https://coursera.org/verify/5UQ6HQRO04K2', altText: 'Vanderbilt Prompt Engineering Certificate' },
     { image: certs.ib_gai, url: 'https://coursera.org/verify/ATE4NKGUNBT0', altText: 'IBM Generative AI : Prompt Engineering Certificate' },
+    { image: certs.hp_ai, url: 'https://www.life-global.org/certificate/2a945a56-4422-4024-b728-1a613e522537', altText: 'HP Life AI for Beginners Certificate' },
   ]
 
   const ciscoCerts: CertificateItem[] = [
     { image: certs.dc, url: 'https://netacad.com/certificates?issuanceId=f32fb5f1-cd7f-4210-9e14-1b4a841edbdd', altText: 'Cisco Digital Content Creation Certificate' },
     { image: certs.ud, url: 'https://netacad.com/certificates?issuanceId=b91dac97-f5d9-4ea6-acab-9397fb44401b', altText: 'Cisco Using Devices Certificate' },
     { image: certs.lu, url: 'https://netacad.com/certificates?issuanceId=9a324cf8-27a8-488e-8cd3-c0af2158ac38', altText: 'Cisco Linux Unhatched Certificate' },
-    { image: certs.ie, url: 'https://www.credly.com/badges/c855812c-0fb6-4078-bd74-f457dd107228/public_url', altText: 'Cisco IT Essentials Certificate' },
+    { image: certs.ie, url: 'https://credly.com/badges/c855812c-0fb6-4078-bd74-f457dd107228/public_url', altText: 'Cisco IT Essentials Certificate' },
   ]
 
   const otherCerts: CertificateItem[] = [
     { image: certs.kkdo, url: 'https://coursera.org/verify/R9HSOD5OBJOA', altText: 'KodeKloud DevOps Prerequisite Certificate' },
     { image: certs.kkg, url: 'https://coursera.org/verify/D0BKDQNSC6L0', altText: 'KodeKloud Git Basics Certificate' },
     { image: certs.mscs, url: 'https://coursera.org/verify/KHX06Q6QZ10K', altText: 'Microsoft Intro to C# Certificate' },
+    { image: certs.msvs, url: 'https://coursera.org/verify/1MDEAOHLGLZZ', altText: 'Microsoft VS Code and Github Copilot Certificate' },
     { image: certs.ib_jv, url: 'https://coursera.org/verify/LYR0T1VUSYH8', altText: 'IBM Java Certificate' },
     { image: certs.iv, url: 'https://coursera.org/verify/74FG463109SB', altText: 'Meta Coding Interview Certificate' },
     { image: certs.ve, url: 'https://coursera.org/verify/4NSF48QD3FIS', altText: 'Meta Version Control Certificate' },
