@@ -56,7 +56,7 @@ const Notes = () => {
             </div>
           </div>
           <div className="note-card">
-            <h3 className="text-3xl font-bold mb-[50px]">Please Review Us!</h3>
+            <h3 className="text-3xl font-bold mb-[50px]">Please Review Me!</h3>
             <div className="bg-gray-800 rounded-lg">
               { state ? (
               <div className="p-5">

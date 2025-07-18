@@ -66,9 +66,24 @@ const Projects = () => {
           <div className="card">
             <div className="mb-5">
               <h3 className="text-3xl font-bold flex items-center gap-4">
+                A&B
+              </h3>
+              <p className="text-gray-400">Early-Mid 2024</p>
+              <p className="flex items-center">
+                <SiPython />
+              </p>
+            </div>
+            <p>I took a small python course here, since I'm not old enough to really study there</p>
+            <a href="https://anbschool.org" target="_blank" className="font-bold text-b">
+              Website
+            </a>
+          </div>
+          <div className="card">
+            <div className="mb-5">
+              <h3 className="text-3xl font-bold flex items-center gap-4">
                 SnoopEdu
               </h3>
-              <p className="text-gray-400">2024</p>
+              <p className="text-gray-400">Late 2024</p>
               <p className="flex items-center">
                 <SiHtml5 /><SiCss3 /><SiJavascript />
               </p>
