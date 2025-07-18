@@ -20,7 +20,7 @@ const Certificate: React.FC<CertProp> = ({ image, url, altText }) => {
           alt={altText}
           width={200}
           height={156}
-          className="w-auto h-64 object-contain"
+          className="w-auto h-32 lg:h-64 object-contain"
         />
       </a>
     </figure>

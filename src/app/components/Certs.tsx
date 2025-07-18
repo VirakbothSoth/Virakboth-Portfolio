@@ -243,7 +243,7 @@ const Certs: React.FC = () => {
               <HiOutlineDotsHorizontal /> Etc. <span className="cert-category-button-text">({otherCerts.length})</span>
             </button>
           </div>
-          <div className="py-10 grid grid-cols-1 md:grid-cols-3 gap-10 rounded-lg">
+          <div className="py-10 grid grid-cols-2 lg:grid-cols-3 gap-10 rounded-lg">
             {renderCertificates()}
           </div>
         </div>
