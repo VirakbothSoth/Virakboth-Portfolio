@@ -177,6 +177,7 @@
 		@apply border-[0.5px];
 		@apply border-border;
 		@apply rounded-2xl;
+		@apply duration-500;
 	}
 
 	.project-content, .skill-content {

@@ -71,10 +71,10 @@ const Footer = () => {
 						<SiCodewars className="w-10 h-10" />
 					</a>
 					<a
-						href="///fcc"
+						href="/fcc"
 						target="_blank"
 						rel="noopener noreferrer"
-						className="text-gray-600 hover:text-black transition-colors"
+						className="text-gray-600 hover:text-white hover:bg-black transition-colors"
 					>
 						<SiFreecodecamp className="w-10 h-10" />
 					</a>
