@@ -11,7 +11,6 @@ import {
 } from "react-icons/si";
 import prev from "../props/preview";
 import { FaCode } from "react-icons/fa";
-import { IoMdClose } from "react-icons/io";
 
 const Schools = () => {
   return (
@@ -242,9 +241,6 @@ const Schools = () => {
               <div>
                 <div className="flex items-start justify-between">
                   <h3 className="text-3xl font-bold">Scratch Projects</h3>
-                  <span className="cursor-pointer text-gray-700 text-2xl">
-                    <IoMdClose />
-                  </span>
                 </div>
                 <p className="text-xl text-gray-400">
                   <em>at CS50S, Algorithmics</em>
