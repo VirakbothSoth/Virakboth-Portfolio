@@ -173,7 +173,6 @@
 	.project-card {
 		@apply p-0;
 		@apply bg-bg;
-		@apply hover:p-0;
 		@apply hover:bg-bg-hover;
 		@apply border-[0.5px];
 		@apply border-border;
