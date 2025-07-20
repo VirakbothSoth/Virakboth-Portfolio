@@ -14,6 +14,7 @@ import {
   SiVuedotjs,
   SiNextdotjs,
   SiGnubash,
+  SiFirebase,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -170,6 +171,16 @@ const Skills = () => {
 						</div>
 					</div>
 					<div className="icon-div">
+						<SiFirebase className="skill-icon" />
+						<h6>Firebase</h6>
+						<p>Noob Level</p>
+						<div className="progress-div">
+							<div className="rounded-full h-2.5 w-full">
+								<div className="bg-orange-400 w-[30%] h-2.5 rounded-full"></div>
+							</div>
+						</div>
+					</div>
+					<div className="icon-div">
 						<SiExpress className="skill-icon" />
 						<h6>Express</h6>
 						<p>Noob Level</p>
@@ -293,11 +304,6 @@ const Skills = () => {
 					<div className="icon-div">
 						<h6>Khmer</h6>
 						<p>Can only listen</p>
-						<div className="progress-div">
-							<div className="rounded-full h-2.5 w-full">
-								<div className="bg-blue-600 w-[50%] h-2.5 rounded-full"></div>
-							</div>
-						</div>
 					</div>
 				</div>
               </div>
