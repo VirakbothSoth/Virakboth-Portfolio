@@ -127,7 +127,7 @@ const Certs: React.FC = () => {
     { image: certs.cpyi, url: 'https://coursera.org/verify/QJU4XE2SQ5AE', altText: 'Coursera Intro to Python Certificate' },
     { image: certs.spy1, url: 'https://coursera.org/verify/E5ASTFAHPMSF', altText: 'Scrimba Python (1/3) Certificate' },
     { image: certs.fcc_scp, url: 'https://freecodecamp.org/certification/virakboth_soth/scientific-computing-with-python-v7', altText: 'FreeCodeCamp Scientific Python Certificate' },
-    { image: certs.ibm_pyda, url: 'https://credly.com/badges/9a1d8626-ab48-4b1b-bd47-4f8a649c9adf', altText: 'IBM Python for Data Science and AI Badge' },
+    { image: certs.ib_pyda, url: 'https://credly.com/badges/9a1d8626-ab48-4b1b-bd47-4f8a649c9adf', altText: 'IBM Python for Data Science and AI Badge' },
   ]
 
   const aiCerts: CertificateItem[] = [
@@ -157,6 +157,7 @@ const Certs: React.FC = () => {
     { image: certs.mscs, url: 'https://coursera.org/verify/KHX06Q6QZ10K', altText: 'Microsoft Intro to C# Certificate' },
     { image: certs.msvs, url: 'https://coursera.org/verify/1MDEAOHLGLZZ', altText: 'Microsoft VS Code and Github Copilot Certificate' },
     { image: certs.ib_jv, url: 'https://coursera.org/verify/LYR0T1VUSYH8', altText: 'IBM Java Certificate' },
+    { image: certs.ib_se, url: 'https://coursera.org/verify/3FISMRSVF8TR', altText: 'IBM Intro to Software Engineering Certificate' },
     { image: certs.iv, url: 'https://coursera.org/verify/74FG463109SB', altText: 'Meta Coding Interview Certificate' },
     { image: certs.ve, url: 'https://coursera.org/verify/4NSF48QD3FIS', altText: 'Meta Version Control Certificate' },
     { image: certs.hks, url: 'https://coursera.org/verify/YHEPBKM5P9UU', altText: 'HKU Scratch Certificate' },

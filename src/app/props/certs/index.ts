@@ -43,6 +43,8 @@ const cert = {
     ib_js: '/assets/images/certs/ibm_js.jpg',
     ib_gai: '/assets/images/certs/ibm_genai.jpg',
     ib_jv: '/assets/images/certs/ibm_java.jpg',
+    ib_se: '/assets/images/certs/ibm_sofeng.jpg',
+    ib_pyda : '/assets/images/certs/ibm_pythondataai.jpg',
 
     // Cisco Certificates
     dc: '/assets/images/certs/cisco_digitalcont.jpg',
@@ -71,7 +73,6 @@ const cert = {
     wtdj: '/assets/images/certs/uom_wtdj.jpg',
     dj2: '/assets/images/certs/uom_dj2.jpg',
     glepy: '/assets/images/certs/gle_py.jpg',
-    ibm_pyda : '/assets/images/certs/ibm_pythondataai.jpg',
     hks: '/assets/images/certs/hks.jpg',
     hkse: '/assets/images/certs/hkse.jpg',
     jhu: '/assets/images/certs/jhu.jpg',
