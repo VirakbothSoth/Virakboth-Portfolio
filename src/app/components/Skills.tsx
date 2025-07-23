@@ -166,7 +166,7 @@ const Skills = () => {
 						<p>Noob Level</p>
 						<div className="progress-div">
 							<div className="rounded-full h-2.5 w-full">
-								<div className="bg-green-400 w-[60%] h-2.5 rounded-full"></div>
+								<div className="bg-green-400 w-[40%] h-2.5 rounded-full"></div>
 							</div>
 						</div>
 					</div>

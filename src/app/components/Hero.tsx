@@ -2,7 +2,7 @@ const face = "/assets/images/virakboth.jpg";
 
 const Hero = () => {
   return (
-    <header className="bg-[url(/assets/images/bg.jpg)] mask-y-from-60% mask-y-to-100% bg-cover bg-center bg-no-repeat">
+    <header className="bg-[url(/assets/images/bg.jpg)] mask-y-from-70% mask-y-to-100% bg-cover bg-center bg-no-repeat">
       <div className="py-40">
         <div>
           <div className="flex items-center justify-center mb-10">
@@ -10,7 +10,7 @@ const Hero = () => {
               <img
                 src={face}
                 alt="Virakboth's Face"
-                className="relative w-[200px] h-[200px] md:w-[400px] md:h-[400px] rounded-full shadow-lg object-cover"
+                className="relative w-[200px] h-[200px] md:w-[400px] md:h-[400px] rounded-full shadow-lg object-cover border-border border-2"
                 style={{ zIndex: 1, aspectRatio: "1 / 1" }}
               />
             </span>
