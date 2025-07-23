@@ -19,7 +19,7 @@ const Projects = () => {
             </div>
             <p>The School that introduced me to Coding.</p>
             <a href="https://algorithmicschool.com" target="_blank" className="font-bold text-b">
-              Website
+              Site
             </a>
           </div>
           <div className="card">
@@ -60,7 +60,7 @@ const Projects = () => {
             </div>
             <p>Some various courses on coursera, like Meta Front-End, Python for Everybody, etc. - I still take these often</p>
             <a href="https://coursera.org" target="_blank"  className="font-bold text-b">
-              Website
+              Site
             </a>
           </div>
           <div className="card">
@@ -75,7 +75,7 @@ const Projects = () => {
             </div>
             <p>I took a small python course here, since I'm not old enough to really study there</p>
             <a href="https://anbschool.org" target="_blank" className="font-bold text-b">
-              Website
+              Site
             </a>
           </div>
           <div className="card">
@@ -88,9 +88,9 @@ const Projects = () => {
                 <SiHtml5 /><SiCss3 /><SiJavascript />
               </p>
             </div>
-            <p>Learned how to build proper websites here.</p>
+            <p>Learned how to build proper Sites here.</p>
             <a href="https://snoopedu.com" target="_blank" className="font-bold text-b">
-              Website
+              Site
             </a>
           </div>
           <div className="card">
@@ -105,7 +105,7 @@ const Projects = () => {
             </div>
             <p>Took FreeCodeCamp as a refresher, and made from projects on the way</p>
             <a href="https://freecodecamp.org" target="_blank" className="font-bold text-b">
-              Website
+              Site
             </a>
           </div>
           <div className="card">
@@ -115,15 +115,15 @@ const Projects = () => {
               </h3>
               <p className="text-gray-400">2024-Current - Term 2</p>
               <p className="flex items-center mb-5">
-                IT essentials, Networking, Computer Science Fundamentals, IT English, C#
+                IT Basics, Networking, Computer Science Basics, C#, <SiPython />
               </p>
             </div>
             <p className="flex items-center">
-              Future: <SiHtml5 /><SiCss3 /><SiJavascript /><SiDjango /><SiPython /><FaJava /><SiKotlin />
+              Future: <SiHtml5 /><SiCss3 /><SiJavascript /><SiDjango /><FaJava /><SiKotlin />
             </p>
             <p>Recent school I started taking, its estimated to end around 2027!</p>
             <a href="https://cambodia.itstep.org" target="_blank" className="font-bold text-b">
-              Website
+              Site (Cambodia Branch)
             </a>
           </div>
         </div>

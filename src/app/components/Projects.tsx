@@ -45,7 +45,7 @@ const Schools = () => {
                 href="https://github.com/VirakbothSoth/Virakboths-Link-Shortener"
                 className="font-bold text-b"
               >
-                Github Repo
+                Source
               </a>
             </div>
           </div>
@@ -75,13 +75,13 @@ const Schools = () => {
               </p>
               <div className="flex gap-4">
                 <a href="/projects/cybersecurity" className="font-bold text-b">
-                  Website
+                  Site
                 </a>
                 <a
-                  href="https://github.com/virakbothportfolio/virakbothportfolio.github.io"
+                  href="https://github.com/bothsecurity/bothsecurity.github.io"
                   className="font-bold text-b"
                 >
-                  Github Repo
+                  Source
                 </a>
               </div>
             </div>
@@ -112,13 +112,13 @@ const Schools = () => {
               </p>
               <div className="flex gap-4">
                 <a href="/projects/passgen" className="font-bold text-b">
-                  Website
+                  Site
                 </a>
                 <a
                   href="https://github.com/VirakbothSoth/Virakboths-Passgen"
                   className="font-bold text-b"
                 >
-                  Github Repo
+                  Source
                 </a>
               </div>
             </div>
