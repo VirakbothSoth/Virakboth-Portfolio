@@ -1,6 +1,23 @@
-const face = "/assets/images/virakboth.jpg";
+'use client'
+
+import { useState, useEffect } from "react";
 
 const Hero = () => {
+  const face = "/assets/images/virakboth.jpg";
+  const fullText = "Hi, I'm Virakboth";
+  const [displayedText, setDisplayedText] = useState("");
+
+  useEffect(() => {
+    let index = 0;
+    const interval = setInterval(() => {
+      setDisplayedText(fullText.slice(0, index + 1));
+      index++;
+      if (index === fullText.length) clearInterval(interval);
+    }, 100); // 100ms per letter
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <header className="bg-[url(/assets/images/bg.jpg)] mask-y-from-70% mask-y-to-100% bg-cover bg-center bg-no-repeat">
       <div className="py-40">
@@ -16,7 +33,10 @@ const Hero = () => {
             </span>
           </div>
           <div>
-            <h1 className="inline-block font-bold text-shadow-lg/30 ">Hi, I'm Virakboth<div className="animate-blink inline-flex">_</div></h1>
+            <h1 className="inline-block font-bold text-shadow-lg/30 ">
+              {displayedText}
+              <div className="animate-blink inline-flex">_</div>
+            </h1>
           </div>
           <p>
             A Passionate Cambodian Web (Front-End) & Python Developer and
