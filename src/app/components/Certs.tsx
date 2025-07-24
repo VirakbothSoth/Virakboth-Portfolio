@@ -99,10 +99,10 @@ const Certs: React.FC = () => {
     { image: certs.fcc_rwd, url: 'https://freecodecamp.org/certification/virakboth_soth/responsive-web-design', altText: 'FreeCodeCamp Responsive Web Certificate' },
     { image: certs.fcc_fdl, url: 'https://freecodecamp.org/certification/virakboth_soth/front-end-development-libraries', altText: 'FreeCodeCamp Front-End Development Libraries Certificate' },
 
-    { image: certs.cih, url: 'https://coursera.org/verify/1456WZEIY4BC', altText: 'Coursera HTML Intro Certificate' },
-    { image: certs.chtmb, url: 'https://coursera.org/verify/WXPG0F9RCHPM', altText: 'Coursera HTML Beginner Certificate' },
-    { image: certs.ctfh, url: 'https://coursera.org/verify/EBE597OCOY98', altText: 'Coursera HTML Tables & Forms Certificate' },
-    { image: certs.cilh, url: 'https://coursera.org/verify/KFT7MRJCLXB6', altText: 'Coursera HTML Images & Links Certificate' },
+    //{ image: certs.cih, url: 'https://coursera.org/verify/1456WZEIY4BC', altText: 'Coursera HTML Intro Certificate' },
+    //{ image: certs.chtmb, url: 'https://coursera.org/verify/WXPG0F9RCHPM', altText: 'Coursera HTML Beginner Certificate' },
+    //{ image: certs.ctfh, url: 'https://coursera.org/verify/EBE597OCOY98', altText: 'Coursera HTML Tables & Forms Certificate' },
+    //{ image: certs.cilh, url: 'https://coursera.org/verify/KFT7MRJCLXB6', altText: 'Coursera HTML Images & Links Certificate' },
     { image: certs.cawd, url: 'https://coursera.org/verify/XD9F6TQH85E4', altText: 'Coursera Accessible Web Development Certificate' },
     { image: certs.ccst, url: 'https://coursera.org/verify/KQA56NGS1ZIW', altText: 'Coursera CSS Tables Certificate' },
     { image: certs.cijs, url: 'https://coursera.org/verify/S86DN43XXNA7', altText: 'Coursera JS Intro Certificate' },
@@ -202,7 +202,7 @@ const Certs: React.FC = () => {
         <h2 className="section-title">
           <PiCertificate /> Certificates ({specCerts.length + cs50Certs.length + webCerts.length + pyCerts.length + aiCerts.length + ciscoCerts.length + otherCerts.length})
         </h2>
-        <p><em>I know, that's a lot</em></p>
+        <p><em>I know, that's a lot, so I exclude the less important ones!</em></p>
         <div>
           <div className="flex space-x-4 mb-6 justify-center">
             <button
