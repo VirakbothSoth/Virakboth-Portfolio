@@ -45,6 +45,7 @@ const cert = {
     ib_jv: '/assets/images/certs/ibm_java.jpg',
     ib_se: '/assets/images/certs/ibm_sofeng.jpg',
     ib_pyda : '/assets/images/certs/ibm_pythondataai.jpg',
+    ib_git: '/assets/images/certs/ibm_git.jpg',
 
     // Cisco Certificates
     dc: '/assets/images/certs/cisco_digitalcont.jpg',

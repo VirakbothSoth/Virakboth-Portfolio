@@ -158,6 +158,7 @@ const Certs: React.FC = () => {
     { image: certs.msvs, url: 'https://coursera.org/verify/1MDEAOHLGLZZ', altText: 'Microsoft VS Code and Github Copilot Certificate' },
     { image: certs.ib_jv, url: 'https://coursera.org/verify/LYR0T1VUSYH8', altText: 'IBM Java Certificate' },
     { image: certs.ib_se, url: 'https://coursera.org/verify/3FISMRSVF8TR', altText: 'IBM Intro to Software Engineering Certificate' },
+    { image: certs.ib_git, url: 'https://coursera.org/verify/28TACULWRM5O', altText: 'IBM Intro to Git & GitHub Certificate' },
     { image: certs.iv, url: 'https://coursera.org/verify/74FG463109SB', altText: 'Meta Coding Interview Certificate' },
     { image: certs.ve, url: 'https://coursera.org/verify/4NSF48QD3FIS', altText: 'Meta Version Control Certificate' },
     { image: certs.hks, url: 'https://coursera.org/verify/YHEPBKM5P9UU', altText: 'HKU Scratch Certificate' },
