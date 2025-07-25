@@ -13,7 +13,7 @@ const Hero = () => {
       setDisplayedText(fullText.slice(0, index + 1));
       index++;
       if (index === fullText.length) clearInterval(interval);
-    }, 100); // 100ms per letter
+    }, 200); // 100ms per letter
 
     return () => clearInterval(interval);
   }, []);
