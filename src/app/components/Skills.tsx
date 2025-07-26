@@ -106,13 +106,13 @@ const Skills = () => {
 						<p>Ok Level</p>
 						<div className="progress-div">
 							<div className="rounded-full h-2.5 w-full">
-								<div className="bg-yellow-500 w-[60%] h-2.5 rounded-full"></div>
+								<div className="bg-yellow-500 w-[80%] h-2.5 rounded-full"></div>
 							</div>
 						</div>
 						<h6 className="inline-flex items-center gap-1 py-1"><SiTypescript />Typescript</h6>
 						<div className="progress-div">
 							<div className="rounded-full h-2.5 w-full">
-								<div className="bg-blue-900 w-[50%] h-2.5 rounded-full"></div>
+								<div className="bg-blue-900 w-[60%] h-2.5 rounded-full"></div>
 							</div>
 						</div>
 					</div>
@@ -186,7 +186,7 @@ const Skills = () => {
 						<p>Noob Level</p>
 						<div className="progress-div">
 							<div className="rounded-full h-2.5 w-full">
-								<div className="bg-gray-400 w-[50%] h-2.5 rounded-full"></div>
+								<div className="bg-gray-400 w-[30%] h-2.5 rounded-full"></div>
 							</div>
 						</div>
 					</div>
@@ -196,7 +196,7 @@ const Skills = () => {
 						<p>Ok Level</p>
 						<div className="progress-div">
 							<div className="rounded-full h-2.5 w-full">
-								<div className="bg-orange-400 w-[60%] h-2.5 rounded-full"></div>
+								<div className="bg-orange-400 w-[40%] h-2.5 rounded-full"></div>
 							</div>
 						</div>
 					</div>
