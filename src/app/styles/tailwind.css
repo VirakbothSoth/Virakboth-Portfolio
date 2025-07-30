@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-	--color-bg: #0d1117;
+	--color-bg: #0a0a0a;
 	--color-bg-secondary: color-mix(in srgb, var(--color-bg), white 15%);
 	--color-bg-hover: color-mix(in srgb, var(--color-bg), white 5%);
 	--color-border: color-mix(in srgb, var(--color-bg), white 15%);
@@ -78,8 +78,10 @@
 
 	a {
 		@apply text-blue-500;
-		@apply hover:underline;
+		@apply hover:mx-1;
 		@apply hover:text-blue-400;
+		@apply hover:font-extrabold;
+		@apply duration-500;
 		@apply block;
 	}
 
@@ -181,7 +183,7 @@
 	}
 
 	.project-content, .skill-content {
-		@apply p-5 hover:p-6 duration-500;
+		@apply p-5 duration-500;
 	}
 
 	.skill-icons-container {
@@ -211,7 +213,6 @@
 	.card {
 		@apply p-5;
 		@apply bg-bg;
-		@apply hover:p-6;
 		@apply duration-500;
 		@apply hover:bg-bg-hover;
 		@apply border-[0.5px];
@@ -226,7 +227,6 @@
 	.note-card {
 		@apply p-5;
 		@apply bg-bg;
-		@apply hover:p-6;
 		@apply duration-500;
 		@apply hover:bg-bg-hover;
 		@apply border-[0.5px];

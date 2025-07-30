@@ -58,7 +58,7 @@ const Projects = () => {
                 <SiHtml5 /><SiCss3 /><SiJavascript /><SiTypescript /><SiReact /><SiDjango /><SiScratch /><SiPython />
               </p>
             </div>
-            <p>Some various courses on coursera, like Meta Front-End, Python for Everybody, etc. - I still take these often</p>
+            <p>I took courses here, like Meta Front-End, Py 4 Everyone, etc.</p>
             <a href="https://coursera.org" target="_blank"  className="font-bold text-b">
               Site
             </a>
@@ -88,7 +88,7 @@ const Projects = () => {
                 <SiHtml5 /><SiCss3 /><SiJavascript />
               </p>
             </div>
-            <p>Learned how to build proper Sites here.</p>
+            <p>Learned basic web fundamentals here.</p>
             <a href="https://snoopedu.com" target="_blank" className="font-bold text-b">
               Site
             </a>
@@ -103,7 +103,7 @@ const Projects = () => {
                 <SiHtml5 /><SiCss3 /><SiJavascript /><SiBootstrap /><SiReact /><SiPython />
               </p>
             </div>
-            <p>Took FreeCodeCamp as a refresher, and made from projects on the way</p>
+            <p>Took as a refresher, and made from projects on the way</p>
             <a href="https://freecodecamp.org" target="_blank" className="font-bold text-b">
               Site
             </a>
@@ -114,9 +114,10 @@ const Projects = () => {
                 Step IT Academy
               </h3>
               <p className="text-gray-400">2024-Current - Term 2</p>
-              <p className="flex items-center mb-5">
-                IT Basics, Networking, Computer Science Basics, C#, <SiPython />
-              </p>
+                <p className="flex items-center mb-5">
+                  IT Basics, Networking, CS Basics, C#, 
+                  <SiPython />
+                </p>
             </div>
             <p className="flex items-center">
               Future: <SiHtml5 /><SiCss3 /><SiJavascript /><SiDjango /><FaJava /><SiKotlin />

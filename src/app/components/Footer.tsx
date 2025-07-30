@@ -74,7 +74,7 @@ const Footer = () => {
 						href="/fcc"
 						target="_blank"
 						rel="noopener noreferrer"
-						className="text-gray-600 hover:text-white hover:bg-black transition-colors"
+						className="text-gray-600 hover:text-white transition-colors"
 					>
 						<SiFreecodecamp className="w-10 h-10" />
 					</a>
