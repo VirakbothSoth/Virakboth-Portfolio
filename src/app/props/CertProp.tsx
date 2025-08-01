@@ -1,9 +1,9 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 interface CertProp {
-  image: string
-  url: string
-  altText: string
+  image: string;
+  url: string;
+  altText: string;
 }
 
 const Certificate: React.FC<CertProp> = ({ image, url, altText }) => {
@@ -21,10 +21,11 @@ const Certificate: React.FC<CertProp> = ({ image, url, altText }) => {
           width={200}
           height={156}
           className="w-auto h-32 lg:h-64 object-contain"
+          quality={1}
         />
       </a>
     </figure>
-  )
-}
+  );
+};
 
-export default Certificate
+export default Certificate;

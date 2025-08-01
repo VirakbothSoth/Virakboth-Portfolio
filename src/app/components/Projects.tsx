@@ -11,6 +11,7 @@ import {
 } from "react-icons/si";
 import prev from "../props/preview";
 import { FaCode } from "react-icons/fa";
+import Image from "next/image";
 
 const Schools = () => {
   return (
@@ -31,7 +32,14 @@ const Schools = () => {
               <p className="text-xl text-gray-400">
                 <em>at CS50W</em>
               </p>
-              <img src={prev.ls} alt="Link Shortener" className="web-preview" />
+              <Image
+                src={prev.ls}
+                width={341}
+                height={192}
+                quality={1}
+                alt="Link Shortener"
+                className="web-preview"
+              />
               <p className="text-xl flex items-center">
                 <SiHtml5 />
                 <SiCss3 />
@@ -60,8 +68,11 @@ const Schools = () => {
               <p className="text-xl text-gray-400">
                 <em>at SnoopEdu</em>
               </p>
-              <img
+              <Image
                 src={prev.cy}
+                width={341}
+                height={192}
+                quality={1}
                 alt="Cybersecurity Website"
                 className="web-preview"
               />
@@ -101,7 +112,14 @@ const Schools = () => {
                   <em>at home</em>
                 </p>
               </div>
-              <img src={prev.pg} alt="Passgen" className="web-preview" />
+              <Image
+                src={prev.pg}
+                width={341}
+                height={192}
+                quality={1}
+                alt="Passgen"
+                className="web-preview"
+              />
               <p className="text-xl flex items-center">
                 <SiHtml5 />
                 <SiCss3 />
@@ -138,7 +156,14 @@ const Schools = () => {
                   <em>at home</em>
                 </p>
               </div>
-              <img src={prev.pf} alt="Portfolio" className="web-preview" />
+              <Image
+                src={prev.pf}
+                width={341}
+                height={192}
+                quality={1}
+                alt="Portfolio"
+                className="web-preview"
+              />
               <p className="text-xl flex items-center">
                 <SiHtml5 />
                 <SiCss3 />
@@ -170,8 +195,11 @@ const Schools = () => {
                   <em>at FreeCodeCamp</em>
                 </p>
               </div>
-              <img
+              <Image
                 src={prev.fc}
+                width={341}
+                height={192}
+                quality={1}
                 alt="Static Projects"
                 className="web-preview"
               />
@@ -216,7 +244,14 @@ const Schools = () => {
                   <em>at The Odin Project</em>
                 </p>
               </div>
-              <img src={prev.su} alt="Sign-Up" className="web-preview" />
+              <Image
+                width={341}
+                height={192}
+                quality={1}
+                src={prev.su}
+                alt="Sign-Up"
+                className="web-preview"
+              />
               <p className="text-xl flex items-center">
                 <SiHtml5 />
                 <SiCss3 />
@@ -246,8 +281,11 @@ const Schools = () => {
                   <em>at CS50S, Algorithmics</em>
                 </p>
               </div>
-              <img
+              <Image
                 src={prev.sc}
+                width={341}
+                height={192}
+                quality={1}
                 alt="Scratch Project"
                 className="web-preview"
               />
