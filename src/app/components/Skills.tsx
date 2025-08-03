@@ -296,15 +296,6 @@ const Skills = () => {
                     </div>
                   </div>
                   <div className="icon-div">
-                    <h6>Chinese</h6>
-                    <p>HSK1 Level</p>
-                    <div className="progress-div">
-                      <div className="rounded-full h-2.5 w-full">
-                        <div className="bg-red-400 w-[50%] h-2.5 rounded-full"></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="icon-div">
                     <h6>Khmer</h6>
                     <p>Can only listen</p>
                   </div>
