@@ -82,7 +82,6 @@
 
   a {
     @apply text-blue-500;
-    @apply hover:mx-1;
     @apply hover:text-blue-400;
     @apply hover:font-extrabold;
     @apply duration-500;

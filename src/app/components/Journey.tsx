@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import { FaMap } from "react-icons/fa"
 

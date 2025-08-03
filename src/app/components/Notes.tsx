@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import { PiNotepadFill } from "react-icons/pi"
-import { useState } from "react"
+import { PiNotepadFill } from "react-icons/pi";
+import { useState } from "react";
 
 const Notes = () => {
-  const [count, setCount] = useState(0)
-  const [state, setState] = useState(true)
+  const [count, setCount] = useState(0);
+  const [state, setState] = useState(true);
 
   return (
     <section className="py-40">
@@ -58,30 +58,31 @@ const Notes = () => {
           <div className="note-card">
             <h3 className="text-3xl font-bold mb-[50px]">Please Review Me!</h3>
             <div className="bg-gray-800 rounded-lg">
-              { state ? (
-              <div className="p-5">
-                <p>Hello, if you like my portfolio (or me), you can give me a star on github!</p>
-              </div>
-              )
-              :
-              (
-              <div className="p-5">
-                <p>bruh</p>
-              </div>
+              {state ? (
+                <div className="p-5">
+                  <p>
+                    Hello, if you like my portfolio (or me), you can give me a
+                    star on github!
+                  </p>
+                </div>
+              ) : (
+                <div className="p-5">
+                  <p>bruh</p>
+                </div>
               )}
             </div>
             <div className="flex gap-5 mt-5">
-              <a 
+              <a
                 className="p-3 bg-bg border-[0.5px] border-border rounded-lg text-lg text-white hover:bg-bg-hover no-underline duration-500"
                 href="https://github.com/VirakbothSoth/VirakbothSoth"
               >
                 okay sure!
               </a>
-              <button 
+              <button
                 className="p-3 bg-bg border-[0.5px] border-border rounded-lg text-lg text-white hover:bg-bg-hover duration-500 cursor-pointer"
-                onClick={() => setState(prev => !prev)}
+                onClick={() => setState((prev) => !prev)}
               >
-                { state ? ("shut up") : ("nvm") }
+                {state ? "shut up" : "nvm"}
               </button>
             </div>
           </div>
@@ -89,6 +90,6 @@ const Notes = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Notes
+export default Notes;

@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import { useState, useEffect } from "react";
 
@@ -13,7 +13,7 @@ const Hero = () => {
       setDisplayedText(fullText.slice(0, index + 1));
       index++;
       if (index === fullText.length) clearInterval(interval);
-    }, 200); // 100ms per letter
+    }, 100);
 
     return () => clearInterval(interval);
   }, []);
