@@ -661,7 +661,7 @@ const Certs: React.FC = () => {
           <em>I know, that's a lot, so I exclude the less important ones!</em>
         </p>
         <div>
-          <div className="flex space-x-4 mb-6 justify-center">
+          <div className="flex space-x-2 mb-3 justify-center">
             <button
               className={`${
                 activeCategory === "special"
@@ -670,7 +670,7 @@ const Certs: React.FC = () => {
               }`}
               onClick={() => setActiveCategory("special")}
             >
-              <PiCertificate /> Specializations{" "}
+              <PiCertificate /> Special{" "}
               <span className="cert-category-button-text">
                 ({specCerts.length})
               </span>
@@ -754,7 +754,7 @@ const Certs: React.FC = () => {
               </span>
             </button>
           </div>
-          <div className="py-10 grid grid-cols-2 lg:grid-cols-3 gap-10 rounded-lg">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-5">
             {renderCertificates()}
           </div>
         </div>

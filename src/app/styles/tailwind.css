@@ -253,14 +253,10 @@
 
   .certificate-item {
     @apply p-5;
+    @apply h-50 lg:h-80;
     @apply w-auto;
-    @apply h-64;
     @apply max-w-sm;
     @apply hover:scale-105;
     @apply duration-300;
-    @apply rounded-lg;
-    @apply hover:rotate-x-20;
-    @apply hover:-rotate-y-20;
-    @apply max-lg:w-auto max-lg:h-[11vw];
   }
 }

@@ -13,14 +13,13 @@ const Certificate: React.FC<CertProp> = ({ image, url, altText }) => {
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="certificate-item"
       >
         <Image
           src={image}
           alt={altText}
           width={200}
           height={156}
-          className="w-auto h-32 lg:h-64 object-contain"
+          className="certificate-item"
           quality={1}
         />
       </a>
