@@ -105,6 +105,10 @@
     @apply text-gray-500;
   }
 
+  .codemock > * > b {
+    @apply text-blue-400 font-normal;
+  }
+
   button {
     @apply p-2;
     @apply bg-bg;
