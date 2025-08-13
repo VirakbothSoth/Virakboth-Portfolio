@@ -86,19 +86,6 @@ const Notes = () => {
               </button>
             </div>
           </div>
-          <div className="note-card">
-            <h3 className="text-3xl font-bold mb-[50px]">Code Tab 1</h3>
-            <div className="bg-gray-800 rounded-lg">
-              <div className="journey-container">
-                <div className="pl-3 codemock">
-                  <p>
-                    <b>print</b>&#40;<b className="text-green-300">"Hello Worl</b>
-                    <div className="animate-blink inline">&#9608;</div>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

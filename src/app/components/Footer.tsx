@@ -8,6 +8,7 @@ import {
   SiCodewars,
   SiTelegram,
   SiFreecodecamp,
+  SiHackthebox,
 } from "react-icons/si";
 
 const Footer = () => {
@@ -71,7 +72,7 @@ const Footer = () => {
             href="/hrnk"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-black transition-colors"
+            className="text-gray-600 hover:text-white transition-colors"
           >
             <SiHackerrank className="w-10 h-10" />
           </a>
@@ -90,6 +91,14 @@ const Footer = () => {
             className="text-gray-600 hover:text-white transition-colors"
           >
             <SiFreecodecamp className="w-10 h-10" />
+          </a>
+          <a
+            href="/htb"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-yellow-300 transition-colors"
+          >
+            <SiHackthebox className="w-10 h-10" />
           </a>
         </div>
         <p className="mt-8">
