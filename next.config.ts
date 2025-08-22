@@ -52,6 +52,11 @@ const nextConfig: NextConfig = {
         destination: 'https://freecodecamp.org/virakboth_soth',
         permanent: true,
       },
+      {
+        source: '/fcc',
+        destination: 'https://freecodecamp.org/virakboth_soth',
+        permanent: true,
+      },
     ]
   },
 }
