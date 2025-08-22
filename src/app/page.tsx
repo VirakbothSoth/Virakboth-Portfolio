@@ -9,7 +9,6 @@ import Projects from './components/Projects'
 import Notes from './components/Notes'
 import Footer from './components/Footer'
 import Activity from './components/Activity'
-import './styles/index.css'
 import './styles/tailwind.css'
 
 export default function HomePage() {
