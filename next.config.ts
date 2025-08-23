@@ -53,8 +53,8 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/fcc',
-        destination: 'https://freecodecamp.org/virakboth_soth',
+        source: '/htb',
+        destination: 'https://app.hackthebox.com/users/2101726',
         permanent: true,
       },
     ]
