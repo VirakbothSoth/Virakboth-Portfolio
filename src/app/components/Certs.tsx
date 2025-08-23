@@ -430,7 +430,7 @@ const Certs: React.FC = () => {
       altText: "Meta Python Certificate",
     },
     {
-      image: certs.glepy,
+      image: certs.gpy,
       url: "https://coursera.org/verify/6QAFCSYOL2LM",
       altText: "Google Python Certificate",
     },
@@ -481,6 +481,11 @@ const Certs: React.FC = () => {
       image: certs.s4,
       url: "https://coursera.org/verify/6YOVVKETFY5F",
       altText: "Scrimba Deploy AI Apps with Cloudflare Certificate",
+    },
+    {
+      image: certs.gai,
+      url: "https://coursera.org/verify/020IZJLYN0QA",
+      altText: "Google Introduction to AI Certificate",
     },
     {
       image: certs.sosai,

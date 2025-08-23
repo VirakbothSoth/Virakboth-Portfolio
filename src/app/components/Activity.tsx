@@ -9,10 +9,6 @@ const Activity = () => {
       </div>
       <div className="activity-widget-div flex justify-center">
         <img
-          src="https://github-profile-trophy.vercel.app/?username=VirakbothSoth&theme=aura&row=2&column=4"
-          alt="My Trophies"
-        />
-        <img
           src="https://github-readme-stats.vercel.app/api?username=VirakbothSoth&show_icons=true&theme=aura"
           alt=""
         />

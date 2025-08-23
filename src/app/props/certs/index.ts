@@ -73,7 +73,7 @@ const cert = {
     p3: '/assets/images/certs/uom_p3.jpg',
     wtdj: '/assets/images/certs/uom_wtdj.jpg',
     dj2: '/assets/images/certs/uom_dj2.jpg',
-    glepy: '/assets/images/certs/gle_py.jpg',
+    gpy: '/assets/images/certs/g_py.jpg',
     hks: '/assets/images/certs/hks.jpg',
     hkse: '/assets/images/certs/hkse.jpg',
     jhu: '/assets/images/certs/jhu.jpg',
@@ -137,6 +137,7 @@ const cert = {
     scd: '/assets/images/certs/scrim_claude.jpg',
     vpe: '/assets/images/certs/vb_prompt.jpg',
     hp_ai: '/assets/images/certs/hp_ai.jpg',
+    gai: '/assets/images/certs/g_ai.jpg',
 };
 
 export default cert;
