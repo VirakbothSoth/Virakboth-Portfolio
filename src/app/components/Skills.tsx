@@ -8,13 +8,13 @@ import {
   SiBootstrap,
   SiTailwindcss,
   SiDjango,
-  SiNodedotjs,
   SiTypescript,
   SiExpress,
   SiVuedotjs,
   SiNextdotjs,
   SiGnubash,
   SiFirebase,
+  SiSupabase,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -161,18 +161,9 @@ const Skills = () => {
                 <span className="w-3 h-3 bg-green-500 rounded-full inline-block"></span>
               </div>
               <div className="skill-content">
-                <h3>Backend Frameworks</h3>
+                <h3 className="mb-0">Backend Frameworks</h3>
+                <p className="text-gray-500 text-sm mb-3">I'm more comfortable with Front-end!</p>
                 <div className="skill-icons-container">
-                  <div className="icon-div">
-                    <SiNodedotjs className="skill-icon" />
-                    <h6>NodeJS</h6>
-                    <p>Noob Level</p>
-                    <div className="progress-div">
-                      <div className="rounded-full h-2.5 w-full">
-                        <div className="bg-green-400 w-[40%] h-2.5 rounded-full"></div>
-                      </div>
-                    </div>
-                  </div>
                   <div className="icon-div">
                     <SiFirebase className="skill-icon" />
                     <h6>Firebase</h6>
@@ -184,12 +175,22 @@ const Skills = () => {
                     </div>
                   </div>
                   <div className="icon-div">
+                    <SiSupabase className="skill-icon" />
+                    <h6>Supabase</h6>
+                    <p>Noob Level (NEW!)</p>
+                    <div className="progress-div">
+                      <div className="rounded-full h-2.5 w-full">
+                        <div className="bg-green-300 w-[30%] h-2.5 rounded-full"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="icon-div">
                     <SiExpress className="skill-icon" />
                     <h6>Express</h6>
                     <p>Noob Level</p>
                     <div className="progress-div">
                       <div className="rounded-full h-2.5 w-full">
-                        <div className="bg-gray-400 w-[30%] h-2.5 rounded-full"></div>
+                        <div className="bg-gray-400 w-[20%] h-2.5 rounded-full"></div>
                       </div>
                     </div>
                   </div>
@@ -238,10 +239,10 @@ const Skills = () => {
                   <div className="icon-div">
                     <SiVuedotjs className="skill-icon" />
                     <h6>VueJS</h6>
-                    <p>Ok Level</p>
+                    <p>Noob Level</p>
                     <div className="progress-div">
                       <div className="rounded-full h-2.5 w-full">
-                        <div className="bg-green-600 w-[40%] h-2.5 rounded-full"></div>
+                        <div className="bg-green-600 w-[20%] h-2.5 rounded-full"></div>
                       </div>
                     </div>
                   </div>

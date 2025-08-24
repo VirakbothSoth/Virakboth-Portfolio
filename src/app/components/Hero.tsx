@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const Hero = () => {
   const face = "/assets/images/virakboth.jpg";
@@ -13,7 +14,7 @@ const Hero = () => {
       setDisplayedText(fullText.slice(0, index + 1));
       index++;
       if (index === fullText.length) clearInterval(interval);
-    }, 100);
+    }, 50);
 
     return () => clearInterval(interval);
   }, []);
@@ -24,10 +25,13 @@ const Hero = () => {
         <div>
           <div className="flex items-center justify-center mb-10">
             <span className="relative inline-block">
-              <img
+              <Image
                 src={face}
                 alt="Virakboth's Face"
-                className="relative w-[200px] h-[200px] md:w-[400px] md:h-[400px] rounded-full shadow-lg object-cover border-border border-2"
+                width={200}
+                height={200}
+                quality={1}
+                className="relative aspect-square w-[200px] md:w-[400px]  rounded-full shadow-lg object-cover border-border border-2"
                 style={{ zIndex: 1, aspectRatio: "1 / 1" }}
               />
             </span>
@@ -39,8 +43,7 @@ const Hero = () => {
             </h1>
           </div>
           <p>
-            A Passionate Cambodian Web (Front-End) & Python Developer and
-            Student
+            The Passionate Python & Front-End Developer.
           </p>
         </div>
       </div>
