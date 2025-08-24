@@ -19,7 +19,7 @@ const Certificate: React.FC<CertProp> = ({ image, url, altText }) => {
           alt={altText}
           width={200}
           height={156}
-          className="certificate-item"
+          className="certificate-item" 
           quality={1}
         />
       </a>

@@ -25,7 +25,7 @@ const Projects = () => {
               <h3 className="text-3xl font-bold flex items-center gap-4">
                 Algorithmics
               </h3>
-              <p className="text-gray-400">2022-2023</p>
+              <p className="text-gray-400 text-sm">2022-2023</p>
               <p className="flex items-center">
                 <SiScratch />
                 <SiPython />
@@ -45,7 +45,7 @@ const Projects = () => {
               <h3 className="text-3xl font-bold flex items-center gap-4">
                 CS50 Online Courses
               </h3>
-              <p className="text-gray-400">2023-2024</p>
+              <p className="text-gray-400 text-sm">2023-2024</p>
               <p className="flex items-center">
                 <SiHtml5 />
                 <SiCss3 />
@@ -94,7 +94,7 @@ const Projects = () => {
               <h3 className="text-3xl font-bold flex items-center gap-4">
                 Coursera
               </h3>
-              <p className="text-gray-400">2024-Current</p>
+              <p className="text-gray-400 text-sm">2024-Current</p>
               <p className="flex items-center">
                 <SiHtml5 />
                 <SiCss3 />
@@ -120,7 +120,7 @@ const Projects = () => {
               <h3 className="text-3xl font-bold flex items-center gap-4">
                 A&B
               </h3>
-              <p className="text-gray-400">Early-Mid 2024</p>
+              <p className="text-gray-400 text-sm">Early-Mid 2024</p>
               <p className="flex items-center">
                 <SiPython />
               </p>
@@ -142,7 +142,7 @@ const Projects = () => {
               <h3 className="text-3xl font-bold flex items-center gap-4">
                 SnoopEdu
               </h3>
-              <p className="text-gray-400">Late 2024</p>
+              <p className="text-gray-400 text-sm">Late 2024</p>
               <p className="flex items-center">
                 <SiHtml5 />
                 <SiCss3 />
@@ -163,7 +163,7 @@ const Projects = () => {
               <h3 className="text-3xl font-bold flex items-center gap-4">
                 FreeCodeCamp
               </h3>
-              <p className="text-gray-400">Around Feb-May 2025</p>
+              <p className="text-gray-400 text-sm">Around Feb-May 2025</p>
               <p className="flex items-center">
                 <SiHtml5 />
                 <SiCss3 />
@@ -187,10 +187,9 @@ const Projects = () => {
               <h3 className="text-3xl font-bold flex items-center gap-4">
                 Step IT Academy
               </h3>
-              <p className="text-gray-400">2024-Current - Term 2</p>
+              <p className="text-gray-400 text-sm">2024-Current - Term 2</p>
               <p className="flex items-center mb-5">
-                IT Basics, Networking, CS Basics, C#,
-                <SiPython />
+                IT Basics, Networking, CS Basics, C#, <SiPython className="ml-3" />
               </p>
             </div>
             <p className="flex items-center">

@@ -251,7 +251,6 @@
     @apply rounded-lg;
     @apply shadow-md;
     @apply my-4;
-    @apply hover:h-50;
     @apply duration-500;
   }
 

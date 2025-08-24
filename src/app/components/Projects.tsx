@@ -29,7 +29,7 @@ const Schools = () => {
             </div>
             <div className="project-content">
               <h3 className="text-3xl font-bold">Link Shortener</h3>
-              <p className="text-xl text-gray-400">
+              <p className="text-sm text-gray-400">
                 <em>at CS50W</em>
               </p>
               <Image
@@ -65,7 +65,7 @@ const Schools = () => {
             </div>
             <div className="project-content">
               <h3 className="text-3xl font-bold">Cybersecurity Website</h3>
-              <p className="text-xl text-gray-400">
+              <p className="text-sm text-gray-400">
                 <em>at SnoopEdu</em>
               </p>
               <Image
@@ -108,7 +108,7 @@ const Schools = () => {
                 <div className="flex items-start justify-between">
                   <h3 className="text-3xl font-bold">Password Generator</h3>
                 </div>
-                <p className="text-xl text-gray-400">
+                <p className="text-sm text-gray-400">
                   <em>at home</em>
                 </p>
               </div>
@@ -152,7 +152,7 @@ const Schools = () => {
                 <div className="flex items-start justify-between">
                   <h3 className="text-3xl font-bold">This Portfolio</h3>
                 </div>
-                <p className="text-xl text-gray-400">
+                <p className="text-sm text-gray-400">
                   <em>at home</em>
                 </p>
               </div>
@@ -191,7 +191,7 @@ const Schools = () => {
                     FreeCodeCamp Static Pages
                   </h3>
                 </div>
-                <p className="text-xl text-gray-400">
+                <p className="text-sm text-gray-400">
                   <em>at FreeCodeCamp</em>
                 </p>
               </div>
@@ -240,7 +240,7 @@ const Schools = () => {
                 <div className="flex items-start justify-between">
                   <h3 className="text-3xl font-bold">Odin Static Pages</h3>
                 </div>
-                <p className="text-xl text-gray-400">
+                <p className="text-sm text-gray-400">
                   <em>at The Odin Project</em>
                 </p>
               </div>
@@ -277,7 +277,7 @@ const Schools = () => {
                 <div className="flex items-start justify-between">
                   <h3 className="text-3xl font-bold">Scratch Projects</h3>
                 </div>
-                <p className="text-xl text-gray-400">
+                <p className="text-sm text-gray-400">
                   <em>at CS50S, Algorithmics</em>
                 </p>
               </div>
