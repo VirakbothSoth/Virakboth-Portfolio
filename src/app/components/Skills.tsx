@@ -15,6 +15,7 @@ import {
   SiGnubash,
   SiFirebase,
   SiSupabase,
+  SiAstro
 } from "react-icons/si";
 
 const Skills = () => {
@@ -176,11 +177,11 @@ const Skills = () => {
                   </div>
                   <div className="icon-div">
                     <SiSupabase className="skill-icon" />
-                    <h6>Supabase</h6>
-                    <p>Noob Level (NEW!)</p>
+                    <h6>Supabase<div className="new">NEW!</div></h6>
+                    <p>Noob Level</p> 
                     <div className="progress-div">
                       <div className="rounded-full h-2.5 w-full">
-                        <div className="bg-green-300 w-[30%] h-2.5 rounded-full"></div>
+                        <div className="bg-green-300 w-[10%] h-2.5 rounded-full"></div>
                       </div>
                     </div>
                   </div>
@@ -238,11 +239,21 @@ const Skills = () => {
                   </div>
                   <div className="icon-div">
                     <SiVuedotjs className="skill-icon" />
-                    <h6>VueJS</h6>
+                    <h6>VueJS<div className="new">NEW!</div></h6>
                     <p>Noob Level</p>
                     <div className="progress-div">
                       <div className="rounded-full h-2.5 w-full">
                         <div className="bg-green-600 w-[20%] h-2.5 rounded-full"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="icon-div">
+                    <SiAstro className="skill-icon" />
+                    <h6>Astro<div className="new">NEW!</div></h6>
+                    <p>Noob Level</p>
+                    <div className="progress-div">
+                      <div className="rounded-full h-2.5 w-full">
+                        <div className="bg-blue-600 w-[20%] h-2.5 rounded-full"></div>
                       </div>
                     </div>
                   </div>
