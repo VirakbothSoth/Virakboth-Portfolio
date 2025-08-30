@@ -16,10 +16,13 @@ const About = () => {
                 I began coding at <b>12 years old</b>, taking various courses on <b>Scratch</b> and <b>Python</b>.
               </p>
               <p className="py-10">
-                After I turn <b>13</b>, I began to study <b>HTML, CSS, JS & Bootstrap</b> on various online courses, such as <a href="https://cs50.harvard.edu/web">CS50W</a>, <a href="https://snoopedu.com">SnoopEdu</a>, etc.
+                at <b>13</b>, I began to study <b>HTML, CSS, JS & Bootstrap</b> on various online courses, such as <a href="https://cs50.harvard.edu/web">CS50W</a>, <a href="https://snoopedu.com">SnoopEdu</a>, etc.
+              </p>
+              <p className="pb-10">
+                at <b>14</b>, I studied many frameworks, such as <b>React, Next, Tailwind, Vue</b> & languages like <b>Java, C#, & TS</b>.
               </p>
               <p>
-                then, when I'm <b>14</b>, I studied many frameworks, such as <b>Django, React, Next, Tailwind, Vue</b> & languages like <b>Java, C#, & TS</b> leading to now.
+                at <b>15</b>, I'm planning to focus more on backend, like <b>Django, Express, Supabase </b> & languages like <b>SQL</b>, Aswell as being active more on problem-solving platforms like <b> LeetCode, HackerRank & CodeWars </b>
               </p>
             </div>
           </div>

@@ -13,7 +13,7 @@ const Hero = () => {
                 width={200}
                 height={200}
                 quality={1}
-                className="relative aspect-square w-[200px] md:w-[400px]  rounded-full shadow-lg object-cover border-border border-2"
+                className="relative aspect-square w-[200px] md:w-[400px] rounded-full shadow-lg object-cover border-border border-2"
                 style={{ zIndex: 1, aspectRatio: "1 / 1" }}
               />
             </span>
@@ -22,7 +22,7 @@ const Hero = () => {
             Hi, I'm Virakboth
           </h1>
           <p className="text-shadow-lg/30">
-            14-years-old Python & Front-End Developer
+            15-years-old Python & Front-End Developer
           </p>
         </div>
       </div>

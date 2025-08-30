@@ -18,17 +18,17 @@ const About = () => {
           <div className="journey-container">
             <div className="pl-3 journey-container-alt">
               <p>
-                I'm a 14 year old developer from <b>Cambodia</b> that can make
+                I'm a 15-year-old developer from <b>Cambodia</b> that can make
                 websites & simple programs.
               </p>
               <br></br>
               <p>My Hobbies are..</p>
               <ul className="pl-5 list-disc">
                 <li>
-                  <p>🧑‍💻 Coding and Developing (duh.)</p>
+                  <p>🧑‍💻 Coding & Developing (duh.)</p>
                 </li>
                 <li>
-                  <p>🫂 Talking and meeting friends</p>
+                  <p>🫂 Talking & meeting friends</p>
                 </li>
                 <li>
                   <p>🎮 Gaming</p>
