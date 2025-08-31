@@ -107,6 +107,7 @@ const cert = {
     sgpt: '/assets/images/certs/scrim_aiappschatgpt.jpg',
     scc: '/assets/images/certs/scrim_cleancode.jpg',
     smd: '/assets/images/certs/scrim_md.jpg',
+    scl: '/assets/images/certs/scrim_cli.jpg',
     shtmcs: '/assets/images/certs/scrim_htmcss.jpg',
     scsf: '/assets/images/certs/scrim_cssflex.jpg',
     scsg: '/assets/images/certs/scrim_cssgrid.jpg',

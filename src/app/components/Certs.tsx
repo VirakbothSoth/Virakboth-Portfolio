@@ -614,6 +614,11 @@ const Certs: React.FC = () => {
       altText: "Scrimba Markdown Certificate",
     },
     {
+      image: certs.scl,
+      url: "https://coursera.org/verify/TUMX2260EN2L",
+      altText: "Scrimba CLI Certificate",
+    },
+    {
       image: certs.suid,
       url: "https://coursera.org/verify/7RP4NPN6X4LE",
       altText: "Scrimba UI Design Fundamentals Certificate",
