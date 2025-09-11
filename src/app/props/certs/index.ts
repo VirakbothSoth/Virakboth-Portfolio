@@ -133,6 +133,7 @@ const cert = {
     stwp: '/assets/images/certs/scrim_tailwindprojects.jpg',
     stwc: '/assets/images/certs/scrim_tailwindcapstone.jpg',
     spy1: '/assets/images/certs/scrim_py1.jpg',
+    sql: '/assets/images/certs/scrim_sql.jpg',
     se: '/assets/images/certs/scrim_ex.jpg',
     scs: '/assets/images/certs/scrim_cursor.jpg',
     scd: '/assets/images/certs/scrim_claude.jpg',

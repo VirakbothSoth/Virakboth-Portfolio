@@ -623,6 +623,11 @@ const Certs: React.FC = () => {
       url: "https://coursera.org/verify/7RP4NPN6X4LE",
       altText: "Scrimba UI Design Fundamentals Certificate",
     },
+    {
+      image: certs.sql,
+      url: "https://coursera.org/verify/X8V5TFX7A050",
+      altText: "Scrimba SQL Certificate",
+    },
   ];
 
   const renderCertificates = (): React.ReactNode => {
