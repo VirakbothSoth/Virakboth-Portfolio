@@ -219,7 +219,7 @@
   }
 
   .icon-div > .progress-div {
-    @apply w-full mt-2 rounded-full border-[1px] border-bg-hover;
+    @apply w-full mt-2 rounded-full border-[2px] border-bg-hover;
   }
 
   .control-mockup {

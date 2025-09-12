@@ -1,4 +1,4 @@
-import { FaStar, FaJava, FaLaptopCode } from "react-icons/fa";
+import { FaStar, FaJava, FaLaptopCode, FaDatabase } from "react-icons/fa";
 import {
   SiPython,
   SiHtml5,
@@ -45,7 +45,7 @@ const Skills = () => {
                     <p>Pro Level</p>
                     <div className="progress-div">
                       <div className="rounded-full h-2.5 w-full">
-                        <div className="bg-blue-500 w-[80%] h-2.5 rounded-full"></div>
+                        <div className="bg-blue-500 w-[100%] h-2.5 rounded-full"></div>
                       </div>
                     </div>
                   </div>
@@ -55,7 +55,7 @@ const Skills = () => {
                     <p>Ok Level</p>
                     <div className="progress-div">
                       <div className="rounded-full h-2.5 w-full">
-                        <div className="bg-green-500 w-[50%] h-2.5 rounded-full"></div>
+                        <div className="bg-green-500 w-[40%] h-2.5 rounded-full"></div>
                       </div>
                     </div>
                   </div>
@@ -65,7 +65,7 @@ const Skills = () => {
                     <p>Ok Level</p>
                     <div className="progress-div">
                       <div className="rounded-full h-2.5 w-full">
-                        <div className="bg-slate-500 w-[50%] h-2.5 rounded-full"></div>
+                        <div className="bg-blue-800 w-[60%] h-2.5 rounded-full"></div>
                       </div>
                     </div>
                   </div>
@@ -82,22 +82,15 @@ const Skills = () => {
                 <h3>Core Web Languages</h3>
                 <div className="skill-icons-container">
                   <div className="icon-div">
-                    <SiHtml5 className="skill-icon" />
-                    <h6>HTML</h6>
-                    <p>Pro Level</p>
-                    <div className="progress-div">
-                      <div className="rounded-full h-2.5 w-full">
-                        <div className="bg-red-500 w-[80%] h-2.5 rounded-full"></div>
-                      </div>
+                    <div className="flex">
+                      <SiHtml5 className="skill-icon" />
+                      <SiCss3 className="skill-icon" />
                     </div>
-                  </div>
-                  <div className="icon-div">
-                    <SiCss3 className="skill-icon" />
-                    <h6>CSS</h6>
+                    <h6>HTML + CSS</h6>
                     <p>Pro Level</p>
                     <div className="progress-div">
                       <div className="rounded-full h-2.5 w-full">
-                        <div className="bg-blue-500 w-[70%] h-2.5 rounded-full"></div>
+                        <div className="bg-purple-500 w-[80%] h-2.5 rounded-full"></div>
                       </div>
                     </div>
                   </div>
@@ -110,13 +103,14 @@ const Skills = () => {
                         <div className="bg-yellow-500 w-[80%] h-2.5 rounded-full"></div>
                       </div>
                     </div>
-                    <h6 className="inline-flex items-center gap-1 py-1">
-                      <SiTypescript />
-                      Typescript
-                    </h6>
+                  </div>
+                  <div className="icon-div">
+                    <SiTypescript className="skill-icon" />
+                    <h6>Typescript</h6>
+                    <p>Ok Level</p>
                     <div className="progress-div">
                       <div className="rounded-full h-2.5 w-full">
-                        <div className="bg-blue-900 w-[60%] h-2.5 rounded-full"></div>
+                        <div className="bg-blue-800 w-[60%] h-2.5 rounded-full"></div>
                       </div>
                     </div>
                   </div>
@@ -162,9 +156,19 @@ const Skills = () => {
                 <span className="w-3 h-3 bg-green-500 rounded-full inline-block"></span>
               </div>
               <div className="skill-content">
-                <h3 className="mb-0">Backend Frameworks</h3>
+                <h3 className="mb-0">Backend</h3>
                 <p className="text-gray-500 text-sm mb-3">I'm more comfortable with Front-end!</p>
                 <div className="skill-icons-container">
+                  <div className="icon-div">
+                    <FaDatabase className="skill-icon" />
+                    <h6>SQL</h6>
+                    <p>Ok Level</p>
+                    <div className="progress-div">
+                      <div className="rounded-full h-2.5 w-full">
+                        <div className="bg-purple-700 w-[50%] h-2.5 rounded-full"></div>
+                      </div>
+                    </div>
+                  </div>
                   <div className="icon-div">
                     <SiFirebase className="skill-icon" />
                     <h6>Firebase</h6>
@@ -177,11 +181,11 @@ const Skills = () => {
                   </div>
                   <div className="icon-div">
                     <SiSupabase className="skill-icon" />
-                    <h6>Supabase<div className="new">NEW!</div></h6>
+                    <h6>Supabase</h6>
                     <p>Noob Level</p> 
                     <div className="progress-div">
                       <div className="rounded-full h-2.5 w-full">
-                        <div className="bg-green-300 w-[10%] h-2.5 rounded-full"></div>
+                        <div className="bg-green-300 w-[30%] h-2.5 rounded-full"></div>
                       </div>
                     </div>
                   </div>
@@ -191,7 +195,7 @@ const Skills = () => {
                     <p>Noob Level</p>
                     <div className="progress-div">
                       <div className="rounded-full h-2.5 w-full">
-                        <div className="bg-gray-400 w-[20%] h-2.5 rounded-full"></div>
+                        <div className="bg-gray-400 w-[30%] h-2.5 rounded-full"></div>
                       </div>
                     </div>
                   </div>
@@ -201,7 +205,7 @@ const Skills = () => {
                     <p>Ok Level</p>
                     <div className="progress-div">
                       <div className="rounded-full h-2.5 w-full">
-                        <div className="bg-orange-400 w-[40%] h-2.5 rounded-full"></div>
+                        <div className="bg-orange-400 w-[60%] h-2.5 rounded-full"></div>
                       </div>
                     </div>
                   </div>
@@ -215,7 +219,7 @@ const Skills = () => {
                 <span className="w-3 h-3 bg-green-500 rounded-full inline-block"></span>
               </div>
               <div className="skill-content">
-                <h3>Frontend Frameworks</h3>
+                <h3>Frontend</h3>
                 <div className="skill-icons-container">
                   <div className="icon-div">
                     <SiReact className="skill-icon" />
