@@ -189,7 +189,8 @@ const Projects = () => {
               </h3>
               <p className="text-gray-400 text-sm">2024-Current - Term 2</p>
               <p className="flex items-center mb-5">
-                IT Basics, Networking, CS Basics, C#, <SiPython className="ml-3" />
+                IT Basics, Networking, CS Basics, C#,{" "}
+                <SiPython className="ml-3" />
               </p>
             </div>
             <p className="flex items-center">

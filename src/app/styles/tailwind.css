@@ -187,14 +187,16 @@
     @apply text-xl lg:text-3xl font-bold mb-5;
   }
 
+  .note-card {
+    @apply w-150 p-5 bg-bg hover:bg-bg-hover border-[0.5px] border-border rounded-2xl duration-500;
+  }
+
   .project-card {
-    @apply p-0;
-    @apply bg-bg;
-    @apply hover:bg-bg-hover;
-    @apply border-[0.5px];
-    @apply border-border;
-    @apply rounded-2xl;
-    @apply duration-500;
+    @apply p-0 bg-bg hover:bg-bg-hover border-[0.5px] border-border rounded-2xl duration-500;
+  }
+
+  .card {
+    @apply p-5 bg-bg hover:bg-bg-hover border-[0.5px] border-border rounded-2xl duration-500;
   }
 
   .project-content,
@@ -211,11 +213,11 @@
   }
 
   .icon-div > h6 {
-    @apply text-xs sm:text-sm font-semibold;
+    @apply text-xs sm:text-sm font-normal my-1;
   }
 
   .icon-div > p {
-    @apply text-xs text-gray-400;
+    @apply text-xs text-gray-400 font-normal;
   }
 
   .icon-div > .progress-div {
@@ -226,29 +228,8 @@
     @apply flex gap-2 px-4 py-2 bg-gray-900 rounded-t-lg;
   }
 
-  .card {
-    @apply p-5;
-    @apply bg-bg;
-    @apply duration-500;
-    @apply hover:bg-bg-hover;
-    @apply border-[0.5px];
-    @apply border-border;
-    @apply rounded-2xl;
-  }
-
   .card p {
     @apply pb-2;
-  }
-
-  .note-card {
-    @apply p-5;
-    @apply bg-bg;
-    @apply duration-500;
-    @apply hover:bg-bg-hover;
-    @apply border-[0.5px];
-    @apply border-border;
-    @apply rounded-2xl;
-    @apply w-150;
   }
 
   .web-preview {
