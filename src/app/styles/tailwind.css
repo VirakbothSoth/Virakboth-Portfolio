@@ -83,10 +83,7 @@
   a {
     @apply text-blue-500;
     @apply hover:text-blue-200;
-    @apply hover:text-2xl;
-    @apply hover:font-bold;
-    @apply duration-700;
-    @apply block;
+    @apply hover:font-medium;
   }
 
   svg {

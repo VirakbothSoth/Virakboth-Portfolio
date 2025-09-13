@@ -61,7 +61,6 @@ const Skills = () => {
                                     </div>
                                     <div className="icon-div">
                                         <h6 className="text-5xl">C#</h6>
-                                        <h6 className="invisible">e</h6>
                                         <p>Ok Level</p>
                                         <div className="progress-div">
                                             <div className="rounded-full h-2.5 w-full">
