@@ -9,7 +9,7 @@ const About = () => {
                 <h2 className="section-title">
                     <FaBook /> About Me
                 </h2>
-                <div className="bg-gray-800 rounded-lg w-full">
+                <div className="rounded-lg w-full">
                     <div className="control-mockup">
                         <span className="w-3 h-3 bg-red-400 rounded-full inline-block"></span>
                         <span className="w-3 h-3 bg-yellow-400 rounded-full inline-block"></span>
@@ -18,7 +18,7 @@ const About = () => {
                     <div className="journey-container">
                         <div className="pl-3 journey-container-alt">
                             <p>
-                                I'm a 15-year-old developer from <b>Cambodia</b>{" "}
+                                I'm a developer from <b>Cambodia</b>{" "}
                                 that can make websites & simple programs.
                             </p>
                             <br></br>

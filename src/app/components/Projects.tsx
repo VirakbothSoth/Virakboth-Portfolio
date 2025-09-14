@@ -3,11 +3,11 @@ import {
     SiHtml5,
     SiCss3,
     SiJavascript,
-    SiTailwindcss,
-    SiReact,
+//    SiTailwindcss,
+//    SiReact,
     SiDjango,
-    SiTypescript,
-    SiNextdotjs,
+//    SiTypescript,
+//    SiNextdotjs,
 } from "react-icons/si";
 import prev from "../props/preview";
 import { FaCode } from "react-icons/fa";
@@ -152,45 +152,6 @@ const Schools = () => {
                                     Source
                                 </a>
                             </div>
-                        </div>
-                    </div>
-                    <div className="project-card">
-                        <div className="control-mockup">
-                            <span className="w-3 h-3 bg-red-400 rounded-full inline-block"></span>
-                            <span className="w-3 h-3 bg-yellow-400 rounded-full inline-block"></span>
-                            <span className="w-3 h-3 bg-green-500 rounded-full inline-block"></span>
-                        </div>
-                        <div className="project-content">
-                            <div>
-                                <div className="flex items-start justify-between">
-                                    <h3 className="text-3xl font-bold">
-                                        This Portfolio
-                                    </h3>
-                                </div>
-                                <p className="text-sm text-gray-400">
-                                    <em>at home</em>
-                                </p>
-                            </div>
-                            <Image
-                                src={prev.pf}
-                                width={341}
-                                height={192}
-                                quality={1}
-                                alt="Portfolio"
-                                className="web-preview"
-                            />
-                            <p className="text-xl flex items-center">
-                                <SiHtml5 />
-                                <SiCss3 />
-                                <SiJavascript />
-                                <SiTypescript />
-                                <SiReact />
-                                <SiNextdotjs />
-                                <SiTailwindcss />
-                            </p>
-                            <p className="text-xl">
-                                This very website is one of my projects, too!
-                            </p>
                         </div>
                     </div>
                     <div className="project-card">

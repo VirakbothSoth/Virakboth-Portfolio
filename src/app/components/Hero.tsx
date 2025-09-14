@@ -8,7 +8,7 @@ const Hero = () => {
                     <div className="flex items-center justify-center mb-10">
                         <span className="relative inline-block">
                             <Image
-                                src="/assets/images/virakboth.jpg"
+                                src="/assets/images/virakboth-new.jpg"
                                 alt="Virakboth's Face"
                                 width={200}
                                 height={200}
@@ -22,7 +22,7 @@ const Hero = () => {
                         Hi, I'm Virakboth
                     </h1>
                     <p className="text-shadow-lg/30">
-                        15-years-old Python & Front-End Developer
+                        Aspiring Cambodian Front-End Developer 
                     </p>
                 </div>
             </div>

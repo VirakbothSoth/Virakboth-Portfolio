@@ -90,10 +90,6 @@
     @apply mx-1;
   }
 
-  .new {
-    @apply bg-blue-600 inline text-xs rounded-sm p-0.5 m-1 text-white;
-  }
-
   .skill-icon {
     @apply text-3xl lg:text-5xl;
   }
@@ -123,7 +119,9 @@
 
   .journey-container {
     @apply p-5;
+    @apply rounded-b-lg;
     @apply text-left;
+    @apply border-[0.5px] border-border border-t-0;
   }
 
   .journey-container b,
@@ -175,13 +173,13 @@
     @apply text-sm;
   }
 
-  .skill-card {
-    @apply bg-bg duration-500 hover:bg-bg-hover border-[0.5px] border-border rounded-2xl;
-    @apply w-full max-w-[280px] lg:max-w-[512px];
-  }
-
   .skill-content > h3 {
     @apply text-xl lg:text-3xl font-bold mb-5;
+  }
+
+  .skill-card {
+    @apply bg-bg duration-500 hover:bg-bg-hover border-[0.5px] border-t-0 border-border rounded-2xl;
+    @apply w-full max-w-[280px] lg:max-w-[512px];
   }
 
   .note-card {
@@ -189,7 +187,7 @@
   }
 
   .project-card {
-    @apply p-0 bg-bg hover:bg-bg-hover border-[0.5px] border-border rounded-2xl duration-500;
+    @apply p-0 bg-bg hover:bg-bg-hover border-[0.5px] border-t-0 border-border rounded-2xl duration-500;
   }
 
   .card {

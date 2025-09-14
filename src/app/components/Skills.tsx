@@ -245,7 +245,7 @@ const Skills = () => {
                                     <div className="icon-div">
                                         <SiVuedotjs className="skill-icon" />
                                         <h6>
-                                            VueJS<div className="new">NEW!</div>
+                                            VueJS<div className="bg-blue-600 inline text-xs rounded-sm p-0.5 m-1 text-white">NEW!</div>
                                         </h6>
                                         <p>Noob Level</p>
                                         <div className="progress-div">
@@ -257,7 +257,7 @@ const Skills = () => {
                                     <div className="icon-div">
                                         <SiAstro className="skill-icon" />
                                         <h6>
-                                            Astro<div className="new">NEW!</div>
+                                            Astro<div className="bg-blue-600 inline text-xs rounded-sm p-0.5 m-1 text-white">NEW!</div>
                                         </h6>
                                         <p>Noob Level</p>
                                         <div className="progress-div">
@@ -287,38 +287,6 @@ const Skills = () => {
                                                 <div className="bg-gray-600 w-[70%] h-2.5 rounded-full"></div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <h3 className="sub-section-title">
-                    <FaStar className="skill-icon" /> Other
-                </h3>
-                <div className="flex justify-center">
-                    <div className="flex flex-wrap justify-center gap-8">
-                        <div className="skill-card">
-                            <div className="control-mockup">
-                                <span className="w-3 h-3 bg-red-400 rounded-full inline-block"></span>
-                                <span className="w-3 h-3 bg-yellow-400 rounded-full inline-block"></span>
-                                <span className="w-3 h-3 bg-green-500 rounded-full inline-block"></span>
-                            </div>
-                            <div className="skill-content">
-                                <h3>Languages</h3>
-                                <div className="skill-icons-container">
-                                    <div className="icon-div">
-                                        <h6>English</h6>
-                                        <p>Pro Level</p>
-                                        <div className="progress-div">
-                                            <div className="rounded-full h-2.5 w-full">
-                                                <div className="bg-blue-400 w-[80%] h-2.5 rounded-full"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="icon-div">
-                                        <h6>Khmer</h6>
-                                        <p>Can only listen</p>
                                     </div>
                                 </div>
                             </div>
