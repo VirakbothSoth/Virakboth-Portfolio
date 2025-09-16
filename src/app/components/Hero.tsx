@@ -8,7 +8,7 @@ const Hero = () => {
                     <div className="flex items-center justify-center mb-10">
                         <span className="relative inline-block">
                             <Image
-                                src="/assets/images/virakboth-new.jpg"
+                                src="/assets/images/virakboth.jpg"
                                 alt="Virakboth's Face"
                                 width={200}
                                 height={200}

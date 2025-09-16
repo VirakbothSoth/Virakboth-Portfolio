@@ -1,7 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
-//import Journey from './components/Journey'
+import Journey from './components/Journey'
 import Skills from './components/Skills'
 import Certs from './components/Certs'
 import Schools from './components/Schools'
@@ -24,6 +24,7 @@ export default function HomePage() {
             <Certs />
             <Projects />
             <Schools />
+            <Journey />
             <Notes />
           </main>
           <Footer />
