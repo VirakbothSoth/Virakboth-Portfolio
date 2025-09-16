@@ -456,12 +456,12 @@ const Certs: React.FC = () => {
         },
         {
             image: certs.ib_pyda,
-            url: "https://credly.com/badges/9a1d8626-ab48-4b1b-bd47-4f8a649c9adf",
+            url: "https://coursera.org/verify/8EMCJCAXCOVP",
             altText: "IBM Python for Data Science and AI Badge",
         },
         {
             image: certs.ib_pyai,
-            url: "https://credly.com/badges/31125fed-d341-461f-9c33-3ce8c06cfe4b",
+            url: "https://coursera.org/verify/7CJR0MJW3HH5",
             altText: "IBM Python for AI and Application Badge",
         },
     ];
