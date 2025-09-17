@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "npx @cloudflare/next-on-pages --experimental-minify && next build",
+    "build": "npx @cloudflare/next-on-pages",
     "start": "next start",
     "lint": "next lint",
     "preview": "npx wrangler pages dev .vercel/output/static",
