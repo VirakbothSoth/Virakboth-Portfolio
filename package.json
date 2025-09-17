@@ -4,11 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "npx @cloudflare/next-on-pages",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "preview": "npx wrangler pages dev .vercel/output/static",
-    "deploy": "npx wrangler pages deploy .vercel/output/static"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "^15.3.3",
@@ -17,8 +15,8 @@
     "react-icons": "^5.5.0"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.16",
     "@eslint/eslintrc": "^3",
+    "@opennextjs/cloudflare": "^1.8.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

@@ -1,6 +1,0 @@
-name = "my-portfolio"
-compatibility_date = "2024-09-17" # today’s date
-compatibility_flags = ["nodejs_compat"]
-
-[site]
-bucket = ".vercel/output/static"
