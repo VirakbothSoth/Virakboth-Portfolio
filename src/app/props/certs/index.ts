@@ -141,6 +141,7 @@ const cert = {
     vpe: '/assets/images/certs/vb_prompt.jpg',
     hp_ai: '/assets/images/certs/hp_ai.jpg',
     gai: '/assets/images/certs/g_ai.jpg',
+    gpai: '/assets/images/certs/g_pai.jpg',
 };
 
 export default cert;

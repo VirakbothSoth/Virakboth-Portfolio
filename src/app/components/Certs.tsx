@@ -493,6 +493,11 @@ const Certs: React.FC = () => {
             altText: "Google Introduction to AI Certificate",
         },
         {
+            image: certs.gpai,
+            url: "https://coursera.org/verify/UDADKN6OXMUZ",
+            altText: "Google Productivity with AI Certificate",
+        },
+        {
             image: certs.sosai,
             url: "https://coursera.org/verify/L57TLZIKGTGR",
             altText: "Scrimba Open-Source AI Models Certificate",
