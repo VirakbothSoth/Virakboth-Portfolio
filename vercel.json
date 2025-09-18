@@ -1,10 +1,5 @@
 {
-  "buildCommand": "npm run build",
   "redirects": [
-    {
-      "source": "/projects/:project",
-      "destination": "/projects/:project/index.html",
-      "permanent": true
-    }
+    { "source": "/(.*)", "destination": "https://virakbothsoth.pages.dev", "permanent": true }
   ]
 }
