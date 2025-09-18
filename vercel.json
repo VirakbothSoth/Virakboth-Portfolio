@@ -1,6 +1,6 @@
 {
   "framework": null,
   "redirects": [
-    { "source": "/(.*)", "destination": "https://new-site.com/$1", "permanent": true }
+    { "source": "/(.*)", "destination": "https://virakbothsoth.pages.dev", "permanent": true }
   ]
 }

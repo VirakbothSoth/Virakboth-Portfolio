@@ -1,0 +1,10 @@
+{
+  "name": "Old Portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Redirect-only Vercel deployment",
+  "scripts": {
+    "build": "echo 'No build step needed for redirects only'"
+  },
+  "license": "UNLICENSED"
+}
